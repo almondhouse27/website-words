@@ -17,7 +17,6 @@ def setupProjectStructure(INPUT_FILE, BACKUP_FILE, DIRECTORIES):
 
     except subprocess.CalledProcessError as e:
         log.error(f"Error installing requirements: {e}")
-
     except Exception as e:
         log.error(f"Unexpected error during installation: {e}")
 
@@ -82,6 +81,7 @@ def writeWordData(data, filename='data/output/word-data.csv'):
                         count
                     ])
 
+        log.info("[============================================] UPDATE")
         log.info(f"Data saved to `{filename}`")
     
     except Exception as e:
@@ -102,18 +102,27 @@ def writeSiteData(data, filename='data/output/site-data.csv'):
                 'Institution',
                 'ImageCount',
                 'LinkCount',
-                'UsesJavaScript',
+                'FormCount',
+                'StylesheetCount',
+                'ScriptCount',
                 'CertificateInfo',
-                'HostInfo'])
+                'HostInfo',
+                'Title',
+                'Description'
+            ])
 
             for institution, site_data in data.items():
                 writer.writerow([
                     institution,
                     site_data['images'],
                     site_data['links'],
-                    site_data['js'],
+                    site_data['forms'],
+                    site_data['stylesheets'],
+                    site_data['scripts'],
                     site_data['cert'],
-                    site_data['host']
+                    site_data['host'],
+                    site_data['title'],
+                    site_data['description'],
                 ])
 
         log.info(f"Site data saved to `{filename}`")

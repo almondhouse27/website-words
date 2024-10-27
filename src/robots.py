@@ -15,7 +15,7 @@ def robotCheckpoint(domain):
         except requests.exceptions.RequestException:
             log.warning(f'Failed to fetch {paperwork}, trying next protocol...')
 
-    log.error(f'Failed to fetch robots.txt for domain {domain} using both HTTP and HTTPS.')
+    log.warning(f'Failed to fetch robots.txt for domain {domain} using both HTTP and HTTPS.')
     return None
 
 def checkPermissions(url):

@@ -1,0 +1,38 @@
+Category,State,City,Institution,Website
+News,NY,New York,The New York Times,https://www.nytimes.com/
+News,WA,Seattle,The Seattle Times,https://www.seattletimes.com/
+News,CA,Los Angeles,Los Angeles Times,https://www.latimes.com/
+News,DC,Washington,D.C.,The Washington Post,https://www.washingtonpost.com/
+News,MA,Boston,Boston Globe,https://www.bostonglobe.com/
+News,TX,Dallas,Dallas Morning News,https://www.dallasnews.com/
+News,IL,Chicago,Chicago Tribune,https://www.chicagotribune.com/
+News,CA,San Francisco,San Francisco Chronicle,https://www.sfchronicle.com/
+News,FL,Miami,Miami Herald,https://www.miamiherald.com/
+News,NY,Buffalo,Buffalo News,https://www.buffalonews.com/
+News,PA,Pittsburgh,Pittsburgh Post-Gazette,https://www.post-gazette.com/
+News,NV,Las Vegas,Las Vegas Review-Journal,https://www.reviewjournal.com/
+News,TX,Austin,Austin American-Statesman,https://www.statesman.com/
+News,OH,Cleveland,Cleveland Plain Dealer,https://www.cleveland.com/
+News,CO,Denver,Denver Post,https://www.denverpost.com/
+News,OR,Portland,Oregonian,https://www.oregonlive.com/
+News,DC,Washington,D.C.,Politico,https://www.politico.com/
+News,MA,Newton,Boston Herald,https://www.bostonherald.com/
+News,NJ,Newark,Newark Star-Ledger,https://www.nj.com/
+News,CA,Sacramento,Sacramento Bee,https://www.sacbee.com/
+News,TX,Houston,Houston Chronicle,https://www.houstonchronicle.com/
+News,MD,Baltimore,Baltimore Sun,https://www.baltimoresun.com/
+News,NY,Rochester,Democrat and Chronicle,https://www.democratandchronicle.com/
+News,UT,Salt Lake City,Salt Lake Tribune,https://www.sltrib.com/
+News,NY,Albany,Times Union,https://www.timesunion.com/
+News,IL,Peoria,Peoria Journal Star,https://www.pjstar.com/
+News,CA,Santa Monica,The Daily News,https://www.dailynews.com/
+News,VA,Richmond,Richmond Times-Dispatch,https://www.richmond.com/
+News,WA,Tacoma,Tacoma News Tribune,https://www.thenewstribune.com/
+News,CA,San Diego,San Diego Union-Tribune,https://www.sandiegouniontribune.com/
+News,NY,White Plains,The Journal News,https://www.lohud.com/
+News,FL,Tampa,Tampa Bay Times,https://www.tampabay.com/
+News,AZ,Phoenix,Arizona Republic,https://www.azcentral.com/
+News,SC,Columbia,The State,https://www.thestate.com/
+News,MI,Detroit,Detroit Free Press,https://www.freep.com/
+News,AL,Birmingham,Birmingham News,https://www.al.com/birmingham/
+News,CT,Hartford,Hartford Courant,https://www.courant.com/

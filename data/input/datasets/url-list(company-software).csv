@@ -1,0 +1,55 @@
+Category,State,City,Institution,Website
+Software,CA,Redmond,Microsoft,https://www.microsoft.com/
+Software,CA,Mountain View,Google,https://www.google.com/
+Software,CA,Cupertino,Apple,https://www.apple.com/
+Software,MA,Cambridge,MIT Media Lab,https://www.media.mit.edu/
+Software,CA,Santa Clara,Intel,https://www.intel.com/
+Software,WA,Seattle,Amazon,https://www.amazon.com/
+Software,CA,Santa Monica,Snap Inc.,https://www.snap.com/
+Software,NY,New York,IBM,https://www.ibm.com/
+Software,CA,San Francisco,Salesforce,https://www.salesforce.com/
+Software,TX,Austin,Oracle,https://www.oracle.com/
+Software,WA,Bellevue,Expedia Group,https://www.expedia.com/
+Software,CA,San Jose,Adobe,https://www.adobe.com/
+Software,CA,Foster City,VMware,https://www.vmware.com/
+Software,IL,Chicago,Grubhub,https://www.grubhub.com/
+Software,PA,Pittsburgh,Duolingo,https://www.duolingo.com/
+Software,MA,Boston,HubSpot,https://www.hubspot.com/
+Software,CA,Los Angeles,DocuSign,https://www.docusign.com/
+Software,WA,Seattle,Zillow,https://www.zillow.com/
+Software,CA,Santa Clara,ServiceNow,https://www.servicenow.com/
+Software,TX,Plano,Intuit,https://www.intuit.com/
+Software,CA,Santa Barbara,Yelp,https://www.yelp.com/
+Software,CO,Denver,SendGrid,https://sendgrid.com/
+Software,IL,Chicago,Credit Karma,https://www.creditkarma.com/
+Software,NY,New York,Slack Technologies,https://slack.com/
+Software,CA,Redwood City,Palo Alto Networks,https://www.paloaltonetworks.com/
+Software,MA,Boston,TripAdvisor,https://www.tripadvisor.com/
+Software,CA,San Francisco,Asana,https://asana.com/
+Software,NY,New York,Trello,https://trello.com/
+Software,TX,Austin,Dropbox,https://www.dropbox.com/
+Software,CA,San Diego,Qualcomm,https://www.qualcomm.com/
+Software,MA,Cambridge,Evernote,https://evernote.com/
+Software,CA,Pleasanton,Workday,https://www.workday.com/
+Software,WA,Bellevue,Smartsheet,https://www.smartsheet.com/
+Software,CA,Santa Clara,Box,https://www.box.com/
+Software,CA,Fremont,Roblox,https://www.roblox.com/
+Software,CA,Mission Viejo,DigitalOcean,https://www.digitalocean.com/
+Software,MA,Waltham,LogMeIn,https://www.logmein.com/
+Software,NY,New York,GitHub,https://github.com/
+Software,TX,Austin,SurveyMonkey,https://www.surveymonkey.com/
+Software,IL,Chicago,ThoughtWorks,https://www.thoughtworks.com/
+Software,CA,Sunnyvale,Zebra Technologies,https://www.zebra.com/
+Software,WA,Redmond,Tableau Software,https://www.tableau.com/
+Software,NY,Brooklyn,Squarespace,https://www.squarespace.com/
+Software,CO,Boulder,Tenfold,https://www.tenfold.com/
+Software,VA,Herndon,MicroStrategy,https://www.microstrategy.com/
+Software,CA,Santa Clara,Telerik,https://www.telerik.com/
+Software,MD,Bethesda,OpenAI,https://openai.com/
+Software,MN,Minneapolis,Jamf,https://www.jamf.com/
+Software,OH,Columbus,PathForward,https://pathforward.org/
+Software,WA,Seattle,Remitly,https://www.remitly.com/
+Software,CA,Los Angeles,Evergreen Technologies,https://evergreentechnologies.com/
+Software,TX,Dallas,Stack Overflow,https://stackoverflow.com/
+Software,FL,Miami,Modernizing Medicine,https://www.modernizingmedicine.com/
+Software,CA,San Francisco,Postman,https://www.postman.com/
