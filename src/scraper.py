@@ -4,7 +4,8 @@ from utils import setupProjectStructure, \
                   writeSiteData, \
                   sortDataOutput
 from bs4 import BeautifulSoup
-import logging
+import robots
+import logging as log
 import requests
 
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
@@ -13,9 +14,9 @@ LOG_FILE = 'logs/scraper.log'
 INPUT_FILE = 'data/input/url-list.csv'
 BACKUP_FILE = 'backup/url-list.csv'
 
-logging.basicConfig(
+log.basicConfig(
         filename=LOG_FILE,
-        level=logging.INFO, 
+        level=log.INFO, 
         format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
@@ -27,7 +28,7 @@ def scrapeWebsite(url):
     try:
         response = requests.get(url, headers=HEADERS)
         response.raise_for_status()
-        logging.info(f"Successfully fetched {url}")
+        log.info(f"Successfully fetched {url}")
 
         soup = BeautifulSoup(response.text, 'lxml')
 
@@ -37,7 +38,7 @@ def scrapeWebsite(url):
         for word in text_content.split():
             word = word.lower().strip('.,!?')
             word_count[word] = word_count.get(word, 0) + 1
-        logging.info(f"Word count completed for {url}")
+        log.info(f"Word count completed for {url}")
 
         # data for site-data-timestamp.csv
         image_count = len(soup.find_all('img'))
@@ -61,7 +62,7 @@ def scrapeWebsite(url):
         }
     
     except requests.exceptions.RequestException as e:
-        logging.error(f"Error fetching {url}: {e}")
+        log.error(f"Error fetching {url}: {e}")
 
         return None
 
@@ -78,6 +79,12 @@ if __name__ == "__main__":
         all_site_data = {}
 
         for institution, url in urls_to_scrape.items():
+            disallowed_paths = robots.checkPermissions(url)
+
+            if any(disallowed_path in url for disallowed_path in disallowed_paths):
+                log.info(f"Skipping {url} due to disallowed path.")
+                continue
+
             scraped_data = scrapeWebsite(url)
 
             if scraped_data:
@@ -93,4 +100,4 @@ if __name__ == "__main__":
             )
 
     except Exception as e:
-        logging.error(f"An error occurred during execution: {e}")
+        log.error(f"An error occurred during execution: {e}")
