@@ -1,10 +1,10 @@
-import robots
+import diagnostics
 import logging as log
 import requests
-import time
+import robots
 from bs4 import BeautifulSoup
 from logparser import executeLogParser
-from utils import \
+from utility import \
     setupProjectStructure, \
     readDataInput, \
     writeWordData, \
@@ -13,8 +13,8 @@ from utils import \
 
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
 DIRECTORIES = ['data', 'data/input', 'data/output']
-LOG_FILE = 'logs/scraper.log'
 LOG_OUTPUT = 'data/output'
+LOG_FILE = 'logs/scraper.log'
 INPUT_FILE = 'data/input/url-list.csv'
 BACKUP_FILE = 'backup/url-list.csv'
 
@@ -26,6 +26,12 @@ log.basicConfig(
 
 ###--------------------------------->>>>>>>
 """
+METHOD:         scrapeWebsite()
+ARGUMENTS:      url (string)
+RETURNS:        dictionary containing `words` and `site` dictionaries
+LIBRARIES:      requests, loggin, BeautifulSoup, 
+CALLED BY:      execusteWebsiteWords() during for loop
+PURPOSE:        Takes in a url, sends a request, parses the response, and assembles the data.
 """
 def scrapeWebsite(url):
 
@@ -35,11 +41,11 @@ def scrapeWebsite(url):
         response.raise_for_status()
         log.info(f"Successfully fetched {url}")
 
-        # parse the HTML content of the page
+        # parse the HTML content response
         soup = BeautifulSoup(response.text, 'lxml')
 
-        # extract and process the text content (word-data)
-        # store word-data in word_count dictionary
+        # extract and process the text content (for -> word-data.csv)
+        # store text content data in word_count dictionary
         text_content = soup.get_text(separator=' ')
         word_count = {}
         for word in text_content.split():
@@ -47,7 +53,7 @@ def scrapeWebsite(url):
             word_count[word] = word_count.get(word, 0) + 1
         log.info(f"Word count completed for {url}")
 
-        # extract site details (site-data)
+        # extract site details (for -> site-data.csv)
         image_count = len(soup.find_all('img'))
         link_count = len(soup.find_all('a'))
         form_count = len(soup.find_all('form'))
@@ -61,7 +67,7 @@ def scrapeWebsite(url):
         description = soup.find('meta', attrs={'name': 'description'})['content'] \
             if soup.find('meta', attrs={'name': 'description'}) else 'N/A'
         
-        # store site-data in site_details dictionary
+        # store site details and analytics in site_details dictionary
         site_details = {
             'images': image_count,
             'links': link_count,
@@ -85,47 +91,92 @@ def scrapeWebsite(url):
         log.error(f"Error fetching {url}: {e}")
         return None
     
+
 ###--------------------------------->>>>>>>
 """
+METHOD:         executeWebsiteWords()
+ARGUMENTS:      LOG_FILE (string), INPUT_FILE (string), BACKUP_FILE (string), DIRECTORIES (array)
+RETURNS:        none
+LIBRARIES:      logging, robots, utility, logparser
+CALLED BY:      if __name__ == "main" 
+PURPOSE:        Main scipt for Website Words data scraper.
+                Consolidates setup, web scraping, and output file generation into one function call.
 """
 def executeWebsiteWords():
     try:
-        setupProjectStructure(INPUT_FILE, BACKUP_FILE, DIRECTORIES)
+        # installs project dependencies, ensures data directory and its contents exists
+        setupProjectStructure(LOG_FILE, INPUT_FILE, BACKUP_FILE, DIRECTORIES)
 
+        log.info("[============================================] EXECUTING")
+
+        # reads URLs from data/input/url-list.csv 
         urls_to_scrape = readDataInput()
         all_word_data = {}
         all_site_data = {}
 
+        # reads site's robots.txt file and returns a disallowed paths list
         for institution, url in urls_to_scrape.items():
             disallowed_paths = robots.checkPermissions(url)
 
+            # uses 'continue' to loop-skip scrapeWebsite() according to site's robots.txt file permissions
             if any(disallowed_path in url for disallowed_path in disallowed_paths):
                 log.info(f"Skipping {url} due to disallowed path.")
                 continue
 
+            # takes in a URL, sends a request, parses and assembles the response into appropriate data dictionary
             scraped_data = scrapeWebsite(url)
 
+            # splits scraped_data dictionary of dictionaries into two seperate dictionaries for writing output files
             if scraped_data:
                 all_word_data[institution] = scraped_data['words']
                 all_site_data[institution] = scraped_data['site']
 
+        log.info("[============================================] WRITING")
+
+        # writes word-data.csv and site-data.csv data output files
         writeWordData(all_word_data)
         writeSiteData(all_site_data)
         sortDataOutput(
-            'data/output/word-data-*.csv', 
-            'data/output/site-data-*.csv'
+            'data/output/*-word-data.csv', 
+            'data/output/*-site-data.csv'
         )
 
-        log.info("[============================================] SUCCESS")
+        log.info("[============================================] TERMINATING")
 
+        # converts logs/scraper.log to log-data.csv data output file
         executeLogParser(LOG_FILE, LOG_OUTPUT)
-        # display success message
     
     except Exception as e:
+        log.error("[============================================] FAILURE")
         log.error(f"An error occurred during execution: {e}")
+
 
 ###--------------------------------->>>>>>>
 """
+APPLICATION:    Website Words
+DEVELOPED BY:   David Blessent
+REPOSITORY:     github.com/almondhouse27/website-words
+COMMAND:        
+PRODUCES:       produces timestamped json file and csv files in data/output/
+                word-data.csv, site-data.csv, log-data.csv, diagnostic-summary.json
+
+PURPOSE:        Website Words is a web scraper that processes a list of URLs from data/input/url-list.csv,
+                sending HTTP requests and parsing the HTML responses to generate four timestamped files
+                in the data/output/ directory. 
+                
+                Its primary goal is to produce word-data.csv, which lists every word found in the URLs' 
+                HTML response along with its frequency.
+
+                In addition, Website Words generates:
+                  * site-data.csv
+                        includes structural details about the website (e.g., number of images,
+                        institution's state of operation).
+                  * log-data.csv
+                        contains the runtime log information parsed into CSV format as the 
+                        final step of the executeWebsiteWords() script.
+                  *  diagnostic-summary.json
+                        provides runtime analytics, including duration, file sizes, request outcomes,
+                        log level data, and descriptive statistics of the word-data.csv dataset.
 """
 if __name__ == "__main__":
 

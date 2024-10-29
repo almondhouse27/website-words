@@ -8,8 +8,19 @@ import shutil
 import subprocess
 
 ###--------------------------------->>>>>>>
-# verify directories and input file exist
-def setupProjectStructure(INPUT_FILE, BACKUP_FILE, DIRECTORIES):
+# verify data directories and input file exist, create data directories and copy backup input if !exists
+def setupProjectStructure(LOG_FILE, INPUT_FILE, BACKUP_FILE, DIRECTORIES):
+
+    log_file = LOG_FILE
+
+    try:
+        with open(log_file, 'w'):
+            pass
+        log.info("[============================================] INITIALIZING")
+        log.info(f"Cleared contents of log file: {log_file}")
+
+    except Exception as e:
+        print(f"Failed to clear log file: {e}")
 
     try:
         subprocess.check_call([os.sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'])
@@ -17,6 +28,7 @@ def setupProjectStructure(INPUT_FILE, BACKUP_FILE, DIRECTORIES):
 
     except subprocess.CalledProcessError as e:
         log.error(f"Error installing requirements: {e}")
+        
     except Exception as e:
         log.error(f"Unexpected error during installation: {e}")
 
@@ -36,8 +48,9 @@ def setupProjectStructure(INPUT_FILE, BACKUP_FILE, DIRECTORIES):
     else:
         log.info(f"Backup file `{BACKUP_FILE}` not required.")
 
+
 ###--------------------------------->>>>>>>
-# read URLs from CSV file
+# read URLs from CSV input file
 def readDataInput(filename='data/input/url-list.csv'):
 
     url_list = {}
@@ -56,13 +69,15 @@ def readDataInput(filename='data/input/url-list.csv'):
 
     return url_list
 
+
 ###--------------------------------->>>>>>>
 # write word count data to CSV file
 def writeWordData(data, filename='data/output/word-data.csv'):
 
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
-    base, ext = os.path.splitext(filename)
-    filename = f"{base}-{timestamp}{ext}"
+    base, ext = os.path.splitext(os.path.basename(filename))
+    directory = os.path.dirname(filename)
+    filename = f"{directory}/{timestamp}-{base}{ext}"
 
     try:
         with open(filename, mode='w', newline='') as file:
@@ -81,19 +96,21 @@ def writeWordData(data, filename='data/output/word-data.csv'):
                         count
                     ])
 
-        log.info("[============================================] UPDATE")
-        log.info(f"Data saved to `{filename}`")
+        
+        log.info(f"Word-data saved to `{filename}`")
     
     except Exception as e:
-        log.error(f"Error saving data to `{filename}`: {e}")
+        log.error(f"Error saving word-data to `{filename}`: {e}")
+        
 
 ###--------------------------------->>>>>>>
 # write site details data to CSV file
 def writeSiteData(data, filename='data/output/site-data.csv'):
     
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
-    base, ext = os.path.splitext(filename)
-    filename = f"{base}-{timestamp}{ext}"
+    base, ext = os.path.splitext(os.path.basename(filename))
+    directory = os.path.dirname(filename)
+    filename = f"{directory}/{timestamp}-{base}{ext}"
 
     try:
         with open(filename, mode='w', newline='') as file:
@@ -125,10 +142,11 @@ def writeSiteData(data, filename='data/output/site-data.csv'):
                     site_data['description'],
                 ])
 
-        log.info(f"Site data saved to `{filename}`")
+        log.info(f"Site-data saved to `{filename}`")
 
     except Exception as e:
-        log.error(f"Error saving site data to `{filename}`: {e}")
+        log.error(f"Error saving site-data to `{filename}`: {e}")
+
 
 ###--------------------------------->>>>>>>
 # sorts the datafiles after writing
@@ -145,10 +163,10 @@ def sortDataOutput(word_data_pattern, site_data_pattern):
         word_data = pd.read_csv(latest_word_file)
         sorted_word_data = word_data.sort_values(by=['Institution', 'Word'])
         sorted_word_data.to_csv(latest_word_file, index=False)
-        log.info(f"Sorted word data saved to `{latest_word_file}`")
+        log.info(f"Sorted word-data saved to `{latest_word_file}`")
 
     if latest_site_file:
         site_data = pd.read_csv(latest_site_file)
         sorted_site_data = site_data.sort_values(by=['Institution'])
         sorted_site_data.to_csv(latest_site_file, index=False)
-        log.info(f"Sorted site data saved to `{latest_site_file}`")
+        log.info(f"Sorted site-data saved to `{latest_site_file}`")

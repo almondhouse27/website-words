@@ -3,14 +3,14 @@ from datetime import datetime
 import os
 
 ###--------------------------------->>>>>>>
-#
+# reads the contents of the scraper.log file and returns the lines
 def readScraperLog(LOG_FILE):
 
     with open(LOG_FILE, 'r') as file:
         return file.readlines()
     
 ###--------------------------------->>>>>>>
-# 
+# parses log lines into structured data with timestamps, log levels, and messages
 def parseScraperLog(log_lines):
 
     log_data = []
@@ -31,11 +31,11 @@ def parseScraperLog(log_lines):
     return log_data
 
 ###--------------------------------->>>>>>>
-# 
+# writes parsed log data into a CSV file with a timestamped filename
 def logToCsv(log_data, LOG_OUTPUT):
         
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
-    filename = f"log-data-{timestamp}.csv"
+    filename = f"{timestamp}-log-data.csv"
     output_file = os.path.join(LOG_OUTPUT, filename)
 
     with open(output_file, 'w', newline='') as csvfile:
@@ -51,7 +51,8 @@ def logToCsv(log_data, LOG_OUTPUT):
             writer.writerow(entry)
 
 ###--------------------------------->>>>>>>
-# 
+# script for converting runtime log data in logs/scraper.log to a timestamped data output file
+# produces: data/output/{timestamp}-log-data.csv
 def executeLogParser(LOG_FILE, LOG_OUTPUT):
 
     log_lines = readScraperLog(LOG_FILE)

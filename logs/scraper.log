@@ -1,0 +1,416 @@
+2024-10-27 19:51:16,183 - INFO - [============================================] INITIALIZING
+2024-10-27 19:51:16,183 - INFO - Cleared contents of log file: logs/scraper.log
+2024-10-27 19:51:17,429 - INFO - All requirements installed successfully.
+2024-10-27 19:51:17,430 - INFO - Backup file `backup/url-list.csv` not required.
+2024-10-27 19:51:17,430 - INFO - [============================================] EXECUTING
+2024-10-27 19:51:17,431 - INFO - URLs loaded from `data/input/url-list.csv`
+2024-10-27 19:51:17,687 - INFO - Successfully fetched robots.txt from https://fvtc.edu/robots.txt
+2024-10-27 19:51:17,688 - INFO - Disallowed paths for domain "fvtc.edu": /date/, /default.aspx?, /ev/, login?, /PID/, /rss/, /tabid/, /tag/, register?, sendpassword?, /category/, /acat/, /pager/, /Admin/, /App_Browser/, /App_Code/, /App_Data/, /App_GlobalResources/, /bin/, /Components/, /Config/, /Controls/, /Documentation/, /Install/, /Providers/, /global-education/tag/, *captcha* # remove captcha images that resolve as pages, *LinkClick.aspx
+2024-10-27 19:51:19,108 - INFO - Successfully fetched https://fvtc.edu/
+2024-10-27 19:51:19,149 - INFO - Word count completed for https://fvtc.edu/
+2024-10-27 19:51:19,440 - INFO - Successfully fetched robots.txt from https://www.nwtc.edu/robots.txt
+2024-10-27 19:51:19,441 - INFO - Disallowed paths for domain "www.nwtc.edu": /File, /Hidden, /admin, /academics-and-training/tuition-and-fees
+2024-10-27 19:51:19,957 - INFO - Successfully fetched https://www.nwtc.edu/
+2024-10-27 19:51:19,988 - INFO - Word count completed for https://www.nwtc.edu/
+2024-10-27 19:51:20,239 - INFO - Successfully fetched robots.txt from https://www.morainepark.edu/robots.txt
+2024-10-27 19:51:20,240 - INFO - Disallowed paths for domain "www.morainepark.edu": /wp-admin/, /*?school-year-override*
+2024-10-27 19:51:20,383 - INFO - Successfully fetched https://www.morainepark.edu/
+2024-10-27 19:51:20,411 - INFO - Word count completed for https://www.morainepark.edu/
+2024-10-27 19:51:20,659 - INFO - Successfully fetched robots.txt from https://gotoltc.edu/robots.txt
+2024-10-27 19:51:20,659 - INFO - Disallowed paths for domain "gotoltc.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed
+2024-10-27 19:51:20,868 - INFO - Successfully fetched https://gotoltc.edu/
+2024-10-27 19:51:20,895 - INFO - Word count completed for https://gotoltc.edu/
+2024-10-27 19:51:21,141 - INFO - Successfully fetched robots.txt from https://madisoncollege.edu/robots.txt
+2024-10-27 19:51:21,141 - INFO - Disallowed paths for domain "madisoncollege.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /taxonomy/, /csvtable/, /help-widget/, /contact-widget/, /cta-widget/, /*?*
+2024-10-27 19:51:21,363 - INFO - Successfully fetched https://madisoncollege.edu/
+2024-10-27 19:51:21,398 - INFO - Word count completed for https://madisoncollege.edu/
+2024-10-27 19:51:21,491 - INFO - Successfully fetched robots.txt from https://www.mstc.edu/robots.txt
+2024-10-27 19:51:21,492 - INFO - Disallowed paths for domain "www.mstc.edu": /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/
+2024-10-27 19:51:21,621 - INFO - Successfully fetched https://www.mstc.edu/
+2024-10-27 19:51:21,683 - INFO - Word count completed for https://www.mstc.edu/
+2024-10-27 19:51:21,958 - INFO - Successfully fetched robots.txt from https://www.matc.edu/robots.txt
+2024-10-27 19:51:21,958 - INFO - Disallowed paths for domain "www.matc.edu": 
+2024-10-27 19:51:21,958 - INFO - Skipping https://www.matc.edu/ due to disallowed path.
+2024-10-27 19:51:22,097 - INFO - Successfully fetched robots.txt from https://www.ntc.edu/robots.txt
+2024-10-27 19:51:22,097 - INFO - Disallowed paths for domain "www.ntc.edu": /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /class-cart/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/, /index.php/class-cart/
+2024-10-27 19:51:22,194 - INFO - Successfully fetched https://www.ntc.edu/
+2024-10-27 19:51:22,220 - INFO - Word count completed for https://www.ntc.edu/
+2024-10-27 19:51:22,419 - INFO - Successfully fetched robots.txt from https://www.wctc.edu/robots.txt
+2024-10-27 19:51:22,419 - INFO - Disallowed paths for domain "www.wctc.edu": /Views/Display/Blocks, /*?*PrintPage=yes*
+2024-10-27 19:51:22,712 - INFO - Successfully fetched https://www.wctc.edu/
+2024-10-27 19:51:22,736 - INFO - Word count completed for https://www.wctc.edu/
+2024-10-27 19:51:22,979 - INFO - Successfully fetched robots.txt from https://www.gtc.edu/robots.txt
+2024-10-27 19:51:22,980 - INFO - Disallowed paths for domain "www.gtc.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /sites/default/files/files/user*/, /sites/default/files/articles/, /intranet/, /landing/, /webform/adword-form/, /directory-entry/, /i-choose-gateway/feature/, /transfer-agreement-entry/, /happening/, /additional-information-collection/
+2024-10-27 19:51:23,204 - INFO - Successfully fetched https://www.gtc.edu/
+2024-10-27 19:51:23,221 - INFO - Word count completed for https://www.gtc.edu/
+2024-10-27 19:51:23,478 - INFO - Successfully fetched robots.txt from https://www.westerntc.edu/robots.txt
+2024-10-27 19:51:23,479 - INFO - Disallowed paths for domain "www.westerntc.edu": /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/
+2024-10-27 19:51:23,645 - INFO - Successfully fetched https://www.westerntc.edu/
+2024-10-27 19:51:23,680 - INFO - Word count completed for https://www.westerntc.edu/
+2024-10-27 19:51:24,086 - INFO - Successfully fetched robots.txt from https://www.wisc.edu/robots.txt
+2024-10-27 19:51:24,086 - INFO - Disallowed paths for domain "www.wisc.edu": None
+2024-10-27 19:51:24,273 - INFO - Successfully fetched https://www.wisc.edu/
+2024-10-27 19:51:24,287 - INFO - Word count completed for https://www.wisc.edu/
+2024-10-27 19:51:24,454 - WARNING - Failed to fetch https://www.uwm.edu/robots.txt, trying next protocol...
+2024-10-27 19:51:24,840 - INFO - Successfully fetched robots.txt from http://www.uwm.edu/robots.txt
+2024-10-27 19:51:24,840 - INFO - Disallowed paths for domain "www.uwm.edu": /languages/alum-feature-on-ryan-lee-mader-uwm-class-of-2008/, /letters-science/news/alum-goes-from-german-class-to-germany-and-beyond/, *post_type=tribe_events*, *hide_subsequent_recurrences=*, *tribe-bar-date=*, *tribe-venue=*, *eventDisplay=*, *eventDate=*, *paged=*, *pagename=*, *shortcode=*, *ical=*, *outlook-ical=*, *related_series=*, *tribe_geofence=*
+2024-10-27 19:51:24,934 - ERROR - Error fetching https://www.uwm.edu/: HTTPSConnectionPool(host='www.uwm.edu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.uwm.edu'. (_ssl.c:1000)")))
+2024-10-27 19:51:25,182 - INFO - Successfully fetched robots.txt from https://www.uwec.edu/robots.txt
+2024-10-27 19:51:25,182 - INFO - Disallowed paths for domain "www.uwec.edu": /core/, /profiles/citizen/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed
+2024-10-27 19:51:25,292 - INFO - Successfully fetched https://www.uwec.edu/
+2024-10-27 19:51:25,322 - INFO - Word count completed for https://www.uwec.edu/
+2024-10-27 19:51:25,484 - INFO - Successfully fetched robots.txt from https://www.uwgb.edu/robots.txt
+2024-10-27 19:51:25,484 - INFO - Disallowed paths for domain "www.uwgb.edu": /_content/, /campus/, /crm/, /facilities/building-floor-plans/, /fort-knox/, /sandbox/, /UWGBCMS/media/facilities-planning-management/Floor%20Plans/
+2024-10-27 19:51:25,786 - INFO - Successfully fetched https://www.uwgb.edu/
+2024-10-27 19:51:25,882 - INFO - Word count completed for https://www.uwgb.edu/
+2024-10-27 19:51:26,609 - INFO - Successfully fetched robots.txt from https://www.uwlax.edu/robots.txt
+2024-10-27 19:51:26,609 - INFO - Disallowed paths for domain "www.uwlax.edu": /workarea/, /widgets/, /logs/, /masterpages/, /app_browsers/, /app_code/, /app_data/, /app_globalresources/, /app_webreferences, /assets/, /assetmanagement/, /xmlfiles/, /sandbox1/, /sandbox/, /Sandbox/, /archive/, /Archive/, /uploadedfiles/, /uploadedFiles/, /UploadedFiles/, /uploadedimages/, /uploadedImages/, /UploadedImages/, /recsports/app/, /RecSports/App/, /RecSports/app/
+2024-10-27 19:51:26,958 - INFO - Successfully fetched https://www.uwlax.edu/
+2024-10-27 19:51:27,009 - INFO - Word count completed for https://www.uwlax.edu/
+2024-10-27 19:51:27,252 - INFO - Successfully fetched robots.txt from https://www.uwosh.edu/robots.txt
+2024-10-27 19:51:27,252 - INFO - Disallowed paths for domain "www.uwosh.edu": /search-results/, */search-results/, *post_type=tribe_events*, *hide_subsequent_recurrences=*, *tribe-bar-date=*, *tribe-venue=*, *eventDisplay=*, *eventDate=*, *paged=*, *pagename=*, *shortcode=*, *ical=*, *outlook-ical=*, *related_series=*, *tribe_geofence=*, *tribe_organizer=*
+2024-10-27 19:51:27,352 - INFO - Successfully fetched https://www.uwosh.edu/
+2024-10-27 19:51:27,369 - INFO - Word count completed for https://www.uwosh.edu/
+2024-10-27 19:51:27,754 - INFO - Successfully fetched robots.txt from https://www.uwp.edu/robots.txt
+2024-10-27 19:51:27,755 - INFO - Disallowed paths for domain "www.uwp.edu": /registrardocs/, /facultyandstaff/hlc/, /tntauction/, /explore/offices/sponsoredprograms/, /learn/academiccatalog/2015-2017/, /learn/academiccatalog/2017-2019/, /catalog-pdfs/, /facultyandstaff/innovationhub/, /learn/programs/ipad/, /uwpapps/, /apply/admissions/landing/, /connect/communityengagement/communityandbusinessengagement/trainings/
+2024-10-27 19:51:28,953 - INFO - Successfully fetched https://www.uwp.edu/
+2024-10-27 19:51:28,993 - INFO - Word count completed for https://www.uwp.edu/
+2024-10-27 19:51:29,436 - INFO - Successfully fetched robots.txt from https://www.uwplatt.edu/robots.txt
+2024-10-27 19:51:29,437 - INFO - Disallowed paths for domain "www.uwplatt.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /p/, /a/
+2024-10-27 19:51:29,660 - INFO - Successfully fetched https://www.uwplatt.edu/
+2024-10-27 19:51:29,685 - INFO - Word count completed for https://www.uwplatt.edu/
+2024-10-27 19:51:29,986 - INFO - Successfully fetched robots.txt from https://www.uwrf.edu/robots.txt
+2024-10-27 19:51:29,987 - INFO - Disallowed paths for domain "www.uwrf.edu": /AAI/, /CMSTraining/StudentPages/, /CMSTraining/StudentTraining/, /Research/IR-Info-Center.cfm, /StudentHealthAndCounseling/upload/BrochureAngerManagement.pdf, /DOTS/upload/, /DOTS/ExpiredEmailDoc/, /DOTS/ExpiredEmailDoc/upload, /Gener-Education/, /upload/, /customcf/, /*/upload/, /ClassSchedule/courseLightbox.cfm, /Chemistry2/, /EVCO/, /HumanResources/Director/, /Majors/undergraduateNewFormat/, /ADC/Orientation/, /Budget/BudgetRequest2017/, /CBE/Internship/Offerings/, /studenthandbook/, /Diversity/upload/UWRF-Climate-Study-Final_exec-sum.pdf, /Diversity/upload/UWRF-Climate-Study-Final_no-appx.pdf, /Parking/StudentParking/StuApp.cfm, /Academics/AssociateDegree.cfm, /Administration/Provost/upload/UWRF-White-Paper-Student-Success-Case-2019.pdf, /Administration/Provost/upload/Student-Success-Structural-Model-Aug-2019.pdf
+2024-10-27 19:51:30,163 - INFO - Successfully fetched https://www.uwrf.edu/
+2024-10-27 19:51:30,191 - INFO - Word count completed for https://www.uwrf.edu/
+2024-10-27 19:51:30,555 - WARNING - Failed to fetch https://www.uwsp.edu/robots.txt, trying next protocol...
+2024-10-27 19:51:30,851 - WARNING - Failed to fetch http://www.uwsp.edu/robots.txt, trying next protocol...
+2024-10-27 19:51:30,851 - WARNING - Failed to fetch robots.txt for domain www.uwsp.edu using both HTTP and HTTPS.
+2024-10-27 19:51:30,851 - WARNING - No robots.txt found for www.uwsp.edu, assuming no restrictions.
+2024-10-27 19:51:31,838 - INFO - Successfully fetched https://www.uwsp.edu/
+2024-10-27 19:51:31,871 - INFO - Word count completed for https://www.uwsp.edu/
+2024-10-27 19:51:32,307 - INFO - Successfully fetched robots.txt from https://www.uwstout.edu/robots.txt
+2024-10-27 19:51:32,307 - INFO - Disallowed paths for domain "www.uwstout.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /programs?, /directory?, /search_api_autocomplete/, /index.php/programs?, /index.php/directory?, /index.php/search_api_autocomplete/
+2024-10-27 19:51:32,414 - INFO - Successfully fetched https://www.uwstout.edu/
+2024-10-27 19:51:32,447 - INFO - Word count completed for https://www.uwstout.edu/
+2024-10-27 19:51:32,657 - INFO - Successfully fetched robots.txt from https://www.anokaramsey.edu/robots.txt
+2024-10-27 19:51:32,658 - INFO - Disallowed paths for domain "www.anokaramsey.edu": /*.ashx$
+2024-10-27 19:51:34,072 - INFO - Successfully fetched https://www.anokaramsey.edu/
+2024-10-27 19:51:34,143 - INFO - Word count completed for https://www.anokaramsey.edu/
+2024-10-27 19:51:34,463 - INFO - Successfully fetched robots.txt from https://www.bemidjistate.edu/robots.txt
+2024-10-27 19:51:34,463 - INFO - Disallowed paths for domain "www.bemidjistate.edu": /*?s=*, /mybsu/go/, /academics/catalog/archive/*
+2024-10-27 19:51:34,611 - INFO - Successfully fetched https://www.bemidjistate.edu/
+2024-10-27 19:51:34,628 - INFO - Word count completed for https://www.bemidjistate.edu/
+2024-10-27 19:51:35,117 - INFO - Successfully fetched robots.txt from https://www.clcmn.edu/robots.txt
+2024-10-27 19:51:35,118 - INFO - Disallowed paths for domain "www.clcmn.edu": 
+2024-10-27 19:51:35,118 - INFO - Skipping https://www.clcmn.edu/ due to disallowed path.
+2024-10-27 19:51:35,459 - WARNING - Failed to fetch https://www.concordiacollege.edu/robots.txt, trying next protocol...
+2024-10-27 19:51:35,749 - WARNING - Failed to fetch http://www.concordiacollege.edu/robots.txt, trying next protocol...
+2024-10-27 19:51:35,749 - WARNING - Failed to fetch robots.txt for domain www.concordiacollege.edu using both HTTP and HTTPS.
+2024-10-27 19:51:35,749 - WARNING - No robots.txt found for www.concordiacollege.edu, assuming no restrictions.
+2024-10-27 19:51:35,849 - ERROR - Error fetching https://www.concordiacollege.edu/: HTTPSConnectionPool(host='www.concordiacollege.edu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2024-10-27 19:51:35,974 - INFO - Successfully fetched robots.txt from https://gustavus.edu/robots.txt
+2024-10-27 19:51:35,975 - INFO - Disallowed paths for domain "gustavus.edu": /news/yellow/, /files/, /news/summerscoop/, /computing/, /giving/honorroll/, /news/weekly/, /archive/, /gts/w/, /biology/systematics/w/, /general_catalog/18_19/, /general_catalog/17_18/, /general_catalog/16_17/, /general_catalog/15_16/, /general_catalog/14_15/, /general_catalog/13_14/, /general_catalog/12_13/, /general_catalog/11_12/, /general_catalog/10_11/, /general_catalog/09_10/, /general_catalog/08_09/, /general_catalog/07_08/, /general_catalog/06_07/, /general_catalog/05_06/, /general_catalog/04_05/, /general_catalog/03_04/, /general_catalog/02_03/, /general_catalog/01_02/, /general_catalog/00_01/, /plugins/, /flag-page/, /search/, /concert/, /social/, /campus/, /welcome/, /academics/overlays/, /academics/profiles/, /giving/donorprofiles/, /finearts/ensembles/, /feedback/, /account/aToZ, /calendar/exportItem, /oncampus/, /about/webcam, /covid/, /library/library_home.php
+2024-10-27 19:51:36,196 - INFO - Successfully fetched https://gustavus.edu/
+2024-10-27 19:51:36,215 - INFO - Word count completed for https://gustavus.edu/
+2024-10-27 19:51:36,314 - INFO - Successfully fetched robots.txt from https://www.hamline.edu/robots.txt
+2024-10-27 19:51:36,315 - INFO - Disallowed paths for domain "www.hamline.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed
+2024-10-27 19:51:36,494 - INFO - Successfully fetched https://www.hamline.edu/
+2024-10-27 19:51:36,540 - INFO - Word count completed for https://www.hamline.edu/
+2024-10-27 19:51:37,048 - INFO - Successfully fetched robots.txt from https://www.hennepintech.edu/robots.txt
+2024-10-27 19:51:37,049 - INFO - Disallowed paths for domain "www.hennepintech.edu": None
+2024-10-27 19:51:37,348 - INFO - Successfully fetched https://www.hennepintech.edu/
+2024-10-27 19:51:37,395 - INFO - Word count completed for https://www.hennepintech.edu/
+2024-10-27 19:51:38,507 - WARNING - Failed to fetch https://mnsu.edu/robots.txt, trying next protocol...
+2024-10-27 19:51:38,743 - WARNING - Failed to fetch http://mnsu.edu/robots.txt, trying next protocol...
+2024-10-27 19:51:38,743 - WARNING - Failed to fetch robots.txt for domain mnsu.edu using both HTTP and HTTPS.
+2024-10-27 19:51:38,744 - WARNING - No robots.txt found for mnsu.edu, assuming no restrictions.
+2024-10-27 19:51:39,364 - INFO - Successfully fetched https://mnsu.edu/
+2024-10-27 19:51:39,390 - INFO - Word count completed for https://mnsu.edu/
+2024-10-27 19:51:41,313 - INFO - Successfully fetched robots.txt from https://www.mnstate.edu/robots.txt
+2024-10-27 19:51:41,314 - INFO - Disallowed paths for domain "www.mnstate.edu": None
+2024-10-27 19:51:42,498 - INFO - Successfully fetched https://www.mnstate.edu/
+2024-10-27 19:51:42,533 - INFO - Word count completed for https://www.mnstate.edu/
+2024-10-27 19:51:42,821 - INFO - Successfully fetched robots.txt from https://www.normandale.edu/robots.txt
+2024-10-27 19:51:42,822 - INFO - Disallowed paths for domain "www.normandale.edu": /_cascade, /search-results, /404, /403, /admissions/after-admitted/orientation/request-information-form-thank-you.html, /admissions/after-admitted/orientation/group-tour-form-thank-you.html, /academics/degrees-certificates/partnerships/partnership-form.html
+2024-10-27 19:51:42,965 - INFO - Successfully fetched https://www.normandale.edu/
+2024-10-27 19:51:42,996 - INFO - Word count completed for https://www.normandale.edu/
+2024-10-27 19:51:43,254 - INFO - Successfully fetched robots.txt from https://www.nhcc.edu/robots.txt
+2024-10-27 19:51:43,255 - INFO - Disallowed paths for domain "www.nhcc.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed
+2024-10-27 19:51:43,351 - INFO - Successfully fetched https://www.nhcc.edu/
+2024-10-27 19:51:43,446 - INFO - Word count completed for https://www.nhcc.edu/
+2024-10-27 19:51:43,888 - INFO - Successfully fetched robots.txt from https://www.stcloudstate.edu/robots.txt
+2024-10-27 19:51:43,889 - INFO - Disallowed paths for domain "www.stcloudstate.edu": /_mm/, /_notes/, /_baks/, /_data/, /MMWIP/
+2024-10-27 19:51:44,207 - INFO - Successfully fetched https://www.stcloudstate.edu/
+2024-10-27 19:51:44,221 - INFO - Word count completed for https://www.stcloudstate.edu/
+2024-10-27 19:51:44,355 - INFO - Successfully fetched robots.txt from https://www.csbsju.edu/robots.txt
+2024-10-27 19:51:44,356 - INFO - Disallowed paths for domain "www.csbsju.edu": 
+2024-10-27 19:51:44,356 - INFO - Skipping https://www.csbsju.edu/ due to disallowed path.
+2024-10-27 19:51:44,675 - INFO - Successfully fetched robots.txt from https://www.smumn.edu/robots.txt
+2024-10-27 19:51:44,675 - INFO - Disallowed paths for domain "www.smumn.edu": 
+2024-10-27 19:51:44,675 - INFO - Skipping https://www.smumn.edu/ due to disallowed path.
+2024-10-27 19:51:45,017 - INFO - Successfully fetched robots.txt from https://www.smsu.edu/robots.txt
+2024-10-27 19:51:45,018 - INFO - Disallowed paths for domain "www.smsu.edu": /cgi-bin/, /resource/, /program/, /campuslife/careteam/, /php, /cf
+2024-10-27 19:51:45,212 - INFO - Successfully fetched https://www.smsu.edu/
+2024-10-27 19:51:45,256 - INFO - Word count completed for https://www.smsu.edu/
+2024-10-27 19:51:45,744 - INFO - Successfully fetched robots.txt from https://www.crk.umn.edu/robots.txt
+2024-10-27 19:51:45,746 - INFO - Disallowed paths for domain "www.crk.umn.edu": /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/
+2024-10-27 19:51:46,111 - INFO - Successfully fetched https://www.crk.umn.edu/
+2024-10-27 19:51:46,154 - INFO - Word count completed for https://www.crk.umn.edu/
+2024-10-27 19:51:46,290 - INFO - Successfully fetched robots.txt from https://www.d.umn.edu/robots.txt
+2024-10-27 19:51:46,291 - INFO - Disallowed paths for domain "www.d.umn.edu": /cgi-bin, /email, /itss/news/, /external-affairs/homepage/, /unirel/, /umd/, /catalogs/archives/, /home_page_archives/, /lib/, /lib/_mm, /lib/_notes, /lib/_baks, /lib/MMWIP/, /lib/cgi-bin, /lib/helpdesk, /lib/keep, /lib/test, /lib/lurl, /lib/web, /lib/ref/stats/, /lib/services, /lib/refworks, /lib/elist, /lib/newsletter, /lib/ref/dbdesc/, /lib/ref/databases/, /lib/elist/infopage.html
+2024-10-27 19:51:46,673 - INFO - Successfully fetched https://www.d.umn.edu/
+2024-10-27 19:51:46,688 - INFO - Word count completed for https://www.d.umn.edu/
+2024-10-27 19:51:47,165 - INFO - Successfully fetched robots.txt from https://www.morris.umn.edu/robots.txt
+2024-10-27 19:51:47,166 - INFO - Disallowed paths for domain "www.morris.umn.edu": /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/
+2024-10-27 19:51:47,548 - INFO - Successfully fetched https://www.morris.umn.edu/
+2024-10-27 19:51:47,575 - INFO - Word count completed for https://www.morris.umn.edu/
+2024-10-27 19:51:47,730 - INFO - Successfully fetched robots.txt from https://r.umn.edu/robots.txt
+2024-10-27 19:51:47,731 - INFO - Disallowed paths for domain "r.umn.edu": /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /COVID-19-FAQ-for-Students, /COVID-19-FAQ-for-Staff-and-Faculty, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/
+2024-10-27 19:51:47,863 - INFO - Successfully fetched https://r.umn.edu/
+2024-10-27 19:51:47,885 - INFO - Word count completed for https://r.umn.edu/
+2024-10-27 19:51:48,030 - INFO - Successfully fetched robots.txt from https://twin-cities.umn.edu/robots.txt
+2024-10-27 19:51:48,031 - INFO - Disallowed paths for domain "twin-cities.umn.edu": /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /404-page-not-found, /documentation/, /component/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips/, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/, /news-events/expert/fang-li, /news-events/media-contact/*, /node/43276
+2024-10-27 19:51:48,174 - INFO - Successfully fetched https://twin-cities.umn.edu/
+2024-10-27 19:51:48,203 - INFO - Word count completed for https://twin-cities.umn.edu/
+2024-10-27 19:51:48,323 - INFO - Successfully fetched robots.txt from https://www.winona.edu/robots.txt
+2024-10-27 19:51:48,323 - INFO - Disallowed paths for domain "www.winona.edu": /wp-admin/
+2024-10-27 19:51:48,507 - INFO - Successfully fetched https://www.winona.edu/
+2024-10-27 19:51:48,551 - INFO - Word count completed for https://www.winona.edu/
+2024-10-27 19:51:48,665 - INFO - Successfully fetched robots.txt from https://www.ccc.edu/robots.txt
+2024-10-27 19:51:48,665 - INFO - Disallowed paths for domain "www.ccc.edu": 
+2024-10-27 19:51:48,665 - INFO - Skipping https://www.ccc.edu/ due to disallowed path.
+2024-10-27 19:51:49,056 - INFO - Successfully fetched robots.txt from https://www.cod.edu/robots.txt
+2024-10-27 19:51:49,056 - INFO - Disallowed paths for domain "www.cod.edu": /_archive, /_development, /_resources, /about/administration/consumer_legal_information/net_price_calculator/npcalc.htm, /about/administration/environmental_health_safety, /about/campus-departments/campus-services/, /about/campus-departments/employee-development-center/, /about/campus-departments/environmental-health-safety/, /about/campus-departments/equity/, /about/campus-departments/facilities-department/, /about/campus-departments/grants/, /about/campus-departments/institutional-advancement/, /about/campus-departments/marketing-communications/, /about/campus-departments/multimedia-services/, /about/campus-departments/research/, /about/purchasing/requests, /about/stories/outstanding_faculty_nomination.html, /academics/programs/business/contact-information.html, /academics/programs/cis/contact-information.html, /admission/visit_cod/_archive, /catalog, /costs/financial_aid/emergency-funding.html, /faculty/_data/, /gateways/cod-community-report-2020/files/, /gateways/cod-community-report-2020/mobile/, /hsti/classes/_archive/, /landing, /ldp, /news/_archive, /rsvp, /search/, /thank-you-pages, */_props.html$
+2024-10-27 19:51:49,246 - INFO - Successfully fetched https://www.cod.edu/
+2024-10-27 19:51:49,269 - INFO - Word count completed for https://www.cod.edu/
+2024-10-27 19:51:49,496 - INFO - Successfully fetched robots.txt from https://www.depaul.edu/robots.txt
+2024-10-27 19:51:49,496 - INFO - Disallowed paths for domain "www.depaul.edu": /Search/, /ReusableContent/, /Reports%20List/, /WorkflowTasks/, /SiteCollectionDocuments/, /SiteCollectionImages/, /Documents/Forms/, /Pages/Forms/, /university-catalog-archive/
+2024-10-27 19:51:49,712 - INFO - Successfully fetched https://www.depaul.edu/
+2024-10-27 19:51:49,748 - INFO - Word count completed for https://www.depaul.edu/
+2024-10-27 19:51:50,204 - INFO - Successfully fetched robots.txt from https://www.eiu.edu/robots.txt
+2024-10-27 19:51:50,204 - INFO - Disallowed paths for domain "www.eiu.edu": /csjay, /alumni/newmember.php, /neweiu/, /newsite/, /search/, /archive/, /admissions/counselor.php, /ahcolleg/, /colsci/, /ceps/, /graduate/GAnomination/
+2024-10-27 19:51:53,048 - INFO - Successfully fetched https://www.eiu.edu/
+2024-10-27 19:51:53,067 - INFO - Word count completed for https://www.eiu.edu/
+2024-10-27 19:51:53,399 - INFO - Successfully fetched robots.txt from https://elgin.edu/robots.txt
+2024-10-27 19:51:53,400 - INFO - Disallowed paths for domain "elgin.edu": /about/jobs-at-ecc/jobs/, /about/emergency-management/alerts-alarms/site-wide-notices-temp/, /archive/, /campaigns/, /examples/, /info/, /templates/, /maintenance-site/, /salesforce/, /search/, /site-assets/, /sidebar-content/, /uploads/, /styles/
+2024-10-27 19:51:53,573 - INFO - Successfully fetched https://elgin.edu/
+2024-10-27 19:51:53,603 - INFO - Word count completed for https://elgin.edu/
+2024-10-27 19:51:53,920 - INFO - Successfully fetched robots.txt from https://www.iit.edu/robots.txt
+2024-10-27 19:51:53,921 - INFO - Disallowed paths for domain "www.iit.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed
+2024-10-27 19:51:54,128 - INFO - Successfully fetched https://www.iit.edu/
+2024-10-27 19:51:54,162 - INFO - Word count completed for https://www.iit.edu/
+2024-10-27 19:51:54,435 - INFO - Successfully fetched robots.txt from https://illinoisstate.edu/robots.txt
+2024-10-27 19:51:54,436 - INFO - Disallowed paths for domain "illinoisstate.edu": /admissions/virtual-presidential-scholarship/, /admissions/virtual-university-scholarship/, /admissions/virtual-redbird/, /admissions/virtual-honors/
+2024-10-27 19:51:54,727 - INFO - Successfully fetched https://illinoisstate.edu/
+2024-10-27 19:51:54,782 - INFO - Word count completed for https://illinoisstate.edu/
+2024-10-27 19:51:55,018 - INFO - Successfully fetched robots.txt from https://www.luc.edu/robots.txt
+2024-10-27 19:51:55,019 - INFO - Disallowed paths for domain "www.luc.edu": /*-archive/, /*_archive/, /*-dev/, /*-test/, /*test/, /test-*/, /*dev/, /dev-*/, /*_dev/, /error/, /errorHandler/, /ldap/, /mobile/, /mobileapp/, /search/, /searchalt/, /searchtest/, /sitebackground/, /sitebackgrounds/, /siteunavailable/, /socialfeeder/, /sandbox/, /styleassets/, /supports/, /a-zindex/, /bannerinsert/, /bereavementnotice/, /blog/, /blogs/, /bursar2/, /cfpreview/, /citm2013/, /croth3/, /customcss/, /customjs/, /directories/, /flex/, /footer/, /ilmonthly/, /lenzlee/, /library-photos/, /luchomepagealert/, /patternlibrary/, /rightcolumn/, /s,0/, /sitelogo/, /site_logo/, /home_deck2/, /home_deck/, /modules/, /hero/, /widgets/, /t4-test-cs-54996/, /webcam/
+2024-10-27 19:51:55,164 - INFO - Successfully fetched https://www.luc.edu/
+2024-10-27 19:51:55,192 - INFO - Word count completed for https://www.luc.edu/
+2024-10-27 19:51:55,550 - INFO - Successfully fetched robots.txt from https://www.mchenry.edu/robots.txt
+2024-10-27 19:51:55,551 - INFO - Disallowed paths for domain "www.mchenry.edu": /_cms/, /_cmsbc/
+2024-10-27 19:51:55,855 - INFO - Successfully fetched https://www.mchenry.edu/
+2024-10-27 19:51:55,875 - INFO - Word count completed for https://www.mchenry.edu/
+2024-10-27 19:51:56,073 - INFO - Successfully fetched robots.txt from https://www.niu.edu/robots.txt
+2024-10-27 19:51:56,073 - INFO - Disallowed paths for domain "www.niu.edu": None
+2024-10-27 19:51:56,259 - INFO - Successfully fetched https://www.niu.edu/
+2024-10-27 19:51:56,297 - INFO - Word count completed for https://www.niu.edu/
+2024-10-27 19:51:56,475 - INFO - Successfully fetched robots.txt from https://www.neiu.edu/robots.txt
+2024-10-27 19:51:56,475 - INFO - Disallowed paths for domain "www.neiu.edu": /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/, /taxonomy/*
+2024-10-27 19:51:56,671 - INFO - Successfully fetched https://www.neiu.edu/
+2024-10-27 19:51:56,719 - INFO - Word count completed for https://www.neiu.edu/
+2024-10-27 19:51:56,931 - INFO - Successfully fetched robots.txt from https://www.northwestern.edu/robots.txt
+2024-10-27 19:51:56,932 - INFO - Disallowed paths for domain "www.northwestern.edu": /.TRASH/, /.old-it-pages/, /.old/, /101/, /account-management-devel/, /activities/, /admin/, /amstp/, /ar/, /buehler/, /cgi-bin/, /chicagocampusmaps/, /cms/, /common/, /compute/, /course-viewer/, /demo-department/, /docs/, /dwhouse/, /family-institute/, /fieldstudies/, /graduate-fellowships/, /helpdesk/.work/, /helpdesk/network/, /helpdesk/pre/, /icair/.old/, /it-menu-proto/, /it-menu/, /it-virtual/.archive/, /it/guidelines/old/1997-04/, /it/guidelines/old/1998-01/, /it/guidelines/old/1998-04/, /it/guidelines/old/, /it/guidelines/proto/, /it/icair_new/, /it/ms/, /itg/, /need-it/, /newsfeed/, /nmc/, /not-in-production/, /nu150/book/.old/, /nu150/postcards/images/, /nu150/postcards/ssi/, /nuilr/, /nuinfo-proto12/www-v8/emergency/ssi/, /nuinfotest/, /nuportalbreakingnews/, /registrar/cgi-bin/, /resnet/, /search-help/, /sed/, /service/, /sheil/, /stomatology/, /student/old/, /summersa/, /test/, /traffic/, /tss-virtual/.work/, /tss-virtual/pre/, /tss/siguccs/1996/abstracts/, /tss/siguccs/, /tss/troubleshoot/obsolete/, /undergrad-finaid/, /univ-relations/webproto/med-design/, /univ-relations/webproto/, /ur-staff-proto/, /vp-research-gradstudies/, /webservices/.test/, /webservices/resources/forms/, /webservices/, /webtech/, /world/admin/, /world/interesting/atl-interest/admin/, /world/, /wrestling/, /www-v5/emergency/alert/, /www-v5/emergency/ssi/, /www-v6/emergency/ssi/, /www-v8/emergency/ssi/, /xscs/, /it-test-2016/, /nuinfo-proto9-old/
+2024-10-27 19:51:57,065 - INFO - Successfully fetched https://www.northwestern.edu/
+2024-10-27 19:51:57,083 - INFO - Word count completed for https://www.northwestern.edu/
+2024-10-27 19:51:57,362 - INFO - Successfully fetched robots.txt from https://www.oakton.edu/robots.txt
+2024-10-27 19:51:57,363 - INFO - Disallowed paths for domain "www.oakton.edu": None
+2024-10-27 19:51:57,519 - INFO - Successfully fetched https://www.oakton.edu/
+2024-10-27 19:51:57,661 - INFO - Word count completed for https://www.oakton.edu/
+2024-10-27 19:51:58,128 - INFO - Successfully fetched robots.txt from https://www.rockvalleycollege.edu/robots.txt
+2024-10-27 19:51:58,128 - INFO - Disallowed paths for domain "www.rockvalleycollege.edu": None
+2024-10-27 19:51:58,415 - INFO - Successfully fetched https://www.rockvalleycollege.edu/
+2024-10-27 19:51:58,467 - INFO - Word count completed for https://www.rockvalleycollege.edu/
+2024-10-27 19:51:59,033 - INFO - Successfully fetched robots.txt from https://www.siuc.edu/robots.txt
+2024-10-27 19:51:59,034 - INFO - Disallowed paths for domain "www.siuc.edu": /
+2024-10-27 19:51:59,034 - INFO - Skipping https://www.siuc.edu/ due to disallowed path.
+2024-10-27 19:51:59,217 - INFO - Successfully fetched robots.txt from https://www.siue.edu/robots.txt
+2024-10-27 19:51:59,218 - INFO - Disallowed paths for domain "www.siue.edu": /ug-catalog-content-2023-2024, /meridian-application/, /ug-catalog-content-2022-2023, /_archives/, /_global/, /_dev/, /_dev-complete/, /_dev-new/, /_dev-old/, /_archives-publish/, /_rwd/, /_*, /its/sandbox/, /marketing-and-communications/services/web/email-request.shtml
+2024-10-27 19:51:59,386 - INFO - Successfully fetched https://www.siue.edu/
+2024-10-27 19:51:59,408 - INFO - Word count completed for https://www.siue.edu/
+2024-10-27 19:51:59,603 - WARNING - Failed to fetch https://www.uchicago.edu/robots.txt, trying next protocol...
+2024-10-27 19:51:59,687 - WARNING - Failed to fetch http://www.uchicago.edu/robots.txt, trying next protocol...
+2024-10-27 19:51:59,687 - WARNING - Failed to fetch robots.txt for domain www.uchicago.edu using both HTTP and HTTPS.
+2024-10-27 19:51:59,689 - WARNING - No robots.txt found for www.uchicago.edu, assuming no restrictions.
+2024-10-27 19:52:00,063 - INFO - Successfully fetched https://www.uchicago.edu/
+2024-10-27 19:52:00,079 - INFO - Word count completed for https://www.uchicago.edu/
+2024-10-27 19:52:00,545 - INFO - Successfully fetched robots.txt from https://www.uic.edu/robots.txt
+2024-10-27 19:52:00,545 - INFO - Disallowed paths for domain "www.uic.edu": 
+2024-10-27 19:52:00,546 - INFO - Skipping https://www.uic.edu/ due to disallowed path.
+2024-10-27 19:52:00,645 - INFO - Successfully fetched robots.txt from https://illinois.edu/robots.txt
+2024-10-27 19:52:00,646 - INFO - Disallowed paths for domain "illinois.edu": /temp/, /test/, /mobile/
+2024-10-27 19:52:00,779 - INFO - Successfully fetched https://illinois.edu/
+2024-10-27 19:52:00,805 - INFO - Word count completed for https://illinois.edu/
+2024-10-27 19:52:01,076 - INFO - Successfully fetched robots.txt from https://www.uis.edu/robots.txt
+2024-10-27 19:52:01,077 - INFO - Disallowed paths for domain "www.uis.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed
+2024-10-27 19:52:01,245 - INFO - Successfully fetched https://www.uis.edu/
+2024-10-27 19:52:01,304 - INFO - Word count completed for https://www.uis.edu/
+2024-10-27 19:52:01,586 - INFO - Successfully fetched robots.txt from https://www.wiu.edu/robots.txt
+2024-10-27 19:52:01,586 - INFO - Disallowed paths for domain "www.wiu.edu": /public_directory/, /personnel/, /users/, */z-migration/, */zz-redesign/, /*.import$, /*.inc$, /*.LOG$, /*.xsl$, /news/newsrelease_print.php, */_archive*/, */_dev/, */sandbox*/, /advising/*, /Alumni/eNewsletter/*, /Alumni/pdfs/*, /Alumni/EventPhotos/*, /Dan/, /campus_connection/submissions/*, /cas/philosophy_and_religious_studies/*, /cas/liberal_arts_and_sciences/*, /catalog/2020_-_2021/*, /catalog/2021_-_2022/*, /catalog/2022_-_2023/*, /catalog/2023_-_2024/*, /connection/*, /enews/*, /graduate_studies/flatsheets/*, /graduate_studies/2015_2016_catalog/*, /graduate_studies/2016_2017_catalog/*, /graduate_studies/2017_2018_catalog/*, /graduate_studies/2018_2019_catalog/*, /graduate_studies/2019_2020_catalog/*, /graduate_studies/2020_2021_catalog/*, /graduate_studies/2021_2022_catalog/*, /graduate_studies/2022_2023_catalog/*, /CITR/MyWestern/*, /qc/student_life/student_services/pdfs/2015/*, /qc/student_life/student_services/pdfs/2016/*, /qc/student_life/student_services/pdfs/2019/*, /qc/student_life/student_services/pdfs/2020/*, /qc/student_life/student_services/pdfs/2021/*, /vpascopy/*, /vpas/business_services/*, /vpas/purchasing/*, /vpas/policies/*, /vpas/human_resources/*, /vpas/dps/*, /vpas/public_safety/*, /vpas/fm/*, /vpas/transportation/*, /vpas/ehss/*, /vpas/wellness/*, /vpas/fallensoldiers/*, /vpas/civil_service_employees_council/*, /vpas/sustainability/*, /vpas/administrative_procedures_handbook/*, /vpaps/foundation_and_development/*, /vpas/risk_management_and_emergency_preparedness/coronavirus/campus/*, /global_education/*, /cas/english/graduate/*, /cas/sociology/*, /cas/anthropology/*, /yourpotential/*, /vpaps/marketing/campaign/*, /library/units/reference/reftools/*, /library/direct/?*, /dps/*, /student_services/*, /coehs/csp/*, /coehs/qc/cned/*, /academics/docs/*, /coehs/rpta/*, /cbt/qc/engineering/*, /cbt/engineering_technology/*, /dei/*, /tasc/*, /search/*, /odes/*, /citr/home/*, /student_success/financial_aid/protected/*, /student_success/scholarship/2024/*, /student_success/scholarship/2023/*, /coehs/health_sciences/
+2024-10-27 19:52:02,500 - INFO - Successfully fetched https://www.wiu.edu/
+2024-10-27 19:52:02,519 - INFO - Word count completed for https://www.wiu.edu/
+2024-10-27 19:52:02,746 - INFO - Successfully fetched robots.txt from https://www.cmich.edu/robots.txt
+2024-10-27 19:52:02,746 - INFO - Disallowed paths for domain "www.cmich.edu": /Sitefinity, /search, /program-finder?
+2024-10-27 19:52:02,948 - INFO - Successfully fetched https://www.cmich.edu/
+2024-10-27 19:52:02,979 - INFO - Word count completed for https://www.cmich.edu/
+2024-10-27 19:52:03,083 - WARNING - Failed to fetch https://www.emich.edu/robots.txt, trying next protocol...
+2024-10-27 19:52:03,175 - WARNING - Failed to fetch http://www.emich.edu/robots.txt, trying next protocol...
+2024-10-27 19:52:03,175 - WARNING - Failed to fetch robots.txt for domain www.emich.edu using both HTTP and HTTPS.
+2024-10-27 19:52:03,175 - WARNING - No robots.txt found for www.emich.edu, assuming no restrictions.
+2024-10-27 19:52:03,278 - ERROR - Error fetching https://www.emich.edu/: 403 Client Error: Forbidden for url: https://www.emich.edu/
+2024-10-27 19:52:03,537 - INFO - Successfully fetched robots.txt from https://www.ferris.edu/robots.txt
+2024-10-27 19:52:03,538 - INFO - Disallowed paths for domain "www.ferris.edu": /templates/, /ROPN/, /Cloudflare/, /giving/snavely/, /fsuintranet/, /messages/, /wwws/, /buyviagra/, /dev/, /dev-*, /faculty/, /business/images/280x120/banners/, /sats/, /ats/, /administration/advance/photoserv/, /omni/, /amp-test/, /faculty/burtchr/, /mco/optonet/, /fctl/Teaching_and_Learning_Tips/, /SpecialEvents/falcone/, /bachelor-degree-home-economics-education.htm, /hlc/examples/, /hlc/kendall/, /notice/, /accessibility/, /charterschools/Performance/, /administration/academicaffairs/charterschools/Performance/, /administration/academicaffairs/HLC/trustees/, /administration/purchase/Bids/, /administration/president/newsletters/, /administration/president/budget-office/docs/, /xmlui/bitstream/handle/2323/3841/042913memo.pdf?sequence=1, /xmlui/bitstream/handle/2323/3841/042913memo.pdf, /_dale-snippets/, /_HTML5CSS3/, /bootstrap/, /sports/, /web-redesign/feedback-submitted.htm, /*SalaryList2011.pdf, /search/, /archive/, /archive/homepage.htm, /error-404.htm, /error-404-template.htm, /error-404-readme.txt, /webct/, /profiles/, /ken/, /insights-dashboards/kcad/, /Cloudflare/, /business/wp-content/themes/, /international/studyabroad/Study-Abroad/about/submission-success.htm, /international/studyabroad/Study-Abroad/gco/request-submitted.htm, /optometry/profiles/, /catalog/, /Catalog/, /_personalization/, /search/navigation-comparison.htm, /optometry/scope-and-licensure/references.htm, /signage/, /*.cfm$, /*.cfm?*$, /*.mdb$, /*.doc$, /*.docx$, /*.xlsx$, /*.pptx$, /*.xls$, /*.js$, /*.cfm$, /*.swf$, /*.sam$, /*.ans$, /*.asc$, /*.shw$, /*.dba$, /*.dbm$, /*.dbf$, /*.dx$, /*.300$, /*.wpf$, /*.ssf$, /*.ss$, /*.fol$, /*.dbf$, /*.fw3$, /*.prz$, /*.pre$, /*.cht$, /*.ch3$, /*.shtml$, /*.nsf$, /*.fft$, /*.rft$, /*.iwa$, /*.jtd$, /*.jw$, /*.chp$, /*.wku$, /*.wk1$, /*.wk3$, /*.wk4$, /*.wk5$, /*.wk6$, /*.wr1$, /*.lwp$, /*.mcw$, /*.aa4$, /*.aa5$, /*.aa6$, /*.aa7$, /*.aa8$, /*.cod$, /*.col$, /*.ppt$, /*.mpp$, /*.rtf$, /*.dbf$, /*.wri$, /*.wps$, /*.wks$, /*.wdb$, /*.wcm$, /*.wku$, /*.msg$, /*.xla$, /*.xlc$, /*.xlm$, /*.xlt$, /*.xlw$, /*.dox$, /*.fnt$, /*.fnx$, /*.dif$, /*.nb$, /*.wpd$, /*.wpg$, /*.wpf$, /*.wp5$, /*.ow4$, /*.db$, /*.db3$, /*.ltr$, /*.rbf$, /*.tid$, /*.pfb$, /*.ps$, /*.pw1$, /*.pwp$, /*.qa$, /*.qw$, /*.dtf$, /*.wq1$, /*.wb1$, /*.wb2$, /*.r2d$, /*.sam$, /*.db$, /*.ws$, /*.spr$, /*.cal$, /*.tw$, /*.vcf$, /*.vw4$, /*.wks$, /*.iwp$, /*.wmc$, /*.wp$, /*.wp5$, /*.wpd$, /*.pln$, /*.shw$, /*.wbk$, /*.wkb$, /*.wpf$, /*.ws$, /*.ws2$, /*.wsd$, /*.ws4$, /*.ws6$, /*.xy$, /*.xy3$, /*.xyw$, /*.qxd$, /*.qxp$, /*.pub$, /*.ppt$, /*.rtf$, /*.dll$, /*.exe$, /*.jnilib$, /*.dmg$, /*.3gp$, /*.m4a$, /*.m4v$, /*.wma$, /*.wmv$, /*.wrl$, /*.lzh$, /*.msi$, /*.chm$, /*.mht$, *dm-template.htm$, *_props20-additional.html$, *_props20-nav.html$, *_props20-contact.html$, *_props20-topnav.html$, *_props20.html$, /home.htm, /pharm/, /administration/studentaffairs/CLACS/non-indexed/, /secure-test/, /administration/adminandfinance/AuxiliaryEnterprises/services/totsplace/, /profiles/student-and-academic-services/, /apinstitutes/, /strategic-planning/Goals-Initiatives.htm, /news/week/video/rube/, /masters-science-information-systems-management-ism.htm, /business/stories/isi-replaces-ism-2012, /business/grafik-intervention, /script.cgi?lang=, /cob/, /administration/adminandfinance/infoserv/, /administration/advance/old_standards/, /purchasing/naep/history.htm/, /weblinks/, /administration/academicaffairs/vpoffice/hsrc/, /administration/academicaffairs/HLC/examples/, /torch/, /administration/advance/Social-Media/, /administration/adminandfinance/finance/financialservices/, /academics/honored/form-submitted-successfully.htm, /administration/studentaffairs/RC/rso-reservation-request-success.htm, /admissions/selfreport.htm, /admissions/thankyouevent.htm, /international/currentstudents/sevis-success.htm, /international/studyabroad/Study-Abroad/about/submission-success.htm, /international/studyabroad/Study-Abroad/gco/request-submitted.htm, /CET/built-env/hall-of-fame/distinguished-constructor-nomination-submitted.htm, /optometry/alumni/speakers-bureau/submission-complete.htm, /madetomove/nice-move.html, /move-forward/nice-move.html, /_qa/, /_uat/, /_2020_landing_pages/, /employment/pageup-template-2.html, /news/archive/2006, /news/archive/2007, /news/archive/2008, /news/archive/2009, /news/archive/2010, /news/archive/2011, /news/archive/2012, /news/archive/2013, /news/archive/2014, /news/archive/2015, /news/archive/2016, /news/archive/2017, /news/archive/2018, /news/archive/2019, /news/archive/2020, /news/archive/2021, /news/archive/2022
+2024-10-27 19:52:03,787 - INFO - Successfully fetched https://www.ferris.edu/
+2024-10-27 19:52:03,834 - INFO - Word count completed for https://www.ferris.edu/
+2024-10-27 19:52:03,961 - INFO - Successfully fetched robots.txt from https://www.gvsu.edu/robots.txt
+2024-10-27 19:52:03,962 - INFO - Disallowed paths for domain "www.gvsu.edu": /*_old/, /_*/, /includes/, /reference_files/, /tools/
+2024-10-27 19:52:04,156 - INFO - Successfully fetched https://www.gvsu.edu/
+2024-10-27 19:52:04,173 - INFO - Word count completed for https://www.gvsu.edu/
+2024-10-27 19:52:04,597 - INFO - Successfully fetched robots.txt from https://www.kzoo.edu/robots.txt
+2024-10-27 19:52:04,597 - INFO - Disallowed paths for domain "www.kzoo.edu": /wp-admin/
+2024-10-27 19:52:04,998 - INFO - Successfully fetched https://www.kzoo.edu/
+2024-10-27 19:52:05,038 - INFO - Word count completed for https://www.kzoo.edu/
+2024-10-27 19:52:05,497 - INFO - Successfully fetched robots.txt from https://www.kellogg.edu/robots.txt
+2024-10-27 19:52:05,498 - INFO - Disallowed paths for domain "www.kellogg.edu": None
+2024-10-27 19:52:06,976 - INFO - Successfully fetched https://www.kellogg.edu/
+2024-10-27 19:52:07,015 - INFO - Word count completed for https://www.kellogg.edu/
+2024-10-27 19:52:07,187 - INFO - Successfully fetched robots.txt from https://www.lssu.edu/robots.txt
+2024-10-27 19:52:07,188 - INFO - Disallowed paths for domain "www.lssu.edu": /wp-admin/
+2024-10-27 19:52:08,274 - INFO - Successfully fetched https://www.lssu.edu/
+2024-10-27 19:52:08,349 - INFO - Word count completed for https://www.lssu.edu/
+2024-10-27 19:52:08,683 - INFO - Successfully fetched robots.txt from https://www.ltu.edu/robots.txt
+2024-10-27 19:52:08,683 - INFO - Disallowed paths for domain "www.ltu.edu": , /cgi-bin/, /cm/*, /cm_content_/, /external_attach/*, /library/, /webroot/, /demo/, /admin/, /js/, /login/, /xml/, /blogs/, /uploads/*, /data/courses/*, /*.pdf$, /*.doc$, /*.docx$, /*.xls$, /*.xlsx$, /*.ppt$, /*.pptx$, /*.csv$, /*.rtf$, https, https
+2024-10-27 19:52:08,683 - INFO - Skipping https://www.ltu.edu/ due to disallowed path.
+2024-10-27 19:52:09,226 - INFO - Successfully fetched robots.txt from https://www.msu.edu/robots.txt
+2024-10-27 19:52:09,227 - INFO - Disallowed paths for domain "www.msu.edu": None
+2024-10-27 19:52:09,887 - INFO - Successfully fetched https://www.msu.edu/
+2024-10-27 19:52:09,928 - INFO - Word count completed for https://www.msu.edu/
+2024-10-27 19:52:10,107 - INFO - Successfully fetched robots.txt from https://www.mtu.edu/robots.txt
+2024-10-27 19:52:10,108 - INFO - Disallowed paths for domain "www.mtu.edu": /eds					    # temporary stuff, /four					   # future designs and history presentation stuff, /old					    # old stuff, /history				    # old stuff, /apply/disabled_keep/		    # down-time files and old stuff, /mtuonly				    # private stuff, /level4/mtfcampaign/	    # redirected site, /greatevents			    # old stuff, /cie/sa/				    # redirected site, /athletics			    # testing zone--use www.athletics.mtu.edu, /index_n.html			    # homepage wannabe, /index_n1.html		    # homepage wannabe, /index_n2.html		    # homepage wannabe, /index_n3.html		    # homepage wannabe, /index_n4.html		    # homepage wannabe, /index_testing.html		    # homepage testing zone, /index-3tabs.php		    # homepage testing 3tab site, /index_alert.html	        # holding spot for crisis situation, /index_snow	            # holding spot for snow situation (design 2), /urel/policy/mtu_web.html #draft not yet approved, /adminresources			    # old information, /cie			         # website moved to ips server, /catalog/2000-02		# 2000-02 Undergradaute Catalog, /catalog/2002-04		# 2002-04 Undergraduate Catalog, /openhouse/index_archive_save/      # indices that rotate in, /adminresources/old/                # moved for Ann Roth, /wwwhelp/disabled/                # old logos, /test                             # test files, /index_save                       # old files, /banners/                      # don't want these on hit stats, /2002/, /2003/, /five/, /fall02/, /level2/, /level3/, /level4/, /logotest/, /index_sjb.html, /index_nw.html, /index_s.html, /index_sb.html, /index_old.html, /index_n06.html, /index_n07.html, /example, /besmart/disabled/, /disabled/, /carnival/2*		# blocking old carnival pages with duplicate title tags, /campaign/, /catalog/archives/ 		# old catalogs, /mtu_resources/banners/, /mtu_resources/cache/, /mtu_resources/php/, /calendar/events.php, /calendar/month.php, /calendar/day.php, /calendar/rss.php, /calendar/print.php, /calendar/search.php, /calendar/login/, /home/, /admissions/event-registration/, /facultyupdate/, /mtuldapweb/web_lookup/index.cgi*?, /ou-*, /housing/mymichigantech/*, /.ldp/images/*, /search/?q*, /mtu_resources/archives/catalog/		# blocking old undergraduate catalogs, /alert/homepage/*	# blocking individual Alert messages, /mtu_resources/full-news-2016.php*	# blocking RSS Feeds, /techalum/issue/*, /techalum/oldarchives/*, /ttoday/?issue=1*, /ttoday/?issue=200*, /ttoday/?issue=2010*, /ttoday/?issue=2011*, /ttoday/?issue=2012*, /ttoday/?issue=2013*, /ttoday/?issue=2014*, /ttoday/?issue=2015*, /ttoday/?issue=2016*, /ttoday/?issue=2017*, /ttoday/?issue=2018*, /ttoday/?issue=2019*, /ttoday/?issue=2020*, /ttoday/?issue=2021*, /ttoday/?issue=2022*, /news/2005/*, /news/2006/*, /news/2007/*, /news/2008/*, /news/2009/*, /news/2010/*, /news/2011/*, /news/2012/*, /news/2013/*, /news/2014/*, /news/2015/*, /news/2016/*, /unscripted/2016/*, /magazine/2015*, /magazine/2016*, /magazine/research/2015*, /magazine/research/2016*, *.xml
+2024-10-27 19:52:10,300 - INFO - Successfully fetched https://www.mtu.edu/
+2024-10-27 19:52:10,347 - INFO - Word count completed for https://www.mtu.edu/
+2024-10-27 19:52:10,534 - INFO - Successfully fetched robots.txt from https://www.nmu.edu/robots.txt
+2024-10-27 19:52:10,535 - INFO - Disallowed paths for domain "www.nmu.edu": /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/, /user/register/, /user/password/, /user/login/, /user/logout/, /admin, /comment/reply, /filter/tips, /node/add, /search, /user, /user/register, /user/password, /user/login, /user/logout, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/, /nmuexample/, /responsivenmu/, /irdev/, /sites/default/files/UserFiles/, /sites/Drupalaapc/files/UserFiles/, /sites/DrupalACAC/files/UserFiles/, /sites/DrupalAcademicAffairs/files/UserFiles/, /sites/DrupalAcademicSenate/files/UserFiles/, /sites/DrupalAdmissions/files/UserFiles/, /sites/Drupalaisac/files/UserFiles/, /sites/DrupalAlumniAssociation/files/UserFiles/, /sites/DrupalArchives/files/UserFiles/, /sites/DrupalArtAndDesign/files/UserFiles/, /sites/DrupalArtsAndSciences/files/UserFiles/, /sites/DrupalASNMU/files/UserFiles/, /sites/DrupalAudioVisual/files/UserFiles/, /sites/DrupalBEAR/files/UserFiles/, /sites/DrupalBeaumierHeritageCenter/files/UserFiles/, /sites/DrupalBiology/files/UserFiles/, /sites/DrupalBoardOfTrustees/files/UserFiles/, /sites/DrupalBullying/files/UserFiles/, /sites/DrupalBusiness/files/UserFiles/, /sites/DrupalCAMS/files/UserFiles/, /sites/DrupalCareerServices/files/UserFiles/, /sites/Drupalcec/files/UserFiles/, /sites/DrupalChemistry/files/UserFiles/, /sites/DrupalClassrooms/files/UserFiles/, /sites/DrupalClinicalSciences/files/UserFiles/, /sites/DrupalCommencement/files/UserFiles/, /sites/DrupalContinuingEducation/files/UserFiles/, /sites/DrupalCounselingAndConsultation/files/UserFiles/, /sites/DrupalCriminalJustice/files/UserFiles/, /sites/Drupalctl/files/UserFiles/, /sites/DrupalCTOS/files/UserFiles/, /sites/Drupalcup/files/UserFiles/, /sites/DrupalDisabilityServices/files/UserFiles/, /sites/DrupalDiversity/files/UserFiles/, /sites/DrupalDiversityCommittee/files/UserFiles/, /sites/Drupaldso/files/UserFiles/, /sites/DrupalEducation/files/UserFiles/, /sites/DrupalEEGS/files/UserFiles/, /sites/DrupalEngineeringTechnology/files/UserFiles/, /sites/DrupalEnglish/files/UserFiles/, /sites/DrupalEqualOpportunity/files/UserFiles/, /sites/Drupaletrpc/files/UserFiles/, /sites/DrupalExtendedLearning/files/UserFiles/, /sites/Drupalfgc/files/UserFiles/, /sites/DrupalFinance/files/UserFiles/, /sites/DrupalFinancialAid/files/UserFiles/, /sites/DrupalFreshmanFellows/files/UserFiles/, /sites/Drupalgec/files/UserFiles/, /sites/DrupalGender/files/UserFiles/, /sites/DrupalGolfCourse/files/UserFiles/, /sites/Drupalgpc/files/UserFiles/, /sites/DrupalGraduateStudies/files/UserFiles/, /sites/DrupalGrantsAndContracts/files/UserFiles/, /sites/Drupalhbc/files/UserFiles/, /sites/DrupalHealthCenter/files/UserFiles/, /sites/DrupalHonors/files/UserFiles/, /sites/DrupalHousing/files/UserFiles/, /sites/Drupalhr/files/UserFiles/, /sites/Drupalic/files/UserFiles/, /sites/DrupalInformationTechnology/files/UserFiles/, /sites/DrupalInternalAudit/files/UserFiles/, /sites/DrupalInternationalPrograms/files/UserFiles/, /sites/DrupalLanguages/files/UserFiles/, /sites/DrupalLIS/files/UserFiles/, /sites/Drupallsc/files/UserFiles/, /sites/DrupalMathAndComputerScience/files/UserFiles/, /sites/DrupalMBA/files/UserFiles/, /sites/DrupalMC/files/UserFiles/, /sites/DrupalMcNairScholars/files/UserFiles/, /sites/DrupalMilitaryScience/files/UserFiles/, /sites/DrupalMulticulturalEdAndRes/files/UserFiles/, /sites/DrupalMusic/files/UserFiles/, /sites/DrupalMWServices/files/UserFiles/, /sites/DrupalNewFaculty/files/UserFiles/, /sites/DrupalNorthernCenter/files/UserFiles/, /sites/DrupalNorthernClimateNetwork/files/UserFiles/, /sites/DrupalNorthernMagazine/files/UserFiles/, /sites/DrupalNursing/files/UserFiles/, /sites/DrupalOneBook/files/UserFiles/, /sites/DrupalOnline/files/UserFiles/, /sites/DrupalOrganizations/files/UserFiles/, /sites/DrupalOrientation/files/UserFiles/, /sites/DrupalPreProfessional/files/UserFiles/, /sites/DrupalPresident/files/UserFiles/, /sites/DrupalProfessionalStudies/files/UserFiles/, /sites/DrupalPsychology/files/UserFiles/, /sites/DrupalPurchasing/files/UserFiles/, /sites/DrupalRecSports/files/UserFiles/, /sites/DrupalRegistrar/files/UserFiles/, /sites/DrupalResearch/files/UserFiles/, /sites/DrupalRetiree/files/UserFiles/, /sites/DrupalRiskManagement/files/UserFiles/, /sites/DrupalSeaborg/files/UserFiles/, /sites/DrupalService/files/UserFiles/, /sites/DrupalSigmaXi/files/UserFiles/, /sites/DrupalSISU/files/UserFiles/, /sites/DrupalSocialWork/files/UserFiles/, /sites/DrupalSociologyAndAnthropology/files/UserFiles/, /sites/Drupalstudentcelebration/files/UserFiles/, /sites/DrupalStudentEnrichment/files/UserFiles/, /sites/DrupalStudentLeaderFellowship/files/UserFiles/, /sites/DrupalStudentServiceCenter/files/UserFiles/, /sites/DrupalStudentSupport/files/UserFiles/, /sites/DrupalSuperiorEdge/files/UserFiles/, /sites/DrupalSustainableNMU/files/UserFiles/, /sites/DrupalTheatreAndDance/files/UserFiles/, /sites/DrupalTitleIX/files/UserFiles/, /sites/Drupaltlac/files/UserFiles/, /sites/DrupalTobaccoFree/files/UserFiles/, /sites/DrupalTOS/files/UserFiles/, /sites/DrupalTutoring/files/UserFiles/, /sites/DrupalUMBTC/files/UserFiles/, /sites/DrupalUPTLC/files/UserFiles/, /sites/DrupalUpwardBoundMathScience/files/UserFiles/, /sites/DrupalVeterans/files/UserFiles/, /sites/DrupalWritingCenter/files/UserFiles/, /sites/DrupalWUPX/files/UserFiles/, /sites/DrupalYourHealth/files/UserFiles/, /sites/DrupalYourWealth/files/UserFiles/, /sites/DrupalPoliticalScience/files/UserFiles/, /sites/DrupalEPC/files/UserFiles/, /sites/DrupalPhilosophy/files/UserFiles/, /sites/DrupalFROST/files/UserFiles/, /sites/Drupalaqip/files/UserFiles/, /sites/DrupalNativeAmericanStudies/files/UserFiles/, /sites/DrupalUpperPeninsulaStudies/files/UserFiles/, /sites/DrupalEconomics/files/UserFiles/, /sites/DrupalFacilities/files/UserFiles/, /sites/DrupalPhysics/files/UserFiles/, /sites/DrupalPublicSafetyInstitute/files/UserFiles/, /sites/DrupalCharterSchools/files/UserFiles/, /sites/DrupalVienna/files/UserFiles/, /sites/DrupalRecordsManagement/files/UserFiles/, /sites/DrupalInstitutionalResearch/files/UserFiles/, /sites/DrupalUNITED/files/UserFiles/, /sites/DrupalMinorsOnCampus/files/UserFiles/, /sites/Drupalceee/files/UserFiles/, /sites/DrupalRuralAndLocal/files/UserFiles/, /sites/DrupalSRA/files/UserFiles/, /sites/DrupalHistory/files/UserFiles/, /sites/DrupalSafetyDepartment/files/UserFiles/, /sites/DrupalPoliceDepartment/files/UserFiles/, /sites/DrupalBulletin/files/UserFiles/, /sites/DrupalGraduateBulletin/files/UserFiles/, /sites/DrupalParentPartnership/files/UserFiles/, /sites/DrupalNCLL/files/UserFiles/
+2024-10-27 19:52:10,875 - INFO - Successfully fetched https://www.nmu.edu/
+2024-10-27 19:52:10,927 - INFO - Word count completed for https://www.nmu.edu/
+2024-10-27 19:52:11,158 - INFO - Successfully fetched robots.txt from https://www.oakland.edu/robots.txt
+2024-10-27 19:52:11,158 - INFO - Disallowed paths for domain "www.oakland.edu": /1-new-test, /admin, /advising, /login, /login-1, /percussion-training-sandbox, /publishingtestpage1, /sandbox, /social-media-new, /ztestsite
+2024-10-27 19:52:11,303 - INFO - Successfully fetched https://www.oakland.edu/
+2024-10-27 19:52:11,401 - INFO - Word count completed for https://www.oakland.edu/
+2024-10-27 19:52:11,648 - INFO - Successfully fetched robots.txt from https://www.svsu.edu/robots.txt
+2024-10-27 19:52:11,649 - INFO - Disallowed paths for domain "www.svsu.edu": /~*, /testingsandbox/
+2024-10-27 19:52:11,848 - INFO - Successfully fetched https://www.svsu.edu/
+2024-10-27 19:52:11,898 - INFO - Word count completed for https://www.svsu.edu/
+2024-10-27 19:52:12,192 - INFO - Successfully fetched robots.txt from https://www.udmercy.edu/robots.txt
+2024-10-27 19:52:12,193 - INFO - Disallowed paths for domain "www.udmercy.edu": /catalog/, */catalog/, /_cms-includes/, /_modules/, /_training/, /_dev/, /_internal/, /*_print.php$, /*_print$
+2024-10-27 19:52:12,337 - INFO - Successfully fetched https://www.udmercy.edu/
+2024-10-27 19:52:12,359 - INFO - Word count completed for https://www.udmercy.edu/
+2024-10-27 19:52:12,517 - INFO - Successfully fetched robots.txt from https://umich.edu/robots.txt
+2024-10-27 19:52:12,518 - INFO - Disallowed paths for domain "umich.edu": /admin/, /announcements/, /pingtest/, /search
+2024-10-27 19:52:12,628 - INFO - Successfully fetched https://umich.edu/
+2024-10-27 19:52:12,648 - INFO - Word count completed for https://umich.edu/
+2024-10-27 19:52:12,759 - INFO - Successfully fetched robots.txt from https://umdearborn.edu/robots.txt
+2024-10-27 19:52:12,759 - INFO - Disallowed paths for domain "umdearborn.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /sites/default/files/unmanaged/grad_tuition_calc/
+2024-10-27 19:52:12,894 - INFO - Successfully fetched https://umdearborn.edu/
+2024-10-27 19:52:12,973 - INFO - Word count completed for https://umdearborn.edu/
+2024-10-27 19:52:13,103 - INFO - Successfully fetched robots.txt from https://www.umflint.edu/robots.txt
+2024-10-27 19:52:13,104 - INFO - Disallowed paths for domain "www.umflint.edu": /wp-admin/
+2024-10-27 19:52:13,218 - INFO - Successfully fetched https://www.umflint.edu/
+2024-10-27 19:52:13,243 - INFO - Word count completed for https://www.umflint.edu/
+2024-10-27 19:52:13,358 - INFO - Successfully fetched robots.txt from https://wayne.edu/robots.txt
+2024-10-27 19:52:13,358 - INFO - Disallowed paths for domain "wayne.edu": /styleguide/
+2024-10-27 19:52:13,715 - INFO - Successfully fetched https://wayne.edu/
+2024-10-27 19:52:13,737 - INFO - Word count completed for https://wayne.edu/
+2024-10-27 19:52:13,910 - INFO - Successfully fetched robots.txt from https://wmich.edu/robots.txt
+2024-10-27 19:52:13,911 - INFO - Disallowed paths for domain "wmich.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed
+2024-10-27 19:52:14,084 - INFO - Successfully fetched https://wmich.edu/
+2024-10-27 19:52:14,123 - INFO - Word count completed for https://wmich.edu/
+2024-10-27 19:52:14,250 - INFO - Successfully fetched robots.txt from https://www.wccnet.edu/robots.txt
+2024-10-27 19:52:14,250 - INFO - Disallowed paths for domain "www.wccnet.edu": /_showcase/, /_qa/, /_uat/, /_training/, /test/, */_props.html$, /directory/williams-katie.php, /_archive/, /news/2015/2015-06-19-how-much-will-you-save.php, /analytics.php, /ou-alerts/
+2024-10-27 19:52:14,362 - INFO - Successfully fetched https://www.wccnet.edu/
+2024-10-27 19:52:14,384 - INFO - Word count completed for https://www.wccnet.edu/
+2024-10-27 19:52:14,746 - INFO - Successfully fetched robots.txt from https://www.briarcliff.edu/robots.txt
+2024-10-27 19:52:14,746 - INFO - Disallowed paths for domain "www.briarcliff.edu": None
+2024-10-27 19:52:15,503 - INFO - Successfully fetched https://www.briarcliff.edu/
+2024-10-27 19:52:15,557 - INFO - Word count completed for https://www.briarcliff.edu/
+2024-10-27 19:52:16,113 - INFO - Successfully fetched robots.txt from https://www.central.edu/robots.txt
+2024-10-27 19:52:16,114 - INFO - Disallowed paths for domain "www.central.edu": /wp-admin/
+2024-10-27 19:52:16,586 - INFO - Successfully fetched https://www.central.edu/
+2024-10-27 19:52:16,612 - INFO - Word count completed for https://www.central.edu/
+2024-10-27 19:52:16,853 - WARNING - Failed to fetch https://www.coe.edu/robots.txt, trying next protocol...
+2024-10-27 19:52:17,030 - WARNING - Failed to fetch http://www.coe.edu/robots.txt, trying next protocol...
+2024-10-27 19:52:17,030 - WARNING - Failed to fetch robots.txt for domain www.coe.edu using both HTTP and HTTPS.
+2024-10-27 19:52:17,030 - WARNING - No robots.txt found for www.coe.edu, assuming no restrictions.
+2024-10-27 19:52:17,111 - ERROR - Error fetching https://www.coe.edu/: HTTPSConnectionPool(host='www.coe.edu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2024-10-27 19:52:17,309 - INFO - Successfully fetched robots.txt from https://www.cornellcollege.edu/robots.txt
+2024-10-27 19:52:17,309 - INFO - Disallowed paths for domain "www.cornellcollege.edu": None
+2024-10-27 19:52:17,419 - INFO - Successfully fetched https://www.cornellcollege.edu/
+2024-10-27 19:52:17,419 - INFO - Word count completed for https://www.cornellcollege.edu/
+2024-10-27 19:52:17,796 - INFO - Successfully fetched robots.txt from https://www.dmacc.edu/robots.txt
+2024-10-27 19:52:17,796 - INFO - Disallowed paths for domain "www.dmacc.edu": /_qa/, /_resources/, /_showcase/, /_testing/
+2024-10-27 19:52:18,033 - INFO - Successfully fetched https://www.dmacc.edu/
+2024-10-27 19:52:18,055 - INFO - Word count completed for https://www.dmacc.edu/
+2024-10-27 19:52:18,634 - INFO - Successfully fetched robots.txt from https://www.dordt.edu/robots.txt
+2024-10-27 19:52:18,635 - INFO - Disallowed paths for domain "www.dordt.edu": /cpresources/, /vendor/, /.env
+2024-10-27 19:52:18,746 - INFO - Successfully fetched https://www.dordt.edu/
+2024-10-27 19:52:18,792 - INFO - Word count completed for https://www.dordt.edu/
+2024-10-27 19:52:19,076 - WARNING - Failed to fetch https://www.graceland.edu/robots.txt, trying next protocol...
+2024-10-27 19:52:19,186 - WARNING - Failed to fetch http://www.graceland.edu/robots.txt, trying next protocol...
+2024-10-27 19:52:19,186 - WARNING - Failed to fetch robots.txt for domain www.graceland.edu using both HTTP and HTTPS.
+2024-10-27 19:52:19,187 - WARNING - No robots.txt found for www.graceland.edu, assuming no restrictions.
+2024-10-27 19:52:19,479 - INFO - Successfully fetched https://www.graceland.edu/
+2024-10-27 19:52:19,557 - INFO - Word count completed for https://www.graceland.edu/
+2024-10-27 19:52:19,956 - INFO - Successfully fetched robots.txt from https://www.grandview.edu/robots.txt
+2024-10-27 19:52:19,956 - INFO - Disallowed paths for domain "www.grandview.edu": None
+2024-10-27 19:52:21,806 - INFO - Successfully fetched https://www.grandview.edu/
+2024-10-27 19:52:21,886 - INFO - Word count completed for https://www.grandview.edu/
+2024-10-27 19:52:22,330 - INFO - Successfully fetched robots.txt from https://www.iowacentral.edu/robots.txt
+2024-10-27 19:52:22,331 - INFO - Disallowed paths for domain "www.iowacentral.edu": None
+2024-10-27 19:52:22,629 - INFO - Successfully fetched https://www.iowacentral.edu/
+2024-10-27 19:52:22,653 - INFO - Word count completed for https://www.iowacentral.edu/
+2024-10-27 19:52:22,867 - INFO - Successfully fetched robots.txt from https://www.iastate.edu/robots.txt
+2024-10-27 19:52:22,868 - INFO - Disallowed paths for domain "www.iastate.edu": /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed
+2024-10-27 19:52:22,986 - INFO - Successfully fetched https://www.iastate.edu/
+2024-10-27 19:52:23,079 - INFO - Word count completed for https://www.iastate.edu/
+2024-10-27 19:52:24,024 - INFO - Successfully fetched robots.txt from https://www.loras.edu/robots.txt
+2024-10-27 19:52:24,025 - INFO - Disallowed paths for domain "www.loras.edu": /wp-admin/, /wp-content/uploads/wpo/wpo-plugins-tables-list.json
+2024-10-27 19:52:24,547 - INFO - Successfully fetched https://www.loras.edu/
+2024-10-27 19:52:24,580 - INFO - Word count completed for https://www.loras.edu/
+2024-10-27 19:52:25,070 - INFO - Successfully fetched robots.txt from https://www.mtmercy.edu/robots.txt
+2024-10-27 19:52:25,070 - INFO - Disallowed paths for domain "www.mtmercy.edu": None
+2024-10-27 19:52:25,379 - INFO - Successfully fetched https://www.mtmercy.edu/
+2024-10-27 19:52:25,402 - INFO - Word count completed for https://www.mtmercy.edu/
+2024-10-27 19:52:25,507 - INFO - Successfully fetched robots.txt from https://www.niacc.edu/robots.txt
+2024-10-27 19:52:25,507 - INFO - Disallowed paths for domain "www.niacc.edu": 
+2024-10-27 19:52:25,507 - INFO - Skipping https://www.niacc.edu/ due to disallowed path.
+2024-10-27 19:52:25,625 - INFO - Successfully fetched robots.txt from https://www.simpson.edu/robots.txt
+2024-10-27 19:52:25,626 - INFO - Disallowed paths for domain "www.simpson.edu": /wp/wp-admin/
+2024-10-27 19:52:25,754 - INFO - Successfully fetched https://www.simpson.edu/
+2024-10-27 19:52:25,782 - INFO - Word count completed for https://www.simpson.edu/
+2024-10-27 19:52:26,031 - INFO - Successfully fetched robots.txt from https://uiowa.edu/robots.txt
+2024-10-27 19:52:26,032 - INFO - Disallowed paths for domain "uiowa.edu": /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /saml/login
+2024-10-27 19:52:26,246 - INFO - Successfully fetched https://uiowa.edu/
+2024-10-27 19:52:26,272 - INFO - Word count completed for https://uiowa.edu/
+2024-10-27 19:52:26,950 - INFO - Successfully fetched robots.txt from https://www.uni.edu/robots.txt
+2024-10-27 19:52:26,954 - INFO - Disallowed paths for domain "www.uni.edu": /*/core/, /*/profiles/, /404Error, /redirectstub, /archive, /temp, /*/README.txt, /*/web.config, /*/admin/, /*/comment/reply/, /*/filter/tips, /*/node/add/, /*/search/, /*/user/register, /*/user/password, /*/user/login, /*/user/logout, /*/media/oembed, /*/*/media/oembed, /*/index.php/admin/, /*/index.php/comment/reply/, /*/index.php/filter/tips, /*/index.php/node/add/, /*/index.php/search/, /*/index.php/user/password, /*/index.php/user/register, /*/index.php/user/login, /*/index.php/user/logout, /*/index.php/media/oembed, /*/index.php/*/media/oembed
+2024-10-27 19:52:27,255 - INFO - Successfully fetched https://www.uni.edu/
+2024-10-27 19:52:27,363 - INFO - Word count completed for https://www.uni.edu/
+2024-10-27 19:52:27,709 - INFO - Successfully fetched robots.txt from https://www.witcc.edu/robots.txt
+2024-10-27 19:52:27,710 - INFO - Disallowed paths for domain "www.witcc.edu": /admin/, /core/, /modules/, /config/, /themes/, /plugins/
+2024-10-27 19:52:28,288 - INFO - Successfully fetched https://www.witcc.edu/
+2024-10-27 19:52:28,304 - INFO - Word count completed for https://www.witcc.edu/
+2024-10-27 19:52:28,307 - INFO - [============================================] UPDATE
+2024-10-27 19:52:28,376 - INFO - Data saved to `data/output/20241027-1952-word-data.csv`
+2024-10-27 19:52:28,381 - INFO - Site data saved to `data/output/20241027-1952-site-data.csv`
+2024-10-27 19:52:28,381 - INFO - [============================================] TERMINATING
