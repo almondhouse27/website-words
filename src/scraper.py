@@ -27,13 +27,13 @@ log.basicConfig(
 
 ###--------------------------------->>>>>>>
 #
-def scrapeWebsite(url):
+def scrapeWebsite(website):
 
     try:
         # send an HTTP request to the provided URL with specified headers
-        response = requests.get(url, headers=HEADERS)
+        response = requests.get(website, headers=HEADERS)
         response.raise_for_status()
-        log.info(f"Successfully fetched {url}")
+        log.info(f'Successfully fetched {website}')
 
         # parse the HTML content response
         soup = BeautifulSoup(response.text, 'lxml')
@@ -45,7 +45,7 @@ def scrapeWebsite(url):
         for word in text_content.split():
             word = word.lower().strip('.,!?')
             word_count[word] = word_count.get(word, 0) + 1
-        log.info(f"Word count completed for {url}")
+        log.info(f'Word count completed for {website}')
 
         # extract site details (for -> site-data.csv)
         image_count = len(soup.find_all('img'))
@@ -82,7 +82,7 @@ def scrapeWebsite(url):
     
     # handle and log request errors if any
     except requests.exceptions.RequestException as e:
-        log.error(f"Error fetching {url}: {e}")
+        log.error(f'Error fetching {website}: {e}')
         return None
     
 
@@ -94,31 +94,38 @@ def executeWebsiteWords():
         # installs project dependencies, ensures data directory and its contents exists
         setupProjectStructure(LOG_FILE, INPUT_FILE, BACKUP_FILE, DIRECTORIES)
 
-        log.info("[============================================] EXECUTING")
-
         # reads URLs from data/input/url-list.csv 
         urls_to_scrape = readDataInput()
         all_word_data = {}
         all_site_data = {}
 
         # reads site's robots.txt file and returns a disallowed paths list
-        for institution, url in urls_to_scrape.items():
-            disallowed_paths = robots.checkPermissions(url)
+        for website, details in urls_to_scrape.items():
+            log.info(f"Details for website {website}: {details}")
+            institution = details['Institution']
+            category = details['Category']
+            state = details['State']
+            city = details['City']
+            disallowed_paths = robots.checkPermissions(website)
 
             # uses 'continue' to loop-skip scrapeWebsite() according to site's robots.txt file permissions
-            if any(disallowed_path in url for disallowed_path in disallowed_paths):
-                log.info(f"Skipping {url} due to disallowed path.")
+            if any(disallowed_path in website for disallowed_path in disallowed_paths):
+                log.info(f'Skipping {website} due to disallowed path.')
                 continue
 
             # takes in a URL, sends a request, parses and assembles the response into appropriate data dictionary
-            scraped_data = scrapeWebsite(url)
+            scraped_data = scrapeWebsite(website)
 
             # splits scraped_data dictionary of dictionaries into two seperate dictionaries for writing output files
             if scraped_data:
-                all_word_data[institution] = scraped_data['words']
-                all_site_data[institution] = scraped_data['site']
-
-        log.info("[============================================] WRITING")
+                all_word_data[website] = scraped_data['words']
+                all_site_data[website] = {
+                    'Category': category,
+                    'State': state,
+                    'City': city,
+                    'Institution': institution,
+                    **scraped_data['site']
+                }
 
         # writes word-data.csv and site-data.csv data output files
         writeWordData(all_word_data)
@@ -128,14 +135,11 @@ def executeWebsiteWords():
             'data/output/*-site-data.csv'
         )
 
-        log.info("[============================================] TERMINATING")
-
         # converts logs/scraper.log to log-data.csv data output file
         executeLogParser(LOG_FILE, LOG_OUTPUT)
     
     except Exception as e:
-        log.error("[============================================] FAILURE")
-        log.error(f"An error occurred during execution: {e}")
+        log.error(f'An error occurred during execution: {e}')
 
 
 ###--------------------------------->>>>>>>

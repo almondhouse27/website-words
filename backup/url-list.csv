@@ -1,102 +1,23 @@
-Institution,Website
-Fox Valley Technical College,https://fvtc.edu/
-Northeast Wisconsin Technical College,https://www.nwtc.edu/
-Moraine Park Technical College,https://www.morainepark.edu/
-Lakeshore Technical College,https://gotoltc.edu/
-Madison College,https://madisoncollege.edu/
-Mid-State Technical College,https://www.mstc.edu/
-Milwaukee Area Technical College,https://www.matc.edu/
-Northcentral Technical College,https://www.ntc.edu/
-Waukesha County Technical College,https://www.wctc.edu/
-Gateway Technical College,https://www.gtc.edu/
-Western Technical College,https://www.westerntc.edu/
-University of Wisconsin-Madison,https://www.wisc.edu/
-University of Wisconsin-Milwaukee,https://www.uwm.edu/
-University of Wisconsin-Eau Claire,https://www.uwec.edu/
-University of Wisconsin-Green Bay,https://www.uwgb.edu/
-University of Wisconsin-La Crosse,https://www.uwlax.edu/
-University of Wisconsin-Oshkosh,https://www.uwosh.edu/
-University of Wisconsin-Parkside,https://www.uwp.edu/
-University of Wisconsin-Platteville,https://www.uwplatt.edu/
-University of Wisconsin-River Falls,https://www.uwrf.edu/
-University of Wisconsin-Stevens Point,https://www.uwsp.edu/
-University of Wisconsin-Stout,https://www.uwstout.edu/
-Anoka-Ramsey Community College,https://www.anokaramsey.edu/
-Bemidji State University,https://www.bemidjistate.edu/
-Central Lakes College,https://www.clcmn.edu/
-Concordia College,https://www.concordiacollege.edu/
-Gustavus Adolphus College,https://gustavus.edu/
-Hamline University,https://www.hamline.edu/
-Hennepin Technical College,https://www.hennepintech.edu/
-Minnesota State University-Mankato,https://mnsu.edu/
-Minnesota State University-Moorhead,https://www.mnstate.edu/
-Normandale Community College,https://www.normandale.edu/
-North Hennepin Community College,https://www.nhcc.edu/
-Saint Cloud State University,https://www.stcloudstate.edu/
-Saint John's University,https://www.csbsju.edu/
-Saint Mary's University of Minnesota,https://www.smumn.edu/
-Southwest Minnesota State University,https://www.smsu.edu/
-University of Minnesota-Crookston,https://www.crk.umn.edu/
-University of Minnesota-Duluth,https://www.d.umn.edu/
-University of Minnesota-Morris,https://www.morris.umn.edu/
-University of Minnesota-Rochester,https://r.umn.edu/
-University of Minnesota-Twin Cities,https://twin-cities.umn.edu/
-Winona State University,https://www.winona.edu/
-City Colleges of Chicago,https://www.ccc.edu/
-College of DuPage,https://www.cod.edu/
-DePaul University,https://www.depaul.edu/
-Eastern Illinois University,https://www.eiu.edu/
-Elgin Community College,https://elgin.edu/
-Illinois Institute of Technology,https://www.iit.edu/
-Illinois State University,https://illinoisstate.edu/
-Loyola University Chicago,https://www.luc.edu/
-McHenry County College,https://www.mchenry.edu/
-Northern Illinois University,https://www.niu.edu/
-Northeastern Illinois University,https://www.neiu.edu/
-Northwestern University,https://www.northwestern.edu/
-Oakton Community College,https://www.oakton.edu/
-Rock Valley College,https://www.rockvalleycollege.edu/
-Southern Illinois University-Carbondale,https://www.siuc.edu/
-Southern Illinois University-Edwardsville,https://www.siue.edu/
-University of Chicago,https://www.uchicago.edu/
-University of Illinois at Chicago,https://www.uic.edu/
-University of Illinois Urbana-Champaign,https://illinois.edu/
-University of Illinois-Springfield,https://www.uis.edu/
-Western Illinois University,https://www.wiu.edu/
-Central Michigan University,https://www.cmich.edu/
-Eastern Michigan University,https://www.emich.edu/
-Ferris State University,https://www.ferris.edu/
-Grand Valley State University,https://www.gvsu.edu/
-Kalamazoo College,https://www.kzoo.edu/
-Kellogg Community College,https://www.kellogg.edu/
-Lake Superior State University,https://www.lssu.edu/
-Lawrence Technological University,https://www.ltu.edu/
-Michigan State University,https://www.msu.edu/
-Michigan Technological University,https://www.mtu.edu/
-Northern Michigan University,https://www.nmu.edu/
-Oakland University,https://www.oakland.edu/
-Saginaw Valley State University,https://www.svsu.edu/
-University of Detroit Mercy,https://www.udmercy.edu/
-University of Michigan-Ann Arbor,https://umich.edu/
-University of Michigan-Dearborn,https://umdearborn.edu/
-University of Michigan-Flint,https://www.umflint.edu/
-Wayne State University,https://wayne.edu/
-Western Michigan University,https://wmich.edu/
-Washtenaw Community College,https://www.wccnet.edu/
-Briar Cliff University,https://www.briarcliff.edu/
-Central College,https://www.central.edu/
-Coe College,https://www.coe.edu/
-Cornell College,https://www.cornellcollege.edu/
-Des Moines Area Community College,https://www.dmacc.edu/
-Dordt University,https://www.dordt.edu/
-Graceland University,https://www.graceland.edu/
-Grand View University,https://www.grandview.edu/
-Iowa Central Community College,https://www.iowacentral.edu/
-Iowa State University,https://www.iastate.edu/
-Loras College,https://www.loras.edu/
-Mount Mercy University,https://www.mtmercy.edu/
-North Iowa Area Community College,https://www.niacc.edu/
-Simpson College,https://www.simpson.edu/
-University of Iowa,https://uiowa.edu/
-University of Northern Iowa,https://www.uni.edu/
-Western Iowa Tech Community College,https://www.witcc.edu/
+Category,State,City,Institution,Website
+College,WI,Appleton,Fox Valley Technical College,https://fvtc.edu/
+College,WI,Green Bay,Northeast Wisconsin Technical College,https://www.nwtc.edu/
+College,WI,West Bend,Moraine Park Technical College,https://www.morainepark.edu/
+College,WI,Cleveland,Lakeshore Technical College,https://gotoltc.edu/
+College,WI,Madison,Madison College,https://madisoncollege.edu/
+College,WI,Stevens Point,Mid-State Technical College,https://www.mstc.edu/
+College,WI,Milwaukee,Milwaukee Area Technical College,https://www.matc.edu/
+College,WI,Wausau,Northcentral Technical College,https://www.ntc.edu/
+College,WI,Waukesha,Waukesha County Technical College,https://www.wctc.edu/
+College,WI,Kenosha,Gateway Technical College,https://www.gtc.edu/
+College,WI,La Crosse,Western Technical College,https://www.westerntc.edu/
+College,WI,Madison,University of Wisconsin-Madison,https://www.wisc.edu/
+College,WI,Milwaukee,University of Wisconsin-Milwaukee,https://www.uwm.edu/
+College,WI,Eau Claire,University of Wisconsin-Eau Claire,https://www.uwec.edu/
+College,WI,Green Bay,University of Wisconsin-Green Bay,https://www.uwgb.edu/
+College,WI,La Crosse,University of Wisconsin-La Crosse,https://www.uwlax.edu/
+College,WI,Oshkosh,University of Wisconsin-Oshkosh,https://www.uwosh.edu/
+College,WI,Kenosha,University of Wisconsin-Parkside,https://www.uwp.edu/
+College,WI,Platteville,University of Wisconsin-Platteville,https://www.uwplatt.edu/
+College,WI,River Falls,University of Wisconsin-River Falls,https://www.uwrf.edu/
+College,WI,Stevens Point,University of Wisconsin-Stevens Point,https://www.uwsp.edu/
+College,WI,Menomonie,University of Wisconsin-Stout,https://www.uwstout.edu/

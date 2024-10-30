@@ -15,37 +15,37 @@ def setupProjectStructure(LOG_FILE, INPUT_FILE, BACKUP_FILE, DIRECTORIES):
     try:
         with open(log_file, 'w'):
             pass
-        log.info("[============================================] INITIALIZING")
-        log.info(f"U- Cleared contents of log file: {log_file}")
+
+        log.info(f'U- Cleared contents of log file: {log_file}')
 
     except Exception as e:
-        print(f"U- Failed to clear log file: {e}")
+        print(f'U- Failed to clear log file: {e}')
 
     try:
         subprocess.check_call([os.sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'])
-        log.info("U- All requirements installed successfully.")
+        log.info('U- All requirements installed successfully.')
 
     except subprocess.CalledProcessError as e:
-        log.error(f"U- Error installing requirements: {e}")
+        log.error(f'U- Error installing requirements: {e}')
         
     except Exception as e:
-        log.error(f"U- Unexpected error during installation: {e}")
+        log.error(f'U- Unexpected error during installation: {e}')
 
     if not os.path.exists(BACKUP_FILE):
-        log.error(f"U- Backup file `{BACKUP_FILE}` is missing. Please clone a fresh copy of `almondhousepublishing27/website-words`.")
+        log.error(f'U- Backup file `{BACKUP_FILE}` is missing. Please clone a fresh copy of `almondhousepublishing27/website-words`.')
 
     for dir in DIRECTORIES:
 
         if not os.path.exists(dir):
             os.makedirs(dir)
-            log.info(f"U- Created directory: {dir}")
+            log.info(f'U- Created directory: {dir}')
 
     if not os.path.exists(INPUT_FILE):
         shutil.copy(BACKUP_FILE, INPUT_FILE)
-        log.info(f"U- Copied `{BACKUP_FILE}` to `{INPUT_FILE}`")
+        log.info(f'U- Copied `{BACKUP_FILE}` to `{INPUT_FILE}`')
 
     else:
-        log.info(f"U- Backup file `{BACKUP_FILE}` not required.")
+        log.info(f'U- Backup file `{BACKUP_FILE}` not required.')
 
 
 ###--------------------------------->>>>>>>
@@ -57,14 +57,23 @@ def readDataInput(filename='data/input/url-list.csv'):
         with open(filename, mode='r') as file:
             reader = csv.DictReader(file)
 
-            for row in reader:
-                url_list[row['Institution']] = row['Website']
+            # for row in reader:
+            #     url_list[row['Institution']] = row['Website']
 
-        log.info(f"U- URLs loaded from `{filename}`")
+            for row in reader:
+                ##log.info(f"Row data: {row}")
+                url_list[row['Website']] = {
+                    'Category': row['Category'],
+                    'State': row['State'],
+                    'City': row['City'],
+                    'Institution': row['Institution']
+                }
+
+        log.info(f'U- URLs loaded from `{filename}`')
         
     except Exception as e:
-        log.error(f"U- Error loading URLs from `{filename}`: {e}")
-
+        log.error(f'U- Error loading URLs from `{filename}`: {e}')
+    ##log.info(f"url data: {url_list}")
     return url_list
 
 
@@ -80,23 +89,23 @@ def writeWordData(data, filename='data/output/word-data.csv'):
         with open(filename, mode='w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([
-                'Institution',
+                'Website',
                 'Word',
                 'Count'
             ])
 
-            for institution, word_data in data.items():
+            for website, word_data in data.items():
                 for word, count in word_data.items():
                     writer.writerow([
-                        institution,
+                        website,
                         word,
                         count
                     ])
 
-        log.info(f"U- Word-data saved to `{filename}`")
+        log.info(f'U- Word-data saved to `{filename}`')
     
     except Exception as e:
-        log.error(f"U- Error saving word-data to `{filename}`: {e}")
+        log.error(f'U- Error saving word-data to `{filename}`: {e}')
         
 
 ###--------------------------------->>>>>>>
@@ -111,7 +120,11 @@ def writeSiteData(data, filename='data/output/site-data.csv'):
         with open(filename, mode='w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([
+                'Website',
                 'Institution',
+                'Category',
+                'State',
+                'City',
                 'ImageCount',
                 'LinkCount',
                 'FormCount',
@@ -123,9 +136,13 @@ def writeSiteData(data, filename='data/output/site-data.csv'):
                 'Description'
             ])
 
-            for institution, site_data in data.items():
+            for website, site_data in data.items():
                 writer.writerow([
-                    institution,
+                    website,
+                    site_data['Institution'],
+                    site_data['Category'],
+                    site_data['State'],
+                    site_data['City'],
                     site_data['images'],
                     site_data['links'],
                     site_data['forms'],
@@ -137,10 +154,10 @@ def writeSiteData(data, filename='data/output/site-data.csv'):
                     site_data['description'],
                 ])
 
-        log.info(f"U- Site-data saved to `{filename}`")
+        log.info(f'U- Site-data saved to `{filename}`')
 
     except Exception as e:
-        log.error(f"U- Error saving site-data to `{filename}`: {e}")
+        log.error(f'U- Error saving site-data to `{filename}`: {e}')
 
 
 ###--------------------------------->>>>>>>
@@ -155,12 +172,12 @@ def sortDataOutput(word_data_pattern, site_data_pattern):
 
     if latest_word_file:
         word_data = pd.read_csv(latest_word_file)
-        sorted_word_data = word_data.sort_values(by=['Institution', 'Word'])
+        sorted_word_data = word_data.sort_values(by=['Website', 'Word'])
         sorted_word_data.to_csv(latest_word_file, index=False)
-        log.info(f"U- Sorted word-data saved to `{latest_word_file}`")
+        log.info(f'U- Sorted word-data saved to `{latest_word_file}`')
 
     if latest_site_file:
         site_data = pd.read_csv(latest_site_file)
-        sorted_site_data = site_data.sort_values(by=['Institution'])
+        sorted_site_data = site_data.sort_values(by=['Website'])
         sorted_site_data.to_csv(latest_site_file, index=False)
-        log.info(f"U- Sorted site-data saved to `{latest_site_file}`")
+        log.info(f'U- Sorted site-data saved to `{latest_site_file}`')
