@@ -1,0 +1,28 @@
+{
+    "run_time": {
+        "start_time": 1730250819.409049,
+        "end_time": 1730250893.770319,
+        "duration": 74.3612699508667
+    },
+    "data_output": {
+        "log_file": "data/output/20241029-2014-log-data.csv",
+        "site_file": "data/output/20241029-2014-site-data.csv",
+        "word_file": "data/output/20241029-2014-word-data.csv",
+        "log_file_size": 78916,
+        "site_file_size": 14722,
+        "word_file_size": 1392653
+    },
+    "word_metrics": {
+        "total_words": 37124,
+        "unique_words": 9124,
+        "sum_counts": 85984
+    },
+    "log_metrics": {
+        "level_info_count": 385,
+        "level_warning_count": 29,
+        "level_error_count": 4,
+        "robot_log_count": 217,
+        "utility_log_count": 8,
+        "scraper_log_count": 194
+    }
+}

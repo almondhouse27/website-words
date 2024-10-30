@@ -1,9 +1,10 @@
-import diagnostics
 import logging as log
 import requests
 import robots
 from bs4 import BeautifulSoup
+from diagnostics import Diagnostics
 from logparser import executeLogParser
+       
 from utility import \
     setupProjectStructure, \
     readDataInput, \
@@ -25,14 +26,7 @@ log.basicConfig(
 )
 
 ###--------------------------------->>>>>>>
-"""
-METHOD:         scrapeWebsite()
-ARGUMENTS:      url (string)
-RETURNS:        dictionary containing `words` and `site` dictionaries
-LIBRARIES:      requests, loggin, BeautifulSoup, 
-CALLED BY:      execusteWebsiteWords() during for loop
-PURPOSE:        Takes in a url, sends a request, parses the response, and assembles the data.
-"""
+#
 def scrapeWebsite(url):
 
     try:
@@ -93,16 +87,9 @@ def scrapeWebsite(url):
     
 
 ###--------------------------------->>>>>>>
-"""
-METHOD:         executeWebsiteWords()
-ARGUMENTS:      LOG_FILE (string), INPUT_FILE (string), BACKUP_FILE (string), DIRECTORIES (array)
-RETURNS:        none
-LIBRARIES:      logging, robots, utility, logparser
-CALLED BY:      if __name__ == "main" 
-PURPOSE:        Main scipt for Website Words data scraper.
-                Consolidates setup, web scraping, and output file generation into one function call.
-"""
+#
 def executeWebsiteWords():
+
     try:
         # installs project dependencies, ensures data directory and its contents exists
         setupProjectStructure(LOG_FILE, INPUT_FILE, BACKUP_FILE, DIRECTORIES)
@@ -179,5 +166,9 @@ PURPOSE:        Website Words is a web scraper that processes a list of URLs fro
                         log level data, and descriptive statistics of the word-data.csv dataset.
 """
 if __name__ == "__main__":
-
+    runtime = Diagnostics()
+    runtime.start()
     executeWebsiteWords()
+    runtime.end()
+    runtime.summary()
+    
