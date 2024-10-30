@@ -51,12 +51,12 @@ class Diagnostics:
         print('''
     Welcome to Website Words!
 
-        Start Console -----------------------]
-        |  -Require file:   Diagnostics.py   produces diagnostic summary JSON file
-        |  -Require file:   Scraper.py       produces site and word data CSV files
-        |  -Require file:   Utility.py       sets up project structure, reads, writes, sorts
-        |  -Require file:   Robots.py        obtains site permissions for crawling
-        |  -Require file:   Logparser.py     produces log data CSV file
+    Start Console ---------------------------------------------------------------------]
+    |  -Require file:   Diagnostics.py   produces diagnostic summary JSON file
+    |  -Require file:   Scraper.py       produces site and word data CSV files
+    |  -Require file:   Utility.py       sets up project structure, reads, writes, sorts
+    |  -Require file:   Robots.py        obtains site permissions for crawling
+    |  -Require file:   Logparser.py     produces log data CSV file
             
     Running Website Words!
         ''')
@@ -70,11 +70,11 @@ class Diagnostics:
         print('''
     Finishing Website Words!
             
-        End Console -------------------------]
-        |  -Wrote file:   *-word-data.csv
-        |  -Wrote file:   *-site-data.csv
-        |  -Wrote file:   *-log-data.csv
-        |  -Wrote file:   *-diagnostic-summary.csv   
+    End Console -----------------------------------------------------------------------]
+    |  -Wrote file:   *-word-data.csv
+    |  -Wrote file:   *-site-data.csv
+    |  -Wrote file:   *-log-data.csv
+    |  -Writing...    *-diagnostic-summary.json   
             
     Exiting Website Words!
         ''')

@@ -11,16 +11,16 @@ https://r.umn.edu/,University of Minnesota-Rochester,College,MN,Rochester,9,114,
 https://twin-cities.umn.edu/,University of Minnesota-Twin Cities,College,MN,Twin Cities,12,90,2,6,32,,,,"The University of Minnesota, Twin Cities is among the nation’s top public research universities offering a wide range of undergraduate and graduate programs."
 https://uiowa.edu/,University of Iowa,College,IA,Iowa City,11,84,1,27,10,,,,"Join a global community of renowned artists, pioneering scientists, and faculty dedicated to student success at the University of Iowa."
 https://umdearborn.edu/,University of Michigan-Dearborn,College,MI,Dearborn,13,99,3,28,32,,,,
-https://umich.edu/,University of Michigan-Ann Arbor,College,MI,Ann Arbor,38,83,1,7,9,,,,"A top-ranked public university, the University of Michigan has a tradition of excellence in research, learning and teaching, sports and the arts, and more."
-https://wayne.edu/,Wayne State University,College,MI,Detroit,30,99,1,2,1,,,,
+https://umich.edu/,University of Michigan-Ann Arbor,College,MI,Ann Arbor,38,82,1,7,9,,,,"A top-ranked public university, the University of Michigan has a tradition of excellence in research, learning and teaching, sports and the arts, and more."
+https://wayne.edu/,Wayne State University,College,MI,Detroit,30,98,1,2,1,,,,
 https://wmich.edu/,Western Michigan University,College,MI,Kalamazoo,14,82,2,5,7,,,,Western Michigan University is about more than book smarts. It’s about your potential and your pursuit of purpose.
-https://www.anokaramsey.edu/,Anoka-Ramsey Community College,College,MN,Anoka,17,171,1,4,6,,,,Anoka-Ramsey Community College is a multi-campus institution and a member of the Minnesota State Colleges and Universities system.
+https://www.anokaramsey.edu/,Anoka-Ramsey Community College,College,MN,Anoka,17,170,1,4,6,,,,Anoka-Ramsey Community College is a multi-campus institution and a member of the Minnesota State Colleges and Universities system.
 https://www.bemidjistate.edu/,Bemidji State University,College,MN,Bemidji,12,73,2,4,6,,,,Bemidji State University offers an immersive education that goes beyond the classroom. Build your career with our 70+ undergrad programs and 8 grad degrees.
 https://www.briarcliff.edu/,Briar Cliff University,College,IA,Sioux City,1,300,1,4,0,,,Briar Cliff University,"The lifelong learning place, preparing ethical world changers."
-https://www.central.edu/,Central College,College,IA,Pella,6,257,2,9,6,,,,"Central College in Pella, Iowa - Founded in 1853"
+https://www.central.edu/,Central College,College,IA,Pella,6,255,2,9,6,,,,"Central College in Pella, Iowa - Founded in 1853"
 https://www.cmich.edu/,Central Michigan University,College,MI,Mount Pleasant,22,160,1,6,15,,,,"CMU is a public research university in Michigan that offers degree programs in Mount Pleasant, online and locations across North America. Est. 1892."
 https://www.cod.edu/,College of DuPage,College,IL,College of DuPage,28,169,2,5,17,,,,
-https://www.cornellcollege.edu/,Cornell College,College,IA,Mount Vernon,0,0,0,0,0,,,,
+https://www.cornellcollege.edu/,Cornell College,College,IA,Mount Vernon,0,0,0,0,1,,,,
 https://www.crk.umn.edu/,University of Minnesota-Crookston,College,MN,Crookston,13,358,1,4,8,,,,
 https://www.d.umn.edu/,University of Minnesota-Duluth,College,MN,Duluth,17,66,1,3,4,,,,"The University of Minnesota Duluth Homepage: an overview of academic programs, campus life, resources, news and events, with extensive links to other web sites located throughout the University."
 https://www.depaul.edu/,DePaul University,College,IL,Chicago,5,162,1,12,26,,,,
@@ -48,7 +48,7 @@ https://www.mnstate.edu/,Minnesota State University-Moorhead,College,MN,Moorhead
 https://www.morainepark.edu/,Moraine Park Technical College,College,WI,West Bend,39,119,2,18,18,,,,"Whether you’re looking to fulfill childhood career dreams or you’re just starting to explore, Moraine Park provides you with the skills to succeed."
 https://www.morris.umn.edu/,University of Minnesota-Morris,College,MN,Morris,10,226,0,5,8,,,,"We’re a student-centered public university that is proud to feature a liberal arts education. As part of the University of Minnesota System, we have worldwide name recognition, access to state-of-the-art research facilities, and nationally ranked study abroad programs."
 https://www.mstc.edu/,Mid-State Technical College,College,WI,Stevens Point,145,582,2,3,5,,,,
-https://www.msu.edu/,Michigan State University,College,MI,East Lansing,31,245,2,2,16,,,,Spartan excellence and our will to make a difference are making a better tomorrow for all. 
+https://www.msu.edu/,Michigan State University,College,MI,East Lansing,31,245,2,2,17,,,,Spartan excellence and our will to make a difference are making a better tomorrow for all. 
 https://www.mtmercy.edu/,Mount Mercy University,College,IA,Cedar Rapids,10,112,2,7,12,,,,"Our vibrant Catholic, Mercy university focuses on preparing our students to meet the needs of a changing world and live courageous lives. A welcoming, supportive environment empowers every student to realize their full potential."
 https://www.mtu.edu/,Michigan Technological University,College,MI,Houghton,22,231,3,4,4,,,,Michigan Technological University is a flagship public research university founded in 1885. Our campus in Michigan's Upper Peninsula overlooks the Keweenaw Waterway and is just a few miles from Lake Superior. Learn more about our degree programs.
 https://www.neiu.edu/,Northeastern Illinois University,College,IL,Chicago,71,252,0,6,4,,,,Northeastern Illinois University offers undergraduate and graduate programs at various locations in the Chicago area. Find out more now.
@@ -75,8 +75,8 @@ https://www.uni.edu/,University of Northern Iowa,College,IA,Cedar Falls,17,458,2
 https://www.uwec.edu/,University of Wisconsin-Eau Claire,College,WI,Eau Claire,25,102,1,6,10,,,,
 https://www.uwgb.edu/,University of Wisconsin-Green Bay,College,WI,Green Bay,12,309,1,1,6,,,,
 https://www.uwlax.edu/,University of Wisconsin-La Crosse,College,WI,La Crosse,37,199,1,7,8,,,,"Explore UW-La Crosse. UWL is Wisconsin’s top-ranked public university among peers, according to U.S. News & World Report’s Best Colleges list."
-https://www.uwosh.edu/,University of Wisconsin-Oshkosh,College,WI,Oshkosh,5,79,0,13,6,,,,
-https://www.uwp.edu/,University of Wisconsin-Parkside,College,WI,Kenosha,31,243,2,2,7,,,,
+https://www.uwosh.edu/,University of Wisconsin-Oshkosh,College,WI,Oshkosh,6,79,0,13,6,,,,
+https://www.uwp.edu/,University of Wisconsin-Parkside,College,WI,Kenosha,31,241,2,2,7,,,,
 https://www.uwplatt.edu/,University of Wisconsin-Platteville,College,WI,Platteville,14,79,1,6,8,,,,The University of Wisconsin-Platteville is committed to being the top university in Wisconsin and beyond. Click here to learn more about us.
 https://www.uwrf.edu/,University of Wisconsin-River Falls,College,WI,River Falls,19,195,1,6,5,,,,
 https://www.uwsp.edu/,University of Wisconsin-Stevens Point,College,WI,Stevens Point,21,188,0,7,13,,,,UW-Stevens Point empowers students to discover their purpose at a price that is affordable. Take the next steps to apply today.

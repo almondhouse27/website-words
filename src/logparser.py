@@ -10,6 +10,7 @@ def executeLogParser(LOG_FILE, LOG_OUTPUT):
     log_data = parseScraperLog(log_lines)
     logToCsv(log_data, LOG_OUTPUT)
     
+    
 ###--------------------------------->>>>>>>
 # reads the contents of the scraper.log file and returns the lines
 def readScraperLog(LOG_FILE):
@@ -17,6 +18,7 @@ def readScraperLog(LOG_FILE):
     with open(LOG_FILE, 'r') as file:
         return file.readlines()
     
+
 ###--------------------------------->>>>>>>
 # parses log lines into structured data with timestamps, log levels, and messages
 def parseScraperLog(log_lines):
@@ -36,6 +38,7 @@ def parseScraperLog(log_lines):
             })
 
     return log_data
+
 
 ###--------------------------------->>>>>>>
 # writes parsed log data into a CSV file with a timestamped filename

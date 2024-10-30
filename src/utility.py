@@ -16,24 +16,48 @@ def setupProjectStructure(LOG_FILE, INPUT_FILE, BACKUP_FILE, DIRECTORIES):
         with open(log_file, 'w'):
             pass
 
-        log.info(f'U- Cleared contents of log file: {log_file}')
+        log.info(f'U- Refreshed contents of log file for this runtime: {log_file}')
 
     except Exception as e:
         print(f'U- Failed to clear log file: {e}')
 
+    # try:
+    #     with open(os.devnull, 'w') as devnull:
+    #         subprocess.check_call([
+    #                 os.sys.executable,
+    #                 '-m', 'pip', 'install', '-r', 'requirements.txt'],
+    #                 stdout=devnull,
+    #                 stderr=devnull
+    #         )
     try:
-        subprocess.check_call([os.sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'])
-        log.info('U- All requirements installed successfully.')
+        result = subprocess.run(
+            [os.sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            check=True
+        )
 
+        if result.stdout:
+            log.info(f'U- Successfully installed dependencies, check scraper.log for details: \n{result.stdout}')
+            print('Successfully installed dependencies, for details check: logs/scraper.log')
+
+        if result.stderr:
+            log.error(f'U- Error during installation, check scraper.log for details: \n{result.stderr}')
+            print('Error during installation, for details check: logs/scraper.log ')
+            
     except subprocess.CalledProcessError as e:
         log.error(f'U- Error installing requirements: {e}')
+        print('Error installing requirements, for details check: logs/scraper.log')
         
     except Exception as e:
         log.error(f'U- Unexpected error during installation: {e}')
+        print('Unexpected error during installation, for details check: logs/scraper.log')
 
     if not os.path.exists(BACKUP_FILE):
-        log.error(f'U- Backup file `{BACKUP_FILE}` is missing. Please clone a fresh copy of `almondhousepublishing27/website-words`.')
-
+        log.error(f'U- Backup file `{BACKUP_FILE}` is missing, please clone a fresh copy of `almondhousepublishing27/website-words`.')
+        print(f'U- Backup file `{BACKUP_FILE}` is missing, please clone a fresh copy of `almondhousepublishing27/website-words`.')
+    
     for dir in DIRECTORIES:
 
         if not os.path.exists(dir):

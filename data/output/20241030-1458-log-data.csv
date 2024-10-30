@@ -1,0 +1,609 @@
+Timestamp,LogLevel,Message
+"2024-10-30 14:56:44,822",INFO,U- Refreshed contents of log file for this runtime: logs/scraper.log
+"2024-10-30 14:56:46,079",INFO,"U- Successfully installed dependencies, check scraper.log for details:"
+"2024-10-30 14:56:46,080",ERROR,"U- Error during installation, check scraper.log for details:"
+"2024-10-30 14:56:46,080",INFO,U- Backup file `backup/input/url-list.csv` not required.
+"2024-10-30 14:56:46,081",INFO,U- URLs loaded from `data/input/url-list.csv`
+"2024-10-30 14:56:46,081",INFO,"Details for website https://fvtc.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Appleton', 'Institution': 'Fox Valley Technical College'}"
+"2024-10-30 14:56:46,316",INFO,R- Successfully read robots.txt from https://fvtc.edu/robots.txt
+"2024-10-30 14:56:46,317",INFO,"R- Disallowed paths for domain fvtc.edu: /date/, /default.aspx?, /ev/, login?, /PID/, /rss/, /tabid/, /tag/, register?, sendpassword?, /category/, /acat/, /pager/, /Admin/, /App_Browser/, /App_Code/, /App_Data/, /App_GlobalResources/, /bin/, /Components/, /Config/, /Controls/, /Documentation/, /Install/, /Providers/, /global-education/tag/, *captcha* # remove captcha images that resolve as pages, *LinkClick.aspx"
+"2024-10-30 14:56:46,317",INFO,Sending HTTP request to https://fvtc.edu/
+"2024-10-30 14:56:46,898",INFO,Successfully fetched https://fvtc.edu/
+"2024-10-30 14:56:46,946",INFO,Word count completed for https://fvtc.edu/
+"2024-10-30 14:56:46,959",INFO,"Details for website https://www.nwtc.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Green Bay', 'Institution': 'Northeast Wisconsin Technical College'}"
+"2024-10-30 14:56:47,221",INFO,R- Successfully read robots.txt from https://www.nwtc.edu/robots.txt
+"2024-10-30 14:56:47,222",INFO,"R- Disallowed paths for domain www.nwtc.edu: /File, /Hidden, /admin, /academics-and-training/tuition-and-fees"
+"2024-10-30 14:56:47,222",INFO,Sending HTTP request to https://www.nwtc.edu/
+"2024-10-30 14:56:47,662",INFO,Successfully fetched https://www.nwtc.edu/
+"2024-10-30 14:56:47,719",INFO,Word count completed for https://www.nwtc.edu/
+"2024-10-30 14:56:47,734",INFO,"Details for website https://www.morainepark.edu/: {'Category': 'College', 'State': 'WI', 'City': 'West Bend', 'Institution': 'Moraine Park Technical College'}"
+"2024-10-30 14:56:47,967",INFO,R- Successfully read robots.txt from https://www.morainepark.edu/robots.txt
+"2024-10-30 14:56:47,967",INFO,"R- Disallowed paths for domain www.morainepark.edu: /wp-admin/, /*?school-year-override*"
+"2024-10-30 14:56:47,967",INFO,Sending HTTP request to https://www.morainepark.edu/
+"2024-10-30 14:56:48,783",INFO,Successfully fetched https://www.morainepark.edu/
+"2024-10-30 14:56:48,816",INFO,Word count completed for https://www.morainepark.edu/
+"2024-10-30 14:56:48,822",INFO,"Details for website https://gotoltc.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Cleveland', 'Institution': 'Lakeshore Technical College'}"
+"2024-10-30 14:56:49,220",INFO,R- Successfully read robots.txt from https://gotoltc.edu/robots.txt
+"2024-10-30 14:56:49,221",INFO,"R- Disallowed paths for domain gotoltc.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed"
+"2024-10-30 14:56:49,221",INFO,Sending HTTP request to https://gotoltc.edu/
+"2024-10-30 14:56:49,440",INFO,Successfully fetched https://gotoltc.edu/
+"2024-10-30 14:56:49,535",INFO,Word count completed for https://gotoltc.edu/
+"2024-10-30 14:56:49,555",INFO,"Details for website https://madisoncollege.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Madison', 'Institution': 'Madison College'}"
+"2024-10-30 14:56:49,828",INFO,R- Successfully read robots.txt from https://madisoncollege.edu/robots.txt
+"2024-10-30 14:56:49,828",INFO,"R- Disallowed paths for domain madisoncollege.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /taxonomy/, /csvtable/, /help-widget/, /contact-widget/, /cta-widget/, /*?*"
+"2024-10-30 14:56:49,829",INFO,Sending HTTP request to https://madisoncollege.edu/
+"2024-10-30 14:56:50,053",INFO,Successfully fetched https://madisoncollege.edu/
+"2024-10-30 14:56:50,092",INFO,Word count completed for https://madisoncollege.edu/
+"2024-10-30 14:56:50,099",INFO,"Details for website https://www.mstc.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Stevens Point', 'Institution': 'Mid-State Technical College'}"
+"2024-10-30 14:56:50,181",INFO,R- Successfully read robots.txt from https://www.mstc.edu/robots.txt
+"2024-10-30 14:56:50,182",INFO,"R- Disallowed paths for domain www.mstc.edu: /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/"
+"2024-10-30 14:56:50,182",INFO,Sending HTTP request to https://www.mstc.edu/
+"2024-10-30 14:56:50,317",INFO,Successfully fetched https://www.mstc.edu/
+"2024-10-30 14:56:50,401",INFO,Word count completed for https://www.mstc.edu/
+"2024-10-30 14:56:50,417",INFO,"Details for website https://www.matc.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Milwaukee', 'Institution': 'Milwaukee Area Technical College'}"
+"2024-10-30 14:56:50,726",INFO,R- Successfully read robots.txt from https://www.matc.edu/robots.txt
+"2024-10-30 14:56:50,726",INFO,R- Disallowed paths for domain www.matc.edu:
+"2024-10-30 14:56:50,726",INFO,Skipping https://www.matc.edu/ due to disallowed path.
+"2024-10-30 14:56:50,726",INFO,"Details for website https://www.ntc.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Wausau', 'Institution': 'Northcentral Technical College'}"
+"2024-10-30 14:56:50,850",INFO,R- Successfully read robots.txt from https://www.ntc.edu/robots.txt
+"2024-10-30 14:56:50,851",INFO,"R- Disallowed paths for domain www.ntc.edu: /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /class-cart/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/, /index.php/class-cart/"
+"2024-10-30 14:56:50,851",INFO,Sending HTTP request to https://www.ntc.edu/
+"2024-10-30 14:56:50,948",INFO,Successfully fetched https://www.ntc.edu/
+"2024-10-30 14:56:50,976",INFO,Word count completed for https://www.ntc.edu/
+"2024-10-30 14:56:50,981",INFO,"Details for website https://www.wctc.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Waukesha', 'Institution': 'Waukesha County Technical College'}"
+"2024-10-30 14:56:51,210",INFO,R- Successfully read robots.txt from https://www.wctc.edu/robots.txt
+"2024-10-30 14:56:51,211",INFO,"R- Disallowed paths for domain www.wctc.edu: /Views/Display/Blocks, /*?*PrintPage=yes*"
+"2024-10-30 14:56:51,211",INFO,Sending HTTP request to https://www.wctc.edu/
+"2024-10-30 14:56:51,652",INFO,Successfully fetched https://www.wctc.edu/
+"2024-10-30 14:56:51,718",INFO,Word count completed for https://www.wctc.edu/
+"2024-10-30 14:56:51,726",INFO,"Details for website https://www.gtc.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Kenosha', 'Institution': 'Gateway Technical College'}"
+"2024-10-30 14:56:52,015",INFO,R- Successfully read robots.txt from https://www.gtc.edu/robots.txt
+"2024-10-30 14:56:52,016",INFO,"R- Disallowed paths for domain www.gtc.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /sites/default/files/files/user*/, /sites/default/files/articles/, /intranet/, /landing/, /webform/adword-form/, /directory-entry/, /i-choose-gateway/feature/, /transfer-agreement-entry/, /happening/, /additional-information-collection/"
+"2024-10-30 14:56:52,018",INFO,Sending HTTP request to https://www.gtc.edu/
+"2024-10-30 14:56:52,455",INFO,Successfully fetched https://www.gtc.edu/
+"2024-10-30 14:56:52,501",INFO,Word count completed for https://www.gtc.edu/
+"2024-10-30 14:56:52,511",INFO,"Details for website https://www.westerntc.edu/: {'Category': 'College', 'State': 'WI', 'City': 'La Crosse', 'Institution': 'Western Technical College'}"
+"2024-10-30 14:56:52,800",INFO,R- Successfully read robots.txt from https://www.westerntc.edu/robots.txt
+"2024-10-30 14:56:52,801",INFO,"R- Disallowed paths for domain www.westerntc.edu: /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/"
+"2024-10-30 14:56:52,801",INFO,Sending HTTP request to https://www.westerntc.edu/
+"2024-10-30 14:56:52,970",INFO,Successfully fetched https://www.westerntc.edu/
+"2024-10-30 14:56:53,013",INFO,Word count completed for https://www.westerntc.edu/
+"2024-10-30 14:56:53,021",INFO,"Details for website https://www.wisc.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Madison', 'Institution': 'University of Wisconsin-Madison'}"
+"2024-10-30 14:56:53,378",INFO,R- Successfully read robots.txt from https://www.wisc.edu/robots.txt
+"2024-10-30 14:56:53,379",INFO,R- Disallowed paths for domain www.wisc.edu: None
+"2024-10-30 14:56:53,380",INFO,Sending HTTP request to https://www.wisc.edu/
+"2024-10-30 14:56:53,569",INFO,Successfully fetched https://www.wisc.edu/
+"2024-10-30 14:56:53,583",INFO,Word count completed for https://www.wisc.edu/
+"2024-10-30 14:56:53,586",INFO,"Details for website https://www.uwm.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Milwaukee', 'Institution': 'University of Wisconsin-Milwaukee'}"
+"2024-10-30 14:56:53,789",WARNING,"R- Failed to find https://www.uwm.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:56:54,194",INFO,R- Successfully read robots.txt from http://www.uwm.edu/robots.txt
+"2024-10-30 14:56:54,194",INFO,"R- Disallowed paths for domain www.uwm.edu: /languages/alum-feature-on-ryan-lee-mader-uwm-class-of-2008/, /letters-science/news/alum-goes-from-german-class-to-germany-and-beyond/, *post_type=tribe_events*, *hide_subsequent_recurrences=*, *tribe-bar-date=*, *tribe-venue=*, *eventDisplay=*, *eventDate=*, *paged=*, *pagename=*, *shortcode=*, *ical=*, *outlook-ical=*, *related_series=*, *tribe_geofence=*"
+"2024-10-30 14:56:54,194",INFO,Sending HTTP request to https://www.uwm.edu/
+"2024-10-30 14:56:54,292",ERROR,"Error fetching https://www.uwm.edu/: HTTPSConnectionPool(host='www.uwm.edu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.uwm.edu'. (_ssl.c:1000)"")))"
+"2024-10-30 14:56:54,292",INFO,"Details for website https://www.uwec.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Eau Claire', 'Institution': 'University of Wisconsin-Eau Claire'}"
+"2024-10-30 14:56:54,446",INFO,R- Successfully read robots.txt from https://www.uwec.edu/robots.txt
+"2024-10-30 14:56:54,446",INFO,"R- Disallowed paths for domain www.uwec.edu: /core/, /profiles/citizen/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed"
+"2024-10-30 14:56:54,446",INFO,Sending HTTP request to https://www.uwec.edu/
+"2024-10-30 14:56:54,535",INFO,Successfully fetched https://www.uwec.edu/
+"2024-10-30 14:56:54,565",INFO,Word count completed for https://www.uwec.edu/
+"2024-10-30 14:56:54,573",INFO,"Details for website https://www.uwgb.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Green Bay', 'Institution': 'University of Wisconsin-Green Bay'}"
+"2024-10-30 14:56:54,778",INFO,R- Successfully read robots.txt from https://www.uwgb.edu/robots.txt
+"2024-10-30 14:56:54,779",INFO,"R- Disallowed paths for domain www.uwgb.edu: /_content/, /campus/, /crm/, /facilities/building-floor-plans/, /fort-knox/, /sandbox/, /UWGBCMS/media/facilities-planning-management/Floor%20Plans/"
+"2024-10-30 14:56:54,779",INFO,Sending HTTP request to https://www.uwgb.edu/
+"2024-10-30 14:56:55,019",INFO,Successfully fetched https://www.uwgb.edu/
+"2024-10-30 14:56:55,114",INFO,Word count completed for https://www.uwgb.edu/
+"2024-10-30 14:56:55,126",INFO,"Details for website https://www.uwlax.edu/: {'Category': 'College', 'State': 'WI', 'City': 'La Crosse', 'Institution': 'University of Wisconsin-La Crosse'}"
+"2024-10-30 14:56:55,336",INFO,R- Successfully read robots.txt from https://www.uwlax.edu/robots.txt
+"2024-10-30 14:56:55,337",INFO,"R- Disallowed paths for domain www.uwlax.edu: /workarea/, /widgets/, /logs/, /masterpages/, /app_browsers/, /app_code/, /app_data/, /app_globalresources/, /app_webreferences, /assets/, /assetmanagement/, /xmlfiles/, /sandbox1/, /sandbox/, /Sandbox/, /archive/, /Archive/, /uploadedfiles/, /uploadedFiles/, /UploadedFiles/, /uploadedimages/, /uploadedImages/, /UploadedImages/, /recsports/app/, /RecSports/App/, /RecSports/app/"
+"2024-10-30 14:56:55,337",INFO,Sending HTTP request to https://www.uwlax.edu/
+"2024-10-30 14:56:55,689",INFO,Successfully fetched https://www.uwlax.edu/
+"2024-10-30 14:56:55,739",INFO,Word count completed for https://www.uwlax.edu/
+"2024-10-30 14:56:55,751",INFO,"Details for website https://www.uwosh.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Oshkosh', 'Institution': 'University of Wisconsin-Oshkosh'}"
+"2024-10-30 14:56:55,980",INFO,R- Successfully read robots.txt from https://www.uwosh.edu/robots.txt
+"2024-10-30 14:56:55,980",INFO,"R- Disallowed paths for domain www.uwosh.edu: /search-results/, */search-results/, *post_type=tribe_events*, *hide_subsequent_recurrences=*, *tribe-bar-date=*, *tribe-venue=*, *eventDisplay=*, *eventDate=*, *paged=*, *pagename=*, *shortcode=*, *ical=*, *outlook-ical=*, *related_series=*, *tribe_geofence=*, *tribe_organizer=*"
+"2024-10-30 14:56:55,980",INFO,Sending HTTP request to https://www.uwosh.edu/
+"2024-10-30 14:56:56,076",INFO,Successfully fetched https://www.uwosh.edu/
+"2024-10-30 14:56:56,092",INFO,Word count completed for https://www.uwosh.edu/
+"2024-10-30 14:56:56,097",INFO,"Details for website https://www.uwp.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Kenosha', 'Institution': 'University of Wisconsin-Parkside'}"
+"2024-10-30 14:56:56,315",INFO,R- Successfully read robots.txt from https://www.uwp.edu/robots.txt
+"2024-10-30 14:56:56,316",INFO,"R- Disallowed paths for domain www.uwp.edu: /registrardocs/, /facultyandstaff/hlc/, /tntauction/, /explore/offices/sponsoredprograms/, /learn/academiccatalog/2015-2017/, /learn/academiccatalog/2017-2019/, /catalog-pdfs/, /facultyandstaff/innovationhub/, /learn/programs/ipad/, /uwpapps/, /apply/admissions/landing/, /connect/communityengagement/communityandbusinessengagement/trainings/"
+"2024-10-30 14:56:56,316",INFO,Sending HTTP request to https://www.uwp.edu/
+"2024-10-30 14:56:57,392",INFO,Successfully fetched https://www.uwp.edu/
+"2024-10-30 14:56:57,434",INFO,Word count completed for https://www.uwp.edu/
+"2024-10-30 14:56:57,447",INFO,"Details for website https://www.uwplatt.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Platteville', 'Institution': 'University of Wisconsin-Platteville'}"
+"2024-10-30 14:56:57,673",INFO,R- Successfully read robots.txt from https://www.uwplatt.edu/robots.txt
+"2024-10-30 14:56:57,673",INFO,"R- Disallowed paths for domain www.uwplatt.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /p/, /a/"
+"2024-10-30 14:56:57,674",INFO,Sending HTTP request to https://www.uwplatt.edu/
+"2024-10-30 14:56:57,841",INFO,Successfully fetched https://www.uwplatt.edu/
+"2024-10-30 14:56:57,866",INFO,Word count completed for https://www.uwplatt.edu/
+"2024-10-30 14:56:57,871",INFO,"Details for website https://www.uwrf.edu/: {'Category': 'College', 'State': 'WI', 'City': 'River Falls', 'Institution': 'University of Wisconsin-River Falls'}"
+"2024-10-30 14:56:58,230",INFO,R- Successfully read robots.txt from https://www.uwrf.edu/robots.txt
+"2024-10-30 14:56:58,231",INFO,"R- Disallowed paths for domain www.uwrf.edu: /AAI/, /CMSTraining/StudentPages/, /CMSTraining/StudentTraining/, /Research/IR-Info-Center.cfm, /StudentHealthAndCounseling/upload/BrochureAngerManagement.pdf, /DOTS/upload/, /DOTS/ExpiredEmailDoc/, /DOTS/ExpiredEmailDoc/upload, /Gener-Education/, /upload/, /customcf/, /*/upload/, /ClassSchedule/courseLightbox.cfm, /Chemistry2/, /EVCO/, /HumanResources/Director/, /Majors/undergraduateNewFormat/, /ADC/Orientation/, /Budget/BudgetRequest2017/, /CBE/Internship/Offerings/, /studenthandbook/, /Diversity/upload/UWRF-Climate-Study-Final_exec-sum.pdf, /Diversity/upload/UWRF-Climate-Study-Final_no-appx.pdf, /Parking/StudentParking/StuApp.cfm, /Academics/AssociateDegree.cfm, /Administration/Provost/upload/UWRF-White-Paper-Student-Success-Case-2019.pdf, /Administration/Provost/upload/Student-Success-Structural-Model-Aug-2019.pdf"
+"2024-10-30 14:56:58,231",INFO,Sending HTTP request to https://www.uwrf.edu/
+"2024-10-30 14:56:58,385",INFO,Successfully fetched https://www.uwrf.edu/
+"2024-10-30 14:56:58,414",INFO,Word count completed for https://www.uwrf.edu/
+"2024-10-30 14:56:58,423",INFO,"Details for website https://www.uwsp.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Stevens Point', 'Institution': 'University of Wisconsin-Stevens Point'}"
+"2024-10-30 14:56:58,870",WARNING,"R- Failed to find https://www.uwsp.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:56:59,157",WARNING,"R- Failed to find http://www.uwsp.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:56:59,158",WARNING,R- Failed to obtain robots.txt for domain www.uwsp.edu using both HTTP and HTTPS.
+"2024-10-30 14:56:59,158",WARNING,"R- No robots.txt found for www.uwsp.edu, assuming no restrictions."
+"2024-10-30 14:56:59,158",INFO,Sending HTTP request to https://www.uwsp.edu/
+"2024-10-30 14:57:01,444",INFO,Successfully fetched https://www.uwsp.edu/
+"2024-10-30 14:57:01,477",INFO,Word count completed for https://www.uwsp.edu/
+"2024-10-30 14:57:01,483",INFO,"Details for website https://www.uwstout.edu/: {'Category': 'College', 'State': 'WI', 'City': 'Menomonie', 'Institution': 'University of Wisconsin-Stout'}"
+"2024-10-30 14:57:01,643",INFO,R- Successfully read robots.txt from https://www.uwstout.edu/robots.txt
+"2024-10-30 14:57:01,643",INFO,"R- Disallowed paths for domain www.uwstout.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /programs?, /directory?, /search_api_autocomplete/, /index.php/programs?, /index.php/directory?, /index.php/search_api_autocomplete/"
+"2024-10-30 14:57:01,643",INFO,Sending HTTP request to https://www.uwstout.edu/
+"2024-10-30 14:57:01,730",INFO,Successfully fetched https://www.uwstout.edu/
+"2024-10-30 14:57:01,766",INFO,Word count completed for https://www.uwstout.edu/
+"2024-10-30 14:57:01,778",INFO,"Details for website https://www.briarcliff.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Sioux City', 'Institution': 'Briar Cliff University'}"
+"2024-10-30 14:57:02,069",INFO,R- Successfully read robots.txt from https://www.briarcliff.edu/robots.txt
+"2024-10-30 14:57:02,070",INFO,R- Disallowed paths for domain www.briarcliff.edu: None
+"2024-10-30 14:57:02,070",INFO,Sending HTTP request to https://www.briarcliff.edu/
+"2024-10-30 14:57:02,748",INFO,Successfully fetched https://www.briarcliff.edu/
+"2024-10-30 14:57:02,810",INFO,Word count completed for https://www.briarcliff.edu/
+"2024-10-30 14:57:02,822",INFO,"Details for website https://www.central.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Pella', 'Institution': 'Central College'}"
+"2024-10-30 14:57:03,390",INFO,R- Successfully read robots.txt from https://www.central.edu/robots.txt
+"2024-10-30 14:57:03,391",INFO,R- Disallowed paths for domain www.central.edu: /wp-admin/
+"2024-10-30 14:57:03,391",INFO,Sending HTTP request to https://www.central.edu/
+"2024-10-30 14:57:03,576",INFO,Successfully fetched https://www.central.edu/
+"2024-10-30 14:57:03,619",INFO,Word count completed for https://www.central.edu/
+"2024-10-30 14:57:03,630",INFO,"Details for website https://www.coe.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Cedar Rapids', 'Institution': 'Coe College'}"
+"2024-10-30 14:57:03,852",WARNING,"R- Failed to find https://www.coe.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:04,018",WARNING,"R- Failed to find http://www.coe.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:04,018",WARNING,R- Failed to obtain robots.txt for domain www.coe.edu using both HTTP and HTTPS.
+"2024-10-30 14:57:04,018",WARNING,"R- No robots.txt found for www.coe.edu, assuming no restrictions."
+"2024-10-30 14:57:04,018",INFO,Sending HTTP request to https://www.coe.edu/
+"2024-10-30 14:57:04,108",ERROR,"Error fetching https://www.coe.edu/: HTTPSConnectionPool(host='www.coe.edu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+"2024-10-30 14:57:04,108",INFO,"Details for website https://www.cornellcollege.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Mount Vernon', 'Institution': 'Cornell College'}"
+"2024-10-30 14:57:04,258",INFO,R- Successfully read robots.txt from https://www.cornellcollege.edu/robots.txt
+"2024-10-30 14:57:04,258",INFO,R- Disallowed paths for domain www.cornellcollege.edu: None
+"2024-10-30 14:57:04,258",INFO,Sending HTTP request to https://www.cornellcollege.edu/
+"2024-10-30 14:57:04,343",INFO,Successfully fetched https://www.cornellcollege.edu/
+"2024-10-30 14:57:04,344",INFO,Word count completed for https://www.cornellcollege.edu/
+"2024-10-30 14:57:04,345",INFO,"Details for website https://www.dmacc.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Des Moines', 'Institution': 'Des Moines Area Community College'}"
+"2024-10-30 14:57:04,674",INFO,R- Successfully read robots.txt from https://www.dmacc.edu/robots.txt
+"2024-10-30 14:57:04,675",INFO,"R- Disallowed paths for domain www.dmacc.edu: /_qa/, /_resources/, /_showcase/, /_testing/"
+"2024-10-30 14:57:04,675",INFO,Sending HTTP request to https://www.dmacc.edu/
+"2024-10-30 14:57:04,900",INFO,Successfully fetched https://www.dmacc.edu/
+"2024-10-30 14:57:04,926",INFO,Word count completed for https://www.dmacc.edu/
+"2024-10-30 14:57:04,934",INFO,"Details for website https://www.dordt.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Sioux Center', 'Institution': 'Dordt University'}"
+"2024-10-30 14:57:05,501",INFO,R- Successfully read robots.txt from https://www.dordt.edu/robots.txt
+"2024-10-30 14:57:05,501",INFO,"R- Disallowed paths for domain www.dordt.edu: /cpresources/, /vendor/, /.env"
+"2024-10-30 14:57:05,501",INFO,Sending HTTP request to https://www.dordt.edu/
+"2024-10-30 14:57:05,746",INFO,Successfully fetched https://www.dordt.edu/
+"2024-10-30 14:57:05,791",INFO,Word count completed for https://www.dordt.edu/
+"2024-10-30 14:57:05,801",INFO,"Details for website https://www.graceland.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Lamoni', 'Institution': 'Graceland University'}"
+"2024-10-30 14:57:06,077",WARNING,"R- Failed to find https://www.graceland.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:06,181",WARNING,"R- Failed to find http://www.graceland.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:06,182",WARNING,R- Failed to obtain robots.txt for domain www.graceland.edu using both HTTP and HTTPS.
+"2024-10-30 14:57:06,182",WARNING,"R- No robots.txt found for www.graceland.edu, assuming no restrictions."
+"2024-10-30 14:57:06,182",INFO,Sending HTTP request to https://www.graceland.edu/
+"2024-10-30 14:57:06,475",INFO,Successfully fetched https://www.graceland.edu/
+"2024-10-30 14:57:06,575",INFO,Word count completed for https://www.graceland.edu/
+"2024-10-30 14:57:06,594",INFO,"Details for website https://www.grandview.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Des Moines', 'Institution': 'Grand View University'}"
+"2024-10-30 14:57:06,938",INFO,R- Successfully read robots.txt from https://www.grandview.edu/robots.txt
+"2024-10-30 14:57:06,938",INFO,R- Disallowed paths for domain www.grandview.edu: None
+"2024-10-30 14:57:06,939",INFO,Sending HTTP request to https://www.grandview.edu/
+"2024-10-30 14:57:09,052",INFO,Successfully fetched https://www.grandview.edu/
+"2024-10-30 14:57:09,205",INFO,Word count completed for https://www.grandview.edu/
+"2024-10-30 14:57:09,217",INFO,"Details for website https://www.iowacentral.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Fort Dodge', 'Institution': 'Iowa Central Community College'}"
+"2024-10-30 14:57:10,117",INFO,R- Successfully read robots.txt from https://www.iowacentral.edu/robots.txt
+"2024-10-30 14:57:10,118",INFO,R- Disallowed paths for domain www.iowacentral.edu: None
+"2024-10-30 14:57:10,118",INFO,Sending HTTP request to https://www.iowacentral.edu/
+"2024-10-30 14:57:10,411",INFO,Successfully fetched https://www.iowacentral.edu/
+"2024-10-30 14:57:10,433",INFO,Word count completed for https://www.iowacentral.edu/
+"2024-10-30 14:57:10,438",INFO,"Details for website https://www.iastate.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Ames', 'Institution': 'Iowa State University'}"
+"2024-10-30 14:57:10,628",INFO,R- Successfully read robots.txt from https://www.iastate.edu/robots.txt
+"2024-10-30 14:57:10,628",INFO,"R- Disallowed paths for domain www.iastate.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed"
+"2024-10-30 14:57:10,629",INFO,Sending HTTP request to https://www.iastate.edu/
+"2024-10-30 14:57:10,736",INFO,Successfully fetched https://www.iastate.edu/
+"2024-10-30 14:57:10,763",INFO,Word count completed for https://www.iastate.edu/
+"2024-10-30 14:57:10,770",INFO,"Details for website https://www.loras.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Dubuque', 'Institution': 'Loras College'}"
+"2024-10-30 14:57:11,983",INFO,R- Successfully read robots.txt from https://www.loras.edu/robots.txt
+"2024-10-30 14:57:11,984",INFO,"R- Disallowed paths for domain www.loras.edu: /wp-admin/, /wp-content/uploads/wpo/wpo-plugins-tables-list.json"
+"2024-10-30 14:57:11,984",INFO,Sending HTTP request to https://www.loras.edu/
+"2024-10-30 14:57:12,549",INFO,Successfully fetched https://www.loras.edu/
+"2024-10-30 14:57:12,577",INFO,Word count completed for https://www.loras.edu/
+"2024-10-30 14:57:12,585",INFO,"Details for website https://www.mtmercy.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Cedar Rapids', 'Institution': 'Mount Mercy University'}"
+"2024-10-30 14:57:13,260",INFO,R- Successfully read robots.txt from https://www.mtmercy.edu/robots.txt
+"2024-10-30 14:57:13,261",INFO,R- Disallowed paths for domain www.mtmercy.edu: None
+"2024-10-30 14:57:13,261",INFO,Sending HTTP request to https://www.mtmercy.edu/
+"2024-10-30 14:57:13,566",INFO,Successfully fetched https://www.mtmercy.edu/
+"2024-10-30 14:57:13,594",INFO,Word count completed for https://www.mtmercy.edu/
+"2024-10-30 14:57:13,599",INFO,"Details for website https://www.niacc.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Mason City', 'Institution': 'North Iowa Area Community College'}"
+"2024-10-30 14:57:13,969",INFO,R- Successfully read robots.txt from https://www.niacc.edu/robots.txt
+"2024-10-30 14:57:13,970",INFO,R- Disallowed paths for domain www.niacc.edu:
+"2024-10-30 14:57:13,970",INFO,Skipping https://www.niacc.edu/ due to disallowed path.
+"2024-10-30 14:57:13,970",INFO,"Details for website https://www.simpson.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Indianola', 'Institution': 'Simpson College'}"
+"2024-10-30 14:57:14,049",INFO,R- Successfully read robots.txt from https://www.simpson.edu/robots.txt
+"2024-10-30 14:57:14,049",INFO,R- Disallowed paths for domain www.simpson.edu: /wp/wp-admin/
+"2024-10-30 14:57:14,050",INFO,Sending HTTP request to https://www.simpson.edu/
+"2024-10-30 14:57:14,152",INFO,Successfully fetched https://www.simpson.edu/
+"2024-10-30 14:57:14,186",INFO,Word count completed for https://www.simpson.edu/
+"2024-10-30 14:57:14,197",INFO,"Details for website https://uiowa.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Iowa City', 'Institution': 'University of Iowa'}"
+"2024-10-30 14:57:14,449",INFO,R- Successfully read robots.txt from https://uiowa.edu/robots.txt
+"2024-10-30 14:57:14,450",INFO,"R- Disallowed paths for domain uiowa.edu: /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /saml/login"
+"2024-10-30 14:57:14,450",INFO,Sending HTTP request to https://uiowa.edu/
+"2024-10-30 14:57:14,656",INFO,Successfully fetched https://uiowa.edu/
+"2024-10-30 14:57:14,770",INFO,Word count completed for https://uiowa.edu/
+"2024-10-30 14:57:14,776",INFO,"Details for website https://www.uni.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Cedar Falls', 'Institution': 'University of Northern Iowa'}"
+"2024-10-30 14:57:15,521",INFO,R- Successfully read robots.txt from https://www.uni.edu/robots.txt
+"2024-10-30 14:57:15,522",INFO,"R- Disallowed paths for domain www.uni.edu: /*/core/, /*/profiles/, /404Error, /redirectstub, /archive, /temp, /*/README.txt, /*/web.config, /*/admin/, /*/comment/reply/, /*/filter/tips, /*/node/add/, /*/search/, /*/user/register, /*/user/password, /*/user/login, /*/user/logout, /*/media/oembed, /*/*/media/oembed, /*/index.php/admin/, /*/index.php/comment/reply/, /*/index.php/filter/tips, /*/index.php/node/add/, /*/index.php/search/, /*/index.php/user/password, /*/index.php/user/register, /*/index.php/user/login, /*/index.php/user/logout, /*/index.php/media/oembed, /*/index.php/*/media/oembed"
+"2024-10-30 14:57:15,522",INFO,Sending HTTP request to https://www.uni.edu/
+"2024-10-30 14:57:15,807",INFO,Successfully fetched https://www.uni.edu/
+"2024-10-30 14:57:15,900",INFO,Word count completed for https://www.uni.edu/
+"2024-10-30 14:57:15,926",INFO,"Details for website https://www.witcc.edu/: {'Category': 'College', 'State': 'IA', 'City': 'Sioux City', 'Institution': 'Western Iowa Tech Community College'}"
+"2024-10-30 14:57:16,331",INFO,R- Successfully read robots.txt from https://www.witcc.edu/robots.txt
+"2024-10-30 14:57:16,332",INFO,"R- Disallowed paths for domain www.witcc.edu: /admin/, /core/, /modules/, /config/, /themes/, /plugins/"
+"2024-10-30 14:57:16,332",INFO,Sending HTTP request to https://www.witcc.edu/
+"2024-10-30 14:57:16,891",INFO,Successfully fetched https://www.witcc.edu/
+"2024-10-30 14:57:16,911",INFO,Word count completed for https://www.witcc.edu/
+"2024-10-30 14:57:16,924",INFO,"Details for website https://www.ccc.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Chicago', 'Institution': 'City Colleges of Chicago'}"
+"2024-10-30 14:57:17,146",INFO,R- Successfully read robots.txt from https://www.ccc.edu/robots.txt
+"2024-10-30 14:57:17,147",INFO,R- Disallowed paths for domain www.ccc.edu:
+"2024-10-30 14:57:17,147",INFO,Skipping https://www.ccc.edu/ due to disallowed path.
+"2024-10-30 14:57:17,147",INFO,"Details for website https://www.cod.edu/: {'Category': 'College', 'State': 'IL', 'City': 'College of DuPage', 'Institution': 'College of DuPage'}"
+"2024-10-30 14:57:17,552",INFO,R- Successfully read robots.txt from https://www.cod.edu/robots.txt
+"2024-10-30 14:57:17,553",INFO,"R- Disallowed paths for domain www.cod.edu: /_archive, /_development, /_resources, /about/administration/consumer_legal_information/net_price_calculator/npcalc.htm, /about/administration/environmental_health_safety, /about/campus-departments/campus-services/, /about/campus-departments/employee-development-center/, /about/campus-departments/environmental-health-safety/, /about/campus-departments/equity/, /about/campus-departments/facilities-department/, /about/campus-departments/grants/, /about/campus-departments/institutional-advancement/, /about/campus-departments/marketing-communications/, /about/campus-departments/multimedia-services/, /about/campus-departments/research/, /about/purchasing/requests, /about/stories/outstanding_faculty_nomination.html, /academics/programs/business/contact-information.html, /academics/programs/cis/contact-information.html, /admission/visit_cod/_archive, /catalog, /costs/financial_aid/emergency-funding.html, /faculty/_data/, /gateways/cod-community-report-2020/files/, /gateways/cod-community-report-2020/mobile/, /hsti/classes/_archive/, /landing, /ldp, /news/_archive, /rsvp, /search/, /thank-you-pages, */_props.html$"
+"2024-10-30 14:57:17,553",INFO,Sending HTTP request to https://www.cod.edu/
+"2024-10-30 14:57:17,790",INFO,Successfully fetched https://www.cod.edu/
+"2024-10-30 14:57:17,830",INFO,Word count completed for https://www.cod.edu/
+"2024-10-30 14:57:17,842",INFO,"Details for website https://www.depaul.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Chicago', 'Institution': 'DePaul University'}"
+"2024-10-30 14:57:18,080",INFO,R- Successfully read robots.txt from https://www.depaul.edu/robots.txt
+"2024-10-30 14:57:18,081",INFO,"R- Disallowed paths for domain www.depaul.edu: /Search/, /ReusableContent/, /Reports%20List/, /WorkflowTasks/, /SiteCollectionDocuments/, /SiteCollectionImages/, /Documents/Forms/, /Pages/Forms/, /university-catalog-archive/"
+"2024-10-30 14:57:18,081",INFO,Sending HTTP request to https://www.depaul.edu/
+"2024-10-30 14:57:18,312",INFO,Successfully fetched https://www.depaul.edu/
+"2024-10-30 14:57:18,338",INFO,Word count completed for https://www.depaul.edu/
+"2024-10-30 14:57:18,345",INFO,"Details for website https://www.eiu.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Charleston', 'Institution': 'Eastern Illinois University'}"
+"2024-10-30 14:57:18,672",INFO,R- Successfully read robots.txt from https://www.eiu.edu/robots.txt
+"2024-10-30 14:57:18,673",INFO,"R- Disallowed paths for domain www.eiu.edu: /csjay, /alumni/newmember.php, /neweiu/, /newsite/, /search/, /archive/, /admissions/counselor.php, /ahcolleg/, /colsci/, /ceps/, /graduate/GAnomination/"
+"2024-10-30 14:57:18,673",INFO,Sending HTTP request to https://www.eiu.edu/
+"2024-10-30 14:57:19,097",INFO,Successfully fetched https://www.eiu.edu/
+"2024-10-30 14:57:19,118",INFO,Word count completed for https://www.eiu.edu/
+"2024-10-30 14:57:19,124",INFO,"Details for website https://elgin.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Elgin', 'Institution': 'Elgin Community College'}"
+"2024-10-30 14:57:19,455",INFO,R- Successfully read robots.txt from https://elgin.edu/robots.txt
+"2024-10-30 14:57:19,455",INFO,"R- Disallowed paths for domain elgin.edu: /about/jobs-at-ecc/jobs/, /about/emergency-management/alerts-alarms/site-wide-notices-temp/, /archive/, /campaigns/, /examples/, /info/, /templates/, /maintenance-site/, /salesforce/, /search/, /site-assets/, /sidebar-content/, /uploads/, /styles/"
+"2024-10-30 14:57:19,455",INFO,Sending HTTP request to https://elgin.edu/
+"2024-10-30 14:57:19,631",INFO,Successfully fetched https://elgin.edu/
+"2024-10-30 14:57:19,663",INFO,Word count completed for https://elgin.edu/
+"2024-10-30 14:57:19,673",INFO,"Details for website https://www.iit.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Chicago', 'Institution': 'Illinois Institute of Technology'}"
+"2024-10-30 14:57:20,043",INFO,R- Successfully read robots.txt from https://www.iit.edu/robots.txt
+"2024-10-30 14:57:20,043",INFO,"R- Disallowed paths for domain www.iit.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed"
+"2024-10-30 14:57:20,044",INFO,Sending HTTP request to https://www.iit.edu/
+"2024-10-30 14:57:20,276",INFO,Successfully fetched https://www.iit.edu/
+"2024-10-30 14:57:20,307",INFO,Word count completed for https://www.iit.edu/
+"2024-10-30 14:57:20,313",INFO,"Details for website https://illinoisstate.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Normal', 'Institution': 'Illinois State University'}"
+"2024-10-30 14:57:20,649",INFO,R- Successfully read robots.txt from https://illinoisstate.edu/robots.txt
+"2024-10-30 14:57:20,650",INFO,"R- Disallowed paths for domain illinoisstate.edu: /admissions/virtual-presidential-scholarship/, /admissions/virtual-university-scholarship/, /admissions/virtual-redbird/, /admissions/virtual-honors/"
+"2024-10-30 14:57:20,650",INFO,Sending HTTP request to https://illinoisstate.edu/
+"2024-10-30 14:57:20,863",INFO,Successfully fetched https://illinoisstate.edu/
+"2024-10-30 14:57:20,886",INFO,Word count completed for https://illinoisstate.edu/
+"2024-10-30 14:57:20,891",INFO,"Details for website https://www.luc.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Chicago', 'Institution': 'Loyola University Chicago'}"
+"2024-10-30 14:57:21,194",INFO,R- Successfully read robots.txt from https://www.luc.edu/robots.txt
+"2024-10-30 14:57:21,195",INFO,"R- Disallowed paths for domain www.luc.edu: /*-archive/, /*_archive/, /*-dev/, /*-test/, /*test/, /test-*/, /*dev/, /dev-*/, /*_dev/, /error/, /errorHandler/, /ldap/, /mobile/, /mobileapp/, /search/, /searchalt/, /searchtest/, /sitebackground/, /sitebackgrounds/, /siteunavailable/, /socialfeeder/, /sandbox/, /styleassets/, /supports/, /a-zindex/, /bannerinsert/, /bereavementnotice/, /blog/, /blogs/, /bursar2/, /cfpreview/, /citm2013/, /croth3/, /customcss/, /customjs/, /directories/, /flex/, /footer/, /ilmonthly/, /lenzlee/, /library-photos/, /luchomepagealert/, /patternlibrary/, /rightcolumn/, /s,0/, /sitelogo/, /site_logo/, /home_deck2/, /home_deck/, /modules/, /hero/, /widgets/, /t4-test-cs-54996/, /webcam/"
+"2024-10-30 14:57:21,195",INFO,Sending HTTP request to https://www.luc.edu/
+"2024-10-30 14:57:21,335",INFO,Successfully fetched https://www.luc.edu/
+"2024-10-30 14:57:21,384",INFO,Word count completed for https://www.luc.edu/
+"2024-10-30 14:57:21,393",INFO,"Details for website https://www.mchenry.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Mchenry', 'Institution': 'McHenry County College'}"
+"2024-10-30 14:57:21,823",INFO,R- Successfully read robots.txt from https://www.mchenry.edu/robots.txt
+"2024-10-30 14:57:21,823",INFO,"R- Disallowed paths for domain www.mchenry.edu: /_cms/, /_cmsbc/"
+"2024-10-30 14:57:21,823",INFO,Sending HTTP request to https://www.mchenry.edu/
+"2024-10-30 14:57:22,146",INFO,Successfully fetched https://www.mchenry.edu/
+"2024-10-30 14:57:22,169",INFO,Word count completed for https://www.mchenry.edu/
+"2024-10-30 14:57:22,175",INFO,"Details for website https://www.niu.edu/: {'Category': 'College', 'State': 'IL', 'City': 'DeKalb', 'Institution': 'Northern Illinois University'}"
+"2024-10-30 14:57:22,455",INFO,R- Successfully read robots.txt from https://www.niu.edu/robots.txt
+"2024-10-30 14:57:22,456",INFO,R- Disallowed paths for domain www.niu.edu: None
+"2024-10-30 14:57:22,456",INFO,Sending HTTP request to https://www.niu.edu/
+"2024-10-30 14:57:22,728",INFO,Successfully fetched https://www.niu.edu/
+"2024-10-30 14:57:22,760",INFO,Word count completed for https://www.niu.edu/
+"2024-10-30 14:57:22,767",INFO,"Details for website https://www.neiu.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Chicago', 'Institution': 'Northeastern Illinois University'}"
+"2024-10-30 14:57:23,550",INFO,R- Successfully read robots.txt from https://www.neiu.edu/robots.txt
+"2024-10-30 14:57:23,551",INFO,"R- Disallowed paths for domain www.neiu.edu: /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/, /taxonomy/*"
+"2024-10-30 14:57:23,551",INFO,Sending HTTP request to https://www.neiu.edu/
+"2024-10-30 14:57:23,637",INFO,Successfully fetched https://www.neiu.edu/
+"2024-10-30 14:57:23,738",INFO,Word count completed for https://www.neiu.edu/
+"2024-10-30 14:57:23,747",INFO,"Details for website https://www.northwestern.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Evanston', 'Institution': 'Northwestern University'}"
+"2024-10-30 14:57:25,004",INFO,R- Successfully read robots.txt from https://www.northwestern.edu/robots.txt
+"2024-10-30 14:57:25,004",INFO,"R- Disallowed paths for domain www.northwestern.edu: /.TRASH/, /.old-it-pages/, /.old/, /101/, /account-management-devel/, /activities/, /admin/, /amstp/, /ar/, /buehler/, /cgi-bin/, /chicagocampusmaps/, /cms/, /common/, /compute/, /course-viewer/, /demo-department/, /docs/, /dwhouse/, /family-institute/, /fieldstudies/, /graduate-fellowships/, /helpdesk/.work/, /helpdesk/network/, /helpdesk/pre/, /icair/.old/, /it-menu-proto/, /it-menu/, /it-virtual/.archive/, /it/guidelines/old/1997-04/, /it/guidelines/old/1998-01/, /it/guidelines/old/1998-04/, /it/guidelines/old/, /it/guidelines/proto/, /it/icair_new/, /it/ms/, /itg/, /need-it/, /newsfeed/, /nmc/, /not-in-production/, /nu150/book/.old/, /nu150/postcards/images/, /nu150/postcards/ssi/, /nuilr/, /nuinfo-proto12/www-v8/emergency/ssi/, /nuinfotest/, /nuportalbreakingnews/, /registrar/cgi-bin/, /resnet/, /search-help/, /sed/, /service/, /sheil/, /stomatology/, /student/old/, /summersa/, /test/, /traffic/, /tss-virtual/.work/, /tss-virtual/pre/, /tss/siguccs/1996/abstracts/, /tss/siguccs/, /tss/troubleshoot/obsolete/, /undergrad-finaid/, /univ-relations/webproto/med-design/, /univ-relations/webproto/, /ur-staff-proto/, /vp-research-gradstudies/, /webservices/.test/, /webservices/resources/forms/, /webservices/, /webtech/, /world/admin/, /world/interesting/atl-interest/admin/, /world/, /wrestling/, /www-v5/emergency/alert/, /www-v5/emergency/ssi/, /www-v6/emergency/ssi/, /www-v8/emergency/ssi/, /xscs/, /it-test-2016/, /nuinfo-proto9-old/"
+"2024-10-30 14:57:25,004",INFO,Sending HTTP request to https://www.northwestern.edu/
+"2024-10-30 14:57:25,137",INFO,Successfully fetched https://www.northwestern.edu/
+"2024-10-30 14:57:25,154",INFO,Word count completed for https://www.northwestern.edu/
+"2024-10-30 14:57:25,159",INFO,"Details for website https://www.oakton.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Des Plaines', 'Institution': 'Oakton Community College'}"
+"2024-10-30 14:57:25,414",INFO,R- Successfully read robots.txt from https://www.oakton.edu/robots.txt
+"2024-10-30 14:57:25,415",INFO,R- Disallowed paths for domain www.oakton.edu: None
+"2024-10-30 14:57:25,415",INFO,Sending HTTP request to https://www.oakton.edu/
+"2024-10-30 14:57:25,563",INFO,Successfully fetched https://www.oakton.edu/
+"2024-10-30 14:57:25,625",INFO,Word count completed for https://www.oakton.edu/
+"2024-10-30 14:57:25,640",INFO,"Details for website https://www.rockvalleycollege.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Rockford', 'Institution': 'Rock Valley College'}"
+"2024-10-30 14:57:25,937",INFO,R- Successfully read robots.txt from https://www.rockvalleycollege.edu/robots.txt
+"2024-10-30 14:57:25,937",INFO,R- Disallowed paths for domain www.rockvalleycollege.edu: None
+"2024-10-30 14:57:25,937",INFO,Sending HTTP request to https://www.rockvalleycollege.edu/
+"2024-10-30 14:57:26,177",INFO,Successfully fetched https://www.rockvalleycollege.edu/
+"2024-10-30 14:57:26,220",INFO,Word count completed for https://www.rockvalleycollege.edu/
+"2024-10-30 14:57:26,232",INFO,"Details for website https://www.siuc.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Carbondale', 'Institution': 'Southern Illinois University-Carbondale'}"
+"2024-10-30 14:57:26,828",INFO,R- Successfully read robots.txt from https://www.siuc.edu/robots.txt
+"2024-10-30 14:57:26,829",INFO,R- Disallowed paths for domain www.siuc.edu: /
+"2024-10-30 14:57:26,829",INFO,Skipping https://www.siuc.edu/ due to disallowed path.
+"2024-10-30 14:57:26,829",INFO,"Details for website https://www.siue.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Edwardsville', 'Institution': 'Southern Illinois University-Edwardsville'}"
+"2024-10-30 14:57:27,100",INFO,R- Successfully read robots.txt from https://www.siue.edu/robots.txt
+"2024-10-30 14:57:27,100",INFO,"R- Disallowed paths for domain www.siue.edu: /ug-catalog-content-2023-2024, /meridian-application/, /ug-catalog-content-2022-2023, /_archives/, /_global/, /_dev/, /_dev-complete/, /_dev-new/, /_dev-old/, /_archives-publish/, /_rwd/, /_*, /its/sandbox/, /marketing-and-communications/services/web/email-request.shtml"
+"2024-10-30 14:57:27,100",INFO,Sending HTTP request to https://www.siue.edu/
+"2024-10-30 14:57:27,255",INFO,Successfully fetched https://www.siue.edu/
+"2024-10-30 14:57:27,274",INFO,Word count completed for https://www.siue.edu/
+"2024-10-30 14:57:27,278",INFO,"Details for website https://www.uchicago.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Chicago', 'Institution': 'University of Chicago'}"
+"2024-10-30 14:57:27,604",WARNING,"R- Failed to find https://www.uchicago.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:27,684",WARNING,"R- Failed to find http://www.uchicago.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:27,684",WARNING,R- Failed to obtain robots.txt for domain www.uchicago.edu using both HTTP and HTTPS.
+"2024-10-30 14:57:27,685",WARNING,"R- No robots.txt found for www.uchicago.edu, assuming no restrictions."
+"2024-10-30 14:57:27,685",INFO,Sending HTTP request to https://www.uchicago.edu/
+"2024-10-30 14:57:28,062",INFO,Successfully fetched https://www.uchicago.edu/
+"2024-10-30 14:57:28,072",INFO,Word count completed for https://www.uchicago.edu/
+"2024-10-30 14:57:28,074",INFO,"Details for website https://www.uic.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Chicago', 'Institution': 'University of Illinois at Chicago'}"
+"2024-10-30 14:57:28,329",INFO,R- Successfully read robots.txt from https://www.uic.edu/robots.txt
+"2024-10-30 14:57:28,330",INFO,R- Disallowed paths for domain www.uic.edu:
+"2024-10-30 14:57:28,330",INFO,Skipping https://www.uic.edu/ due to disallowed path.
+"2024-10-30 14:57:28,330",INFO,"Details for website https://illinois.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Urbana', 'Institution': 'University of Illinois Urbana-Champaign'}"
+"2024-10-30 14:57:28,593",INFO,R- Successfully read robots.txt from https://illinois.edu/robots.txt
+"2024-10-30 14:57:28,594",INFO,"R- Disallowed paths for domain illinois.edu: /temp/, /test/, /mobile/"
+"2024-10-30 14:57:28,594",INFO,Sending HTTP request to https://illinois.edu/
+"2024-10-30 14:57:28,737",INFO,Successfully fetched https://illinois.edu/
+"2024-10-30 14:57:28,761",INFO,Word count completed for https://illinois.edu/
+"2024-10-30 14:57:28,766",INFO,"Details for website https://www.uis.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Springfield', 'Institution': 'University of Illinois-Springfield'}"
+"2024-10-30 14:57:29,072",INFO,R- Successfully read robots.txt from https://www.uis.edu/robots.txt
+"2024-10-30 14:57:29,073",INFO,"R- Disallowed paths for domain www.uis.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed"
+"2024-10-30 14:57:29,073",INFO,Sending HTTP request to https://www.uis.edu/
+"2024-10-30 14:57:29,252",INFO,Successfully fetched https://www.uis.edu/
+"2024-10-30 14:57:29,294",INFO,Word count completed for https://www.uis.edu/
+"2024-10-30 14:57:29,304",INFO,"Details for website https://www.wiu.edu/: {'Category': 'College', 'State': 'IL', 'City': 'Macomb', 'Institution': 'Western Illinois University'}"
+"2024-10-30 14:57:29,527",INFO,R- Successfully read robots.txt from https://www.wiu.edu/robots.txt
+"2024-10-30 14:57:29,528",INFO,"R- Disallowed paths for domain www.wiu.edu: /public_directory/, /personnel/, /users/, */z-migration/, */zz-redesign/, /*.import$, /*.inc$, /*.LOG$, /*.xsl$, /news/newsrelease_print.php, */_archive*/, */_dev/, */sandbox*/, /advising/*, /Alumni/eNewsletter/*, /Alumni/pdfs/*, /Alumni/EventPhotos/*, /Dan/, /campus_connection/submissions/*, /cas/philosophy_and_religious_studies/*, /cas/liberal_arts_and_sciences/*, /catalog/2020_-_2021/*, /catalog/2021_-_2022/*, /catalog/2022_-_2023/*, /catalog/2023_-_2024/*, /connection/*, /enews/*, /graduate_studies/flatsheets/*, /graduate_studies/2015_2016_catalog/*, /graduate_studies/2016_2017_catalog/*, /graduate_studies/2017_2018_catalog/*, /graduate_studies/2018_2019_catalog/*, /graduate_studies/2019_2020_catalog/*, /graduate_studies/2020_2021_catalog/*, /graduate_studies/2021_2022_catalog/*, /graduate_studies/2022_2023_catalog/*, /CITR/MyWestern/*, /qc/student_life/student_services/pdfs/2015/*, /qc/student_life/student_services/pdfs/2016/*, /qc/student_life/student_services/pdfs/2019/*, /qc/student_life/student_services/pdfs/2020/*, /qc/student_life/student_services/pdfs/2021/*, /vpascopy/*, /vpas/business_services/*, /vpas/purchasing/*, /vpas/policies/*, /vpas/human_resources/*, /vpas/dps/*, /vpas/public_safety/*, /vpas/fm/*, /vpas/transportation/*, /vpas/ehss/*, /vpas/wellness/*, /vpas/fallensoldiers/*, /vpas/civil_service_employees_council/*, /vpas/sustainability/*, /vpas/administrative_procedures_handbook/*, /vpaps/foundation_and_development/*, /vpas/risk_management_and_emergency_preparedness/coronavirus/campus/*, /global_education/*, /cas/english/graduate/*, /cas/sociology/*, /cas/anthropology/*, /yourpotential/*, /vpaps/marketing/campaign/*, /library/units/reference/reftools/*, /library/direct/?*, /dps/*, /student_services/*, /coehs/csp/*, /coehs/qc/cned/*, /academics/docs/*, /coehs/rpta/*, /cbt/qc/engineering/*, /cbt/engineering_technology/*, /dei/*, /tasc/*, /search/*, /odes/*, /citr/home/*, /student_success/financial_aid/protected/*, /student_success/scholarship/2024/*, /student_success/scholarship/2023/*, /coehs/health_sciences/"
+"2024-10-30 14:57:29,528",INFO,Sending HTTP request to https://www.wiu.edu/
+"2024-10-30 14:57:30,288",INFO,Successfully fetched https://www.wiu.edu/
+"2024-10-30 14:57:30,309",INFO,Word count completed for https://www.wiu.edu/
+"2024-10-30 14:57:30,314",INFO,"Details for website https://www.cmich.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Mount Pleasant', 'Institution': 'Central Michigan University'}"
+"2024-10-30 14:57:30,638",INFO,R- Successfully read robots.txt from https://www.cmich.edu/robots.txt
+"2024-10-30 14:57:30,639",INFO,"R- Disallowed paths for domain www.cmich.edu: /Sitefinity, /search, /program-finder?"
+"2024-10-30 14:57:30,639",INFO,Sending HTTP request to https://www.cmich.edu/
+"2024-10-30 14:57:30,840",INFO,Successfully fetched https://www.cmich.edu/
+"2024-10-30 14:57:30,910",INFO,Word count completed for https://www.cmich.edu/
+"2024-10-30 14:57:30,928",INFO,"Details for website https://www.emich.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Ypsilanti', 'Institution': 'Eastern Michigan University'}"
+"2024-10-30 14:57:31,093",WARNING,"R- Failed to find https://www.emich.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:31,182",WARNING,"R- Failed to find http://www.emich.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:31,183",WARNING,R- Failed to obtain robots.txt for domain www.emich.edu using both HTTP and HTTPS.
+"2024-10-30 14:57:31,184",WARNING,"R- No robots.txt found for www.emich.edu, assuming no restrictions."
+"2024-10-30 14:57:31,184",INFO,Sending HTTP request to https://www.emich.edu/
+"2024-10-30 14:57:31,301",ERROR,Error fetching https://www.emich.edu/: 403 Client Error: Forbidden for url: https://www.emich.edu/
+"2024-10-30 14:57:31,302",INFO,"Details for website https://www.ferris.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Big Rapids', 'Institution': 'Ferris State University'}"
+"2024-10-30 14:57:31,703",INFO,R- Successfully read robots.txt from https://www.ferris.edu/robots.txt
+"2024-10-30 14:57:31,704",INFO,"R- Disallowed paths for domain www.ferris.edu: /templates/, /ROPN/, /Cloudflare/, /giving/snavely/, /fsuintranet/, /messages/, /wwws/, /buyviagra/, /dev/, /dev-*, /faculty/, /business/images/280x120/banners/, /sats/, /ats/, /administration/advance/photoserv/, /omni/, /amp-test/, /faculty/burtchr/, /mco/optonet/, /fctl/Teaching_and_Learning_Tips/, /SpecialEvents/falcone/, /bachelor-degree-home-economics-education.htm, /hlc/examples/, /hlc/kendall/, /notice/, /accessibility/, /charterschools/Performance/, /administration/academicaffairs/charterschools/Performance/, /administration/academicaffairs/HLC/trustees/, /administration/purchase/Bids/, /administration/president/newsletters/, /administration/president/budget-office/docs/, /xmlui/bitstream/handle/2323/3841/042913memo.pdf?sequence=1, /xmlui/bitstream/handle/2323/3841/042913memo.pdf, /_dale-snippets/, /_HTML5CSS3/, /bootstrap/, /sports/, /web-redesign/feedback-submitted.htm, /*SalaryList2011.pdf, /search/, /archive/, /archive/homepage.htm, /error-404.htm, /error-404-template.htm, /error-404-readme.txt, /webct/, /profiles/, /ken/, /insights-dashboards/kcad/, /Cloudflare/, /business/wp-content/themes/, /international/studyabroad/Study-Abroad/about/submission-success.htm, /international/studyabroad/Study-Abroad/gco/request-submitted.htm, /optometry/profiles/, /catalog/, /Catalog/, /_personalization/, /search/navigation-comparison.htm, /optometry/scope-and-licensure/references.htm, /signage/, /*.cfm$, /*.cfm?*$, /*.mdb$, /*.doc$, /*.docx$, /*.xlsx$, /*.pptx$, /*.xls$, /*.js$, /*.cfm$, /*.swf$, /*.sam$, /*.ans$, /*.asc$, /*.shw$, /*.dba$, /*.dbm$, /*.dbf$, /*.dx$, /*.300$, /*.wpf$, /*.ssf$, /*.ss$, /*.fol$, /*.dbf$, /*.fw3$, /*.prz$, /*.pre$, /*.cht$, /*.ch3$, /*.shtml$, /*.nsf$, /*.fft$, /*.rft$, /*.iwa$, /*.jtd$, /*.jw$, /*.chp$, /*.wku$, /*.wk1$, /*.wk3$, /*.wk4$, /*.wk5$, /*.wk6$, /*.wr1$, /*.lwp$, /*.mcw$, /*.aa4$, /*.aa5$, /*.aa6$, /*.aa7$, /*.aa8$, /*.cod$, /*.col$, /*.ppt$, /*.mpp$, /*.rtf$, /*.dbf$, /*.wri$, /*.wps$, /*.wks$, /*.wdb$, /*.wcm$, /*.wku$, /*.msg$, /*.xla$, /*.xlc$, /*.xlm$, /*.xlt$, /*.xlw$, /*.dox$, /*.fnt$, /*.fnx$, /*.dif$, /*.nb$, /*.wpd$, /*.wpg$, /*.wpf$, /*.wp5$, /*.ow4$, /*.db$, /*.db3$, /*.ltr$, /*.rbf$, /*.tid$, /*.pfb$, /*.ps$, /*.pw1$, /*.pwp$, /*.qa$, /*.qw$, /*.dtf$, /*.wq1$, /*.wb1$, /*.wb2$, /*.r2d$, /*.sam$, /*.db$, /*.ws$, /*.spr$, /*.cal$, /*.tw$, /*.vcf$, /*.vw4$, /*.wks$, /*.iwp$, /*.wmc$, /*.wp$, /*.wp5$, /*.wpd$, /*.pln$, /*.shw$, /*.wbk$, /*.wkb$, /*.wpf$, /*.ws$, /*.ws2$, /*.wsd$, /*.ws4$, /*.ws6$, /*.xy$, /*.xy3$, /*.xyw$, /*.qxd$, /*.qxp$, /*.pub$, /*.ppt$, /*.rtf$, /*.dll$, /*.exe$, /*.jnilib$, /*.dmg$, /*.3gp$, /*.m4a$, /*.m4v$, /*.wma$, /*.wmv$, /*.wrl$, /*.lzh$, /*.msi$, /*.chm$, /*.mht$, *dm-template.htm$, *_props20-additional.html$, *_props20-nav.html$, *_props20-contact.html$, *_props20-topnav.html$, *_props20.html$, /home.htm, /pharm/, /administration/studentaffairs/CLACS/non-indexed/, /secure-test/, /administration/adminandfinance/AuxiliaryEnterprises/services/totsplace/, /profiles/student-and-academic-services/, /apinstitutes/, /strategic-planning/Goals-Initiatives.htm, /news/week/video/rube/, /masters-science-information-systems-management-ism.htm, /business/stories/isi-replaces-ism-2012, /business/grafik-intervention, /script.cgi?lang=, /cob/, /administration/adminandfinance/infoserv/, /administration/advance/old_standards/, /purchasing/naep/history.htm/, /weblinks/, /administration/academicaffairs/vpoffice/hsrc/, /administration/academicaffairs/HLC/examples/, /torch/, /administration/advance/Social-Media/, /administration/adminandfinance/finance/financialservices/, /academics/honored/form-submitted-successfully.htm, /administration/studentaffairs/RC/rso-reservation-request-success.htm, /admissions/selfreport.htm, /admissions/thankyouevent.htm, /international/currentstudents/sevis-success.htm, /international/studyabroad/Study-Abroad/about/submission-success.htm, /international/studyabroad/Study-Abroad/gco/request-submitted.htm, /CET/built-env/hall-of-fame/distinguished-constructor-nomination-submitted.htm, /optometry/alumni/speakers-bureau/submission-complete.htm, /madetomove/nice-move.html, /move-forward/nice-move.html, /_qa/, /_uat/, /_2020_landing_pages/, /employment/pageup-template-2.html, /news/archive/2006, /news/archive/2007, /news/archive/2008, /news/archive/2009, /news/archive/2010, /news/archive/2011, /news/archive/2012, /news/archive/2013, /news/archive/2014, /news/archive/2015, /news/archive/2016, /news/archive/2017, /news/archive/2018, /news/archive/2019, /news/archive/2020, /news/archive/2021, /news/archive/2022"
+"2024-10-30 14:57:31,704",INFO,Sending HTTP request to https://www.ferris.edu/
+"2024-10-30 14:57:31,973",INFO,Successfully fetched https://www.ferris.edu/
+"2024-10-30 14:57:32,013",INFO,Word count completed for https://www.ferris.edu/
+"2024-10-30 14:57:32,023",INFO,"Details for website https://www.gvsu.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Allendale', 'Institution': 'Grand Valley State University'}"
+"2024-10-30 14:57:32,404",INFO,R- Successfully read robots.txt from https://www.gvsu.edu/robots.txt
+"2024-10-30 14:57:32,404",INFO,"R- Disallowed paths for domain www.gvsu.edu: /*_old/, /_*/, /includes/, /reference_files/, /tools/"
+"2024-10-30 14:57:32,404",INFO,Sending HTTP request to https://www.gvsu.edu/
+"2024-10-30 14:57:32,610",INFO,Successfully fetched https://www.gvsu.edu/
+"2024-10-30 14:57:32,646",INFO,Word count completed for https://www.gvsu.edu/
+"2024-10-30 14:57:32,664",INFO,"Details for website https://www.kzoo.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Kalamazoo', 'Institution': 'Kalamazoo College'}"
+"2024-10-30 14:57:33,056",INFO,R- Successfully read robots.txt from https://www.kzoo.edu/robots.txt
+"2024-10-30 14:57:33,056",INFO,R- Disallowed paths for domain www.kzoo.edu: /wp-admin/
+"2024-10-30 14:57:33,056",INFO,Sending HTTP request to https://www.kzoo.edu/
+"2024-10-30 14:57:33,472",INFO,Successfully fetched https://www.kzoo.edu/
+"2024-10-30 14:57:33,499",INFO,Word count completed for https://www.kzoo.edu/
+"2024-10-30 14:57:33,511",INFO,"Details for website https://www.kellogg.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Battle Creek', 'Institution': 'Kellogg Community College'}"
+"2024-10-30 14:57:34,191",INFO,R- Successfully read robots.txt from https://www.kellogg.edu/robots.txt
+"2024-10-30 14:57:34,191",INFO,R- Disallowed paths for domain www.kellogg.edu: None
+"2024-10-30 14:57:34,191",INFO,Sending HTTP request to https://www.kellogg.edu/
+"2024-10-30 14:57:35,621",INFO,Successfully fetched https://www.kellogg.edu/
+"2024-10-30 14:57:35,662",INFO,Word count completed for https://www.kellogg.edu/
+"2024-10-30 14:57:35,672",INFO,"Details for website https://www.lssu.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Sault Ste. Marie', 'Institution': 'Lake Superior State University'}"
+"2024-10-30 14:57:36,011",INFO,R- Successfully read robots.txt from https://www.lssu.edu/robots.txt
+"2024-10-30 14:57:36,011",INFO,R- Disallowed paths for domain www.lssu.edu: /wp-admin/
+"2024-10-30 14:57:36,012",INFO,Sending HTTP request to https://www.lssu.edu/
+"2024-10-30 14:57:36,943",INFO,Successfully fetched https://www.lssu.edu/
+"2024-10-30 14:57:37,072",INFO,Word count completed for https://www.lssu.edu/
+"2024-10-30 14:57:37,094",INFO,"Details for website https://www.ltu.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Southfield', 'Institution': 'Lawrence Technological University'}"
+"2024-10-30 14:57:37,426",INFO,R- Successfully read robots.txt from https://www.ltu.edu/robots.txt
+"2024-10-30 14:57:37,426",INFO,"R- Disallowed paths for domain www.ltu.edu: , /cgi-bin/, /cm/*, /cm_content_/, /external_attach/*, /library/, /webroot/, /demo/, /admin/, /js/, /login/, /xml/, /blogs/, /uploads/*, /data/courses/*, /*.pdf$, /*.doc$, /*.docx$, /*.xls$, /*.xlsx$, /*.ppt$, /*.pptx$, /*.csv$, /*.rtf$, https, https"
+"2024-10-30 14:57:37,426",INFO,Skipping https://www.ltu.edu/ due to disallowed path.
+"2024-10-30 14:57:37,426",INFO,"Details for website https://www.msu.edu/: {'Category': 'College', 'State': 'MI', 'City': 'East Lansing', 'Institution': 'Michigan State University'}"
+"2024-10-30 14:57:38,098",INFO,R- Successfully read robots.txt from https://www.msu.edu/robots.txt
+"2024-10-30 14:57:38,099",INFO,R- Disallowed paths for domain www.msu.edu: None
+"2024-10-30 14:57:38,099",INFO,Sending HTTP request to https://www.msu.edu/
+"2024-10-30 14:57:38,730",INFO,Successfully fetched https://www.msu.edu/
+"2024-10-30 14:57:38,774",INFO,Word count completed for https://www.msu.edu/
+"2024-10-30 14:57:38,785",INFO,"Details for website https://www.mtu.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Houghton', 'Institution': 'Michigan Technological University'}"
+"2024-10-30 14:57:39,037",INFO,R- Successfully read robots.txt from https://www.mtu.edu/robots.txt
+"2024-10-30 14:57:39,038",INFO,"R- Disallowed paths for domain www.mtu.edu: /eds					    # temporary stuff, /four					   # future designs and history presentation stuff, /old					    # old stuff, /history				    # old stuff, /apply/disabled_keep/		    # down-time files and old stuff, /mtuonly				    # private stuff, /level4/mtfcampaign/	    # redirected site, /greatevents			    # old stuff, /cie/sa/				    # redirected site, /athletics			    # testing zone--use www.athletics.mtu.edu, /index_n.html			    # homepage wannabe, /index_n1.html		    # homepage wannabe, /index_n2.html		    # homepage wannabe, /index_n3.html		    # homepage wannabe, /index_n4.html		    # homepage wannabe, /index_testing.html		    # homepage testing zone, /index-3tabs.php		    # homepage testing 3tab site, /index_alert.html	        # holding spot for crisis situation, /index_snow	            # holding spot for snow situation (design 2), /urel/policy/mtu_web.html #draft not yet approved, /adminresources			    # old information, /cie			         # website moved to ips server, /catalog/2000-02		# 2000-02 Undergradaute Catalog, /catalog/2002-04		# 2002-04 Undergraduate Catalog, /openhouse/index_archive_save/      # indices that rotate in, /adminresources/old/                # moved for Ann Roth, /wwwhelp/disabled/                # old logos, /test                             # test files, /index_save                       # old files, /banners/                      # don't want these on hit stats, /2002/, /2003/, /five/, /fall02/, /level2/, /level3/, /level4/, /logotest/, /index_sjb.html, /index_nw.html, /index_s.html, /index_sb.html, /index_old.html, /index_n06.html, /index_n07.html, /example, /besmart/disabled/, /disabled/, /carnival/2*		# blocking old carnival pages with duplicate title tags, /campaign/, /catalog/archives/ 		# old catalogs, /mtu_resources/banners/, /mtu_resources/cache/, /mtu_resources/php/, /calendar/events.php, /calendar/month.php, /calendar/day.php, /calendar/rss.php, /calendar/print.php, /calendar/search.php, /calendar/login/, /home/, /admissions/event-registration/, /facultyupdate/, /mtuldapweb/web_lookup/index.cgi*?, /ou-*, /housing/mymichigantech/*, /.ldp/images/*, /search/?q*, /mtu_resources/archives/catalog/		# blocking old undergraduate catalogs, /alert/homepage/*	# blocking individual Alert messages, /mtu_resources/full-news-2016.php*	# blocking RSS Feeds, /techalum/issue/*, /techalum/oldarchives/*, /ttoday/?issue=1*, /ttoday/?issue=200*, /ttoday/?issue=2010*, /ttoday/?issue=2011*, /ttoday/?issue=2012*, /ttoday/?issue=2013*, /ttoday/?issue=2014*, /ttoday/?issue=2015*, /ttoday/?issue=2016*, /ttoday/?issue=2017*, /ttoday/?issue=2018*, /ttoday/?issue=2019*, /ttoday/?issue=2020*, /ttoday/?issue=2021*, /ttoday/?issue=2022*, /news/2005/*, /news/2006/*, /news/2007/*, /news/2008/*, /news/2009/*, /news/2010/*, /news/2011/*, /news/2012/*, /news/2013/*, /news/2014/*, /news/2015/*, /news/2016/*, /unscripted/2016/*, /magazine/2015*, /magazine/2016*, /magazine/research/2015*, /magazine/research/2016*, *.xml"
+"2024-10-30 14:57:39,038",INFO,Sending HTTP request to https://www.mtu.edu/
+"2024-10-30 14:57:39,231",INFO,Successfully fetched https://www.mtu.edu/
+"2024-10-30 14:57:39,357",INFO,Word count completed for https://www.mtu.edu/
+"2024-10-30 14:57:39,367",INFO,"Details for website https://www.nmu.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Marquette', 'Institution': 'Northern Michigan University'}"
+"2024-10-30 14:57:39,553",INFO,R- Successfully read robots.txt from https://www.nmu.edu/robots.txt
+"2024-10-30 14:57:39,564",INFO,"R- Disallowed paths for domain www.nmu.edu: /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/, /user/register/, /user/password/, /user/login/, /user/logout/, /admin, /comment/reply, /filter/tips, /node/add, /search, /user, /user/register, /user/password, /user/login, /user/logout, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/, /nmuexample/, /responsivenmu/, /irdev/, /sites/default/files/UserFiles/, /sites/Drupalaapc/files/UserFiles/, /sites/DrupalACAC/files/UserFiles/, /sites/DrupalAcademicAffairs/files/UserFiles/, /sites/DrupalAcademicSenate/files/UserFiles/, /sites/DrupalAdmissions/files/UserFiles/, /sites/Drupalaisac/files/UserFiles/, /sites/DrupalAlumniAssociation/files/UserFiles/, /sites/DrupalArchives/files/UserFiles/, /sites/DrupalArtAndDesign/files/UserFiles/, /sites/DrupalArtsAndSciences/files/UserFiles/, /sites/DrupalASNMU/files/UserFiles/, /sites/DrupalAudioVisual/files/UserFiles/, /sites/DrupalBEAR/files/UserFiles/, /sites/DrupalBeaumierHeritageCenter/files/UserFiles/, /sites/DrupalBiology/files/UserFiles/, /sites/DrupalBoardOfTrustees/files/UserFiles/, /sites/DrupalBullying/files/UserFiles/, /sites/DrupalBusiness/files/UserFiles/, /sites/DrupalCAMS/files/UserFiles/, /sites/DrupalCareerServices/files/UserFiles/, /sites/Drupalcec/files/UserFiles/, /sites/DrupalChemistry/files/UserFiles/, /sites/DrupalClassrooms/files/UserFiles/, /sites/DrupalClinicalSciences/files/UserFiles/, /sites/DrupalCommencement/files/UserFiles/, /sites/DrupalContinuingEducation/files/UserFiles/, /sites/DrupalCounselingAndConsultation/files/UserFiles/, /sites/DrupalCriminalJustice/files/UserFiles/, /sites/Drupalctl/files/UserFiles/, /sites/DrupalCTOS/files/UserFiles/, /sites/Drupalcup/files/UserFiles/, /sites/DrupalDisabilityServices/files/UserFiles/, /sites/DrupalDiversity/files/UserFiles/, /sites/DrupalDiversityCommittee/files/UserFiles/, /sites/Drupaldso/files/UserFiles/, /sites/DrupalEducation/files/UserFiles/, /sites/DrupalEEGS/files/UserFiles/, /sites/DrupalEngineeringTechnology/files/UserFiles/, /sites/DrupalEnglish/files/UserFiles/, /sites/DrupalEqualOpportunity/files/UserFiles/, /sites/Drupaletrpc/files/UserFiles/, /sites/DrupalExtendedLearning/files/UserFiles/, /sites/Drupalfgc/files/UserFiles/, /sites/DrupalFinance/files/UserFiles/, /sites/DrupalFinancialAid/files/UserFiles/, /sites/DrupalFreshmanFellows/files/UserFiles/, /sites/Drupalgec/files/UserFiles/, /sites/DrupalGender/files/UserFiles/, /sites/DrupalGolfCourse/files/UserFiles/, /sites/Drupalgpc/files/UserFiles/, /sites/DrupalGraduateStudies/files/UserFiles/, /sites/DrupalGrantsAndContracts/files/UserFiles/, /sites/Drupalhbc/files/UserFiles/, /sites/DrupalHealthCenter/files/UserFiles/, /sites/DrupalHonors/files/UserFiles/, /sites/DrupalHousing/files/UserFiles/, /sites/Drupalhr/files/UserFiles/, /sites/Drupalic/files/UserFiles/, /sites/DrupalInformationTechnology/files/UserFiles/, /sites/DrupalInternalAudit/files/UserFiles/, /sites/DrupalInternationalPrograms/files/UserFiles/, /sites/DrupalLanguages/files/UserFiles/, /sites/DrupalLIS/files/UserFiles/, /sites/Drupallsc/files/UserFiles/, /sites/DrupalMathAndComputerScience/files/UserFiles/, /sites/DrupalMBA/files/UserFiles/, /sites/DrupalMC/files/UserFiles/, /sites/DrupalMcNairScholars/files/UserFiles/, /sites/DrupalMilitaryScience/files/UserFiles/, /sites/DrupalMulticulturalEdAndRes/files/UserFiles/, /sites/DrupalMusic/files/UserFiles/, /sites/DrupalMWServices/files/UserFiles/, /sites/DrupalNewFaculty/files/UserFiles/, /sites/DrupalNorthernCenter/files/UserFiles/, /sites/DrupalNorthernClimateNetwork/files/UserFiles/, /sites/DrupalNorthernMagazine/files/UserFiles/, /sites/DrupalNursing/files/UserFiles/, /sites/DrupalOneBook/files/UserFiles/, /sites/DrupalOnline/files/UserFiles/, /sites/DrupalOrganizations/files/UserFiles/, /sites/DrupalOrientation/files/UserFiles/, /sites/DrupalPreProfessional/files/UserFiles/, /sites/DrupalPresident/files/UserFiles/, /sites/DrupalProfessionalStudies/files/UserFiles/, /sites/DrupalPsychology/files/UserFiles/, /sites/DrupalPurchasing/files/UserFiles/, /sites/DrupalRecSports/files/UserFiles/, /sites/DrupalRegistrar/files/UserFiles/, /sites/DrupalResearch/files/UserFiles/, /sites/DrupalRetiree/files/UserFiles/, /sites/DrupalRiskManagement/files/UserFiles/, /sites/DrupalSeaborg/files/UserFiles/, /sites/DrupalService/files/UserFiles/, /sites/DrupalSigmaXi/files/UserFiles/, /sites/DrupalSISU/files/UserFiles/, /sites/DrupalSocialWork/files/UserFiles/, /sites/DrupalSociologyAndAnthropology/files/UserFiles/, /sites/Drupalstudentcelebration/files/UserFiles/, /sites/DrupalStudentEnrichment/files/UserFiles/, /sites/DrupalStudentLeaderFellowship/files/UserFiles/, /sites/DrupalStudentServiceCenter/files/UserFiles/, /sites/DrupalStudentSupport/files/UserFiles/, /sites/DrupalSuperiorEdge/files/UserFiles/, /sites/DrupalSustainableNMU/files/UserFiles/, /sites/DrupalTheatreAndDance/files/UserFiles/, /sites/DrupalTitleIX/files/UserFiles/, /sites/Drupaltlac/files/UserFiles/, /sites/DrupalTobaccoFree/files/UserFiles/, /sites/DrupalTOS/files/UserFiles/, /sites/DrupalTutoring/files/UserFiles/, /sites/DrupalUMBTC/files/UserFiles/, /sites/DrupalUPTLC/files/UserFiles/, /sites/DrupalUpwardBoundMathScience/files/UserFiles/, /sites/DrupalVeterans/files/UserFiles/, /sites/DrupalWritingCenter/files/UserFiles/, /sites/DrupalWUPX/files/UserFiles/, /sites/DrupalYourHealth/files/UserFiles/, /sites/DrupalYourWealth/files/UserFiles/, /sites/DrupalPoliticalScience/files/UserFiles/, /sites/DrupalEPC/files/UserFiles/, /sites/DrupalPhilosophy/files/UserFiles/, /sites/DrupalFROST/files/UserFiles/, /sites/Drupalaqip/files/UserFiles/, /sites/DrupalNativeAmericanStudies/files/UserFiles/, /sites/DrupalUpperPeninsulaStudies/files/UserFiles/, /sites/DrupalEconomics/files/UserFiles/, /sites/DrupalFacilities/files/UserFiles/, /sites/DrupalPhysics/files/UserFiles/, /sites/DrupalPublicSafetyInstitute/files/UserFiles/, /sites/DrupalCharterSchools/files/UserFiles/, /sites/DrupalVienna/files/UserFiles/, /sites/DrupalRecordsManagement/files/UserFiles/, /sites/DrupalInstitutionalResearch/files/UserFiles/, /sites/DrupalUNITED/files/UserFiles/, /sites/DrupalMinorsOnCampus/files/UserFiles/, /sites/Drupalceee/files/UserFiles/, /sites/DrupalRuralAndLocal/files/UserFiles/, /sites/DrupalSRA/files/UserFiles/, /sites/DrupalHistory/files/UserFiles/, /sites/DrupalSafetyDepartment/files/UserFiles/, /sites/DrupalPoliceDepartment/files/UserFiles/, /sites/DrupalBulletin/files/UserFiles/, /sites/DrupalGraduateBulletin/files/UserFiles/, /sites/DrupalParentPartnership/files/UserFiles/, /sites/DrupalNCLL/files/UserFiles/"
+"2024-10-30 14:57:39,564",INFO,Sending HTTP request to https://www.nmu.edu/
+"2024-10-30 14:57:39,900",INFO,Successfully fetched https://www.nmu.edu/
+"2024-10-30 14:57:39,943",INFO,Word count completed for https://www.nmu.edu/
+"2024-10-30 14:57:39,953",INFO,"Details for website https://www.oakland.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Rochester', 'Institution': 'Oakland University'}"
+"2024-10-30 14:57:40,337",INFO,R- Successfully read robots.txt from https://www.oakland.edu/robots.txt
+"2024-10-30 14:57:40,338",INFO,"R- Disallowed paths for domain www.oakland.edu: /1-new-test, /admin, /advising, /login, /login-1, /percussion-training-sandbox, /publishingtestpage1, /sandbox, /social-media-new, /ztestsite"
+"2024-10-30 14:57:40,338",INFO,Sending HTTP request to https://www.oakland.edu/
+"2024-10-30 14:57:40,522",INFO,Successfully fetched https://www.oakland.edu/
+"2024-10-30 14:57:40,573",INFO,Word count completed for https://www.oakland.edu/
+"2024-10-30 14:57:40,587",INFO,"Details for website https://www.svsu.edu/: {'Category': 'College', 'State': 'MI', 'City': 'University Center', 'Institution': 'Saginaw Valley State University'}"
+"2024-10-30 14:57:40,818",INFO,R- Successfully read robots.txt from https://www.svsu.edu/robots.txt
+"2024-10-30 14:57:40,819",INFO,"R- Disallowed paths for domain www.svsu.edu: /~*, /testingsandbox/"
+"2024-10-30 14:57:40,821",INFO,Sending HTTP request to https://www.svsu.edu/
+"2024-10-30 14:57:41,026",INFO,Successfully fetched https://www.svsu.edu/
+"2024-10-30 14:57:41,076",INFO,Word count completed for https://www.svsu.edu/
+"2024-10-30 14:57:41,084",INFO,"Details for website https://www.udmercy.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Detroit', 'Institution': 'University of Detroit Mercy'}"
+"2024-10-30 14:57:41,408",INFO,R- Successfully read robots.txt from https://www.udmercy.edu/robots.txt
+"2024-10-30 14:57:41,408",INFO,"R- Disallowed paths for domain www.udmercy.edu: /catalog/, */catalog/, /_cms-includes/, /_modules/, /_training/, /_dev/, /_internal/, /*_print.php$, /*_print$"
+"2024-10-30 14:57:41,408",INFO,Sending HTTP request to https://www.udmercy.edu/
+"2024-10-30 14:57:41,555",INFO,Successfully fetched https://www.udmercy.edu/
+"2024-10-30 14:57:41,576",INFO,Word count completed for https://www.udmercy.edu/
+"2024-10-30 14:57:41,581",INFO,"Details for website https://umich.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Ann Arbor', 'Institution': 'University of Michigan-Ann Arbor'}"
+"2024-10-30 14:57:41,769",INFO,R- Successfully read robots.txt from https://umich.edu/robots.txt
+"2024-10-30 14:57:41,769",INFO,"R- Disallowed paths for domain umich.edu: /admin/, /announcements/, /pingtest/, /search"
+"2024-10-30 14:57:41,769",INFO,Sending HTTP request to https://umich.edu/
+"2024-10-30 14:57:41,894",INFO,Successfully fetched https://umich.edu/
+"2024-10-30 14:57:41,917",INFO,Word count completed for https://umich.edu/
+"2024-10-30 14:57:41,923",INFO,"Details for website https://umdearborn.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Dearborn', 'Institution': 'University of Michigan-Dearborn'}"
+"2024-10-30 14:57:42,039",INFO,R- Successfully read robots.txt from https://umdearborn.edu/robots.txt
+"2024-10-30 14:57:42,040",INFO,"R- Disallowed paths for domain umdearborn.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed, /sites/default/files/unmanaged/grad_tuition_calc/"
+"2024-10-30 14:57:42,040",INFO,Sending HTTP request to https://umdearborn.edu/
+"2024-10-30 14:57:42,167",INFO,Successfully fetched https://umdearborn.edu/
+"2024-10-30 14:57:42,214",INFO,Word count completed for https://umdearborn.edu/
+"2024-10-30 14:57:42,229",INFO,"Details for website https://www.umflint.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Flint', 'Institution': 'University of Michigan-Flint'}"
+"2024-10-30 14:57:42,496",INFO,R- Successfully read robots.txt from https://www.umflint.edu/robots.txt
+"2024-10-30 14:57:42,496",INFO,R- Disallowed paths for domain www.umflint.edu: /wp-admin/
+"2024-10-30 14:57:42,496",INFO,Sending HTTP request to https://www.umflint.edu/
+"2024-10-30 14:57:42,616",INFO,Successfully fetched https://www.umflint.edu/
+"2024-10-30 14:57:42,644",INFO,Word count completed for https://www.umflint.edu/
+"2024-10-30 14:57:42,652",INFO,"Details for website https://wayne.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Detroit', 'Institution': 'Wayne State University'}"
+"2024-10-30 14:57:42,841",INFO,R- Successfully read robots.txt from https://wayne.edu/robots.txt
+"2024-10-30 14:57:42,842",INFO,R- Disallowed paths for domain wayne.edu: /styleguide/
+"2024-10-30 14:57:42,842",INFO,Sending HTTP request to https://wayne.edu/
+"2024-10-30 14:57:43,313",INFO,Successfully fetched https://wayne.edu/
+"2024-10-30 14:57:43,333",INFO,Word count completed for https://wayne.edu/
+"2024-10-30 14:57:43,338",INFO,"Details for website https://wmich.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Kalamazoo', 'Institution': 'Western Michigan University'}"
+"2024-10-30 14:57:43,630",INFO,R- Successfully read robots.txt from https://wmich.edu/robots.txt
+"2024-10-30 14:57:43,630",INFO,"R- Disallowed paths for domain wmich.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed"
+"2024-10-30 14:57:43,630",INFO,Sending HTTP request to https://wmich.edu/
+"2024-10-30 14:57:43,782",INFO,Successfully fetched https://wmich.edu/
+"2024-10-30 14:57:43,809",INFO,Word count completed for https://wmich.edu/
+"2024-10-30 14:57:43,815",INFO,"Details for website https://www.wccnet.edu/: {'Category': 'College', 'State': 'MI', 'City': 'Ann Arbor', 'Institution': 'Washtenaw Community College'}"
+"2024-10-30 14:57:43,988",INFO,R- Successfully read robots.txt from https://www.wccnet.edu/robots.txt
+"2024-10-30 14:57:43,988",INFO,"R- Disallowed paths for domain www.wccnet.edu: /_showcase/, /_qa/, /_uat/, /_training/, /test/, */_props.html$, /directory/williams-katie.php, /_archive/, /news/2015/2015-06-19-how-much-will-you-save.php, /analytics.php, /ou-alerts/"
+"2024-10-30 14:57:43,988",INFO,Sending HTTP request to https://www.wccnet.edu/
+"2024-10-30 14:57:44,094",INFO,Successfully fetched https://www.wccnet.edu/
+"2024-10-30 14:57:44,114",INFO,Word count completed for https://www.wccnet.edu/
+"2024-10-30 14:57:44,119",INFO,"Details for website https://www.anokaramsey.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Anoka', 'Institution': 'Anoka-Ramsey Community College'}"
+"2024-10-30 14:57:44,336",INFO,R- Successfully read robots.txt from https://www.anokaramsey.edu/robots.txt
+"2024-10-30 14:57:44,336",INFO,R- Disallowed paths for domain www.anokaramsey.edu: /*.ashx$
+"2024-10-30 14:57:44,336",INFO,Sending HTTP request to https://www.anokaramsey.edu/
+"2024-10-30 14:57:45,672",INFO,Successfully fetched https://www.anokaramsey.edu/
+"2024-10-30 14:57:45,752",INFO,Word count completed for https://www.anokaramsey.edu/
+"2024-10-30 14:57:45,783",INFO,"Details for website https://www.bemidjistate.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Bemidji', 'Institution': 'Bemidji State University'}"
+"2024-10-30 14:57:46,055",INFO,R- Successfully read robots.txt from https://www.bemidjistate.edu/robots.txt
+"2024-10-30 14:57:46,055",INFO,"R- Disallowed paths for domain www.bemidjistate.edu: /*?s=*, /mybsu/go/, /academics/catalog/archive/*"
+"2024-10-30 14:57:46,055",INFO,Sending HTTP request to https://www.bemidjistate.edu/
+"2024-10-30 14:57:46,185",INFO,Successfully fetched https://www.bemidjistate.edu/
+"2024-10-30 14:57:46,202",INFO,Word count completed for https://www.bemidjistate.edu/
+"2024-10-30 14:57:46,206",INFO,"Details for website https://www.clcmn.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Brainerd', 'Institution': 'Central Lakes College'}"
+"2024-10-30 14:57:46,752",INFO,R- Successfully read robots.txt from https://www.clcmn.edu/robots.txt
+"2024-10-30 14:57:46,753",INFO,R- Disallowed paths for domain www.clcmn.edu:
+"2024-10-30 14:57:46,753",INFO,Skipping https://www.clcmn.edu/ due to disallowed path.
+"2024-10-30 14:57:46,753",INFO,"Details for website https://www.concordiacollege.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Moorhead', 'Institution': 'Concordia College'}"
+"2024-10-30 14:57:46,998",WARNING,"R- Failed to find https://www.concordiacollege.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:47,187",WARNING,"R- Failed to find http://www.concordiacollege.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:47,187",WARNING,R- Failed to obtain robots.txt for domain www.concordiacollege.edu using both HTTP and HTTPS.
+"2024-10-30 14:57:47,187",WARNING,"R- No robots.txt found for www.concordiacollege.edu, assuming no restrictions."
+"2024-10-30 14:57:47,187",INFO,Sending HTTP request to https://www.concordiacollege.edu/
+"2024-10-30 14:57:47,289",ERROR,"Error fetching https://www.concordiacollege.edu/: HTTPSConnectionPool(host='www.concordiacollege.edu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+"2024-10-30 14:57:47,289",INFO,"Details for website https://gustavus.edu/: {'Category': 'College', 'State': 'MN', 'City': 'St. Peter', 'Institution': 'Gustavus Adolphus College'}"
+"2024-10-30 14:57:47,408",INFO,R- Successfully read robots.txt from https://gustavus.edu/robots.txt
+"2024-10-30 14:57:47,409",INFO,"R- Disallowed paths for domain gustavus.edu: /news/yellow/, /files/, /news/summerscoop/, /computing/, /giving/honorroll/, /news/weekly/, /archive/, /gts/w/, /biology/systematics/w/, /general_catalog/18_19/, /general_catalog/17_18/, /general_catalog/16_17/, /general_catalog/15_16/, /general_catalog/14_15/, /general_catalog/13_14/, /general_catalog/12_13/, /general_catalog/11_12/, /general_catalog/10_11/, /general_catalog/09_10/, /general_catalog/08_09/, /general_catalog/07_08/, /general_catalog/06_07/, /general_catalog/05_06/, /general_catalog/04_05/, /general_catalog/03_04/, /general_catalog/02_03/, /general_catalog/01_02/, /general_catalog/00_01/, /plugins/, /flag-page/, /search/, /concert/, /social/, /campus/, /welcome/, /academics/overlays/, /academics/profiles/, /giving/donorprofiles/, /finearts/ensembles/, /feedback/, /account/aToZ, /calendar/exportItem, /oncampus/, /about/webcam, /covid/, /library/library_home.php"
+"2024-10-30 14:57:47,409",INFO,Sending HTTP request to https://gustavus.edu/
+"2024-10-30 14:57:47,634",INFO,Successfully fetched https://gustavus.edu/
+"2024-10-30 14:57:47,658",INFO,Word count completed for https://gustavus.edu/
+"2024-10-30 14:57:47,662",INFO,"Details for website https://www.hamline.edu/: {'Category': 'College', 'State': 'MN', 'City': 'St. Paul', 'Institution': 'Hamline University'}"
+"2024-10-30 14:57:47,938",INFO,R- Successfully read robots.txt from https://www.hamline.edu/robots.txt
+"2024-10-30 14:57:47,938",INFO,"R- Disallowed paths for domain www.hamline.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed"
+"2024-10-30 14:57:47,938",INFO,Sending HTTP request to https://www.hamline.edu/
+"2024-10-30 14:57:48,116",INFO,Successfully fetched https://www.hamline.edu/
+"2024-10-30 14:57:48,168",INFO,Word count completed for https://www.hamline.edu/
+"2024-10-30 14:57:48,195",INFO,"Details for website https://www.hennepintech.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Brooklyn Park', 'Institution': 'Hennepin Technical College'}"
+"2024-10-30 14:57:48,781",INFO,R- Successfully read robots.txt from https://www.hennepintech.edu/robots.txt
+"2024-10-30 14:57:48,782",INFO,R- Disallowed paths for domain www.hennepintech.edu: None
+"2024-10-30 14:57:48,782",INFO,Sending HTTP request to https://www.hennepintech.edu/
+"2024-10-30 14:57:49,064",INFO,Successfully fetched https://www.hennepintech.edu/
+"2024-10-30 14:57:49,111",INFO,Word count completed for https://www.hennepintech.edu/
+"2024-10-30 14:57:49,121",INFO,"Details for website https://mnsu.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Mankato', 'Institution': 'Minnesota State University-Mankato'}"
+"2024-10-30 14:57:50,312",WARNING,"R- Failed to find https://mnsu.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:50,535",WARNING,"R- Failed to find http://mnsu.edu/robots.txt, trying next protocol..."
+"2024-10-30 14:57:50,535",WARNING,R- Failed to obtain robots.txt for domain mnsu.edu using both HTTP and HTTPS.
+"2024-10-30 14:57:50,535",WARNING,"R- No robots.txt found for mnsu.edu, assuming no restrictions."
+"2024-10-30 14:57:50,535",INFO,Sending HTTP request to https://mnsu.edu/
+"2024-10-30 14:57:51,511",INFO,Successfully fetched https://mnsu.edu/
+"2024-10-30 14:57:51,541",INFO,Word count completed for https://mnsu.edu/
+"2024-10-30 14:57:51,548",INFO,"Details for website https://www.mnstate.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Moorhead', 'Institution': 'Minnesota State University-Moorhead'}"
+"2024-10-30 14:57:53,516",INFO,R- Successfully read robots.txt from https://www.mnstate.edu/robots.txt
+"2024-10-30 14:57:53,517",INFO,R- Disallowed paths for domain www.mnstate.edu: None
+"2024-10-30 14:57:53,517",INFO,Sending HTTP request to https://www.mnstate.edu/
+"2024-10-30 14:57:54,615",INFO,Successfully fetched https://www.mnstate.edu/
+"2024-10-30 14:57:54,652",INFO,Word count completed for https://www.mnstate.edu/
+"2024-10-30 14:57:54,660",INFO,"Details for website https://www.normandale.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Bloomington', 'Institution': 'Normandale Community College'}"
+"2024-10-30 14:57:54,959",INFO,R- Successfully read robots.txt from https://www.normandale.edu/robots.txt
+"2024-10-30 14:57:54,959",INFO,"R- Disallowed paths for domain www.normandale.edu: /_cascade, /search-results, /404, /403, /admissions/after-admitted/orientation/request-information-form-thank-you.html, /admissions/after-admitted/orientation/group-tour-form-thank-you.html, /academics/degrees-certificates/partnerships/partnership-form.html"
+"2024-10-30 14:57:54,960",INFO,Sending HTTP request to https://www.normandale.edu/
+"2024-10-30 14:57:55,094",INFO,Successfully fetched https://www.normandale.edu/
+"2024-10-30 14:57:55,185",INFO,Word count completed for https://www.normandale.edu/
+"2024-10-30 14:57:55,193",INFO,"Details for website https://www.nhcc.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Brooklyn Park', 'Institution': 'North Hennepin Community College'}"
+"2024-10-30 14:57:55,452",INFO,R- Successfully read robots.txt from https://www.nhcc.edu/robots.txt
+"2024-10-30 14:57:55,453",INFO,"R- Disallowed paths for domain www.nhcc.edu: /core/, /profiles/, /README.md, /composer/Metapackage/README.txt, /composer/Plugin/ProjectMessage/README.md, /composer/Plugin/Scaffold/README.md, /composer/Plugin/VendorHardening/README.txt, /composer/Template/README.txt, /modules/README.txt, /sites/README.txt, /themes/README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register, /user/password, /user/login, /user/logout, /media/oembed, /*/media/oembed, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password, /index.php/user/register, /index.php/user/login, /index.php/user/logout, /index.php/media/oembed, /index.php/*/media/oembed"
+"2024-10-30 14:57:55,453",INFO,Sending HTTP request to https://www.nhcc.edu/
+"2024-10-30 14:57:55,547",INFO,Successfully fetched https://www.nhcc.edu/
+"2024-10-30 14:57:55,570",INFO,Word count completed for https://www.nhcc.edu/
+"2024-10-30 14:57:55,575",INFO,"Details for website https://www.stcloudstate.edu/: {'Category': 'College', 'State': 'MN', 'City': 'St. Cloud', 'Institution': 'Saint Cloud State University'}"
+"2024-10-30 14:57:55,963",INFO,R- Successfully read robots.txt from https://www.stcloudstate.edu/robots.txt
+"2024-10-30 14:57:55,964",INFO,"R- Disallowed paths for domain www.stcloudstate.edu: /_mm/, /_notes/, /_baks/, /_data/, /MMWIP/"
+"2024-10-30 14:57:55,964",INFO,Sending HTTP request to https://www.stcloudstate.edu/
+"2024-10-30 14:57:56,377",INFO,Successfully fetched https://www.stcloudstate.edu/
+"2024-10-30 14:57:56,391",INFO,Word count completed for https://www.stcloudstate.edu/
+"2024-10-30 14:57:56,394",INFO,"Details for website https://www.csbsju.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Collegeville', 'Institution': ""Saint John's University""}"
+"2024-10-30 14:57:56,764",INFO,R- Successfully read robots.txt from https://www.csbsju.edu/robots.txt
+"2024-10-30 14:57:56,765",INFO,R- Disallowed paths for domain www.csbsju.edu:
+"2024-10-30 14:57:56,765",INFO,Skipping https://www.csbsju.edu/ due to disallowed path.
+"2024-10-30 14:57:56,780",INFO,"Details for website https://www.smumn.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Winona', 'Institution': ""Saint Mary's University of Minnesota""}"
+"2024-10-30 14:57:57,075",INFO,R- Successfully read robots.txt from https://www.smumn.edu/robots.txt
+"2024-10-30 14:57:57,076",INFO,R- Disallowed paths for domain www.smumn.edu:
+"2024-10-30 14:57:57,076",INFO,Skipping https://www.smumn.edu/ due to disallowed path.
+"2024-10-30 14:57:57,076",INFO,"Details for website https://www.smsu.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Marshall', 'Institution': 'Southwest Minnesota State University'}"
+"2024-10-30 14:57:57,542",INFO,R- Successfully read robots.txt from https://www.smsu.edu/robots.txt
+"2024-10-30 14:57:57,543",INFO,"R- Disallowed paths for domain www.smsu.edu: /cgi-bin/, /resource/, /program/, /campuslife/careteam/, /php, /cf"
+"2024-10-30 14:57:57,543",INFO,Sending HTTP request to https://www.smsu.edu/
+"2024-10-30 14:57:57,873",INFO,Successfully fetched https://www.smsu.edu/
+"2024-10-30 14:57:57,900",INFO,Word count completed for https://www.smsu.edu/
+"2024-10-30 14:57:57,906",INFO,"Details for website https://www.crk.umn.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Crookston', 'Institution': 'University of Minnesota-Crookston'}"
+"2024-10-30 14:57:58,475",INFO,R- Successfully read robots.txt from https://www.crk.umn.edu/robots.txt
+"2024-10-30 14:57:58,476",INFO,"R- Disallowed paths for domain www.crk.umn.edu: /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/"
+"2024-10-30 14:57:58,476",INFO,Sending HTTP request to https://www.crk.umn.edu/
+"2024-10-30 14:57:58,837",INFO,Successfully fetched https://www.crk.umn.edu/
+"2024-10-30 14:57:58,879",INFO,Word count completed for https://www.crk.umn.edu/
+"2024-10-30 14:57:58,891",INFO,"Details for website https://www.d.umn.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Duluth', 'Institution': 'University of Minnesota-Duluth'}"
+"2024-10-30 14:57:59,108",INFO,R- Successfully read robots.txt from https://www.d.umn.edu/robots.txt
+"2024-10-30 14:57:59,117",INFO,"R- Disallowed paths for domain www.d.umn.edu: /cgi-bin, /email, /itss/news/, /external-affairs/homepage/, /unirel/, /umd/, /catalogs/archives/, /home_page_archives/, /lib/, /lib/_mm, /lib/_notes, /lib/_baks, /lib/MMWIP/, /lib/cgi-bin, /lib/helpdesk, /lib/keep, /lib/test, /lib/lurl, /lib/web, /lib/ref/stats/, /lib/services, /lib/refworks, /lib/elist, /lib/newsletter, /lib/ref/dbdesc/, /lib/ref/databases/, /lib/elist/infopage.html"
+"2024-10-30 14:57:59,117",INFO,Sending HTTP request to https://www.d.umn.edu/
+"2024-10-30 14:57:59,503",INFO,Successfully fetched https://www.d.umn.edu/
+"2024-10-30 14:57:59,532",INFO,Word count completed for https://www.d.umn.edu/
+"2024-10-30 14:57:59,538",INFO,"Details for website https://www.morris.umn.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Morris', 'Institution': 'University of Minnesota-Morris'}"
+"2024-10-30 14:58:00,053",INFO,R- Successfully read robots.txt from https://www.morris.umn.edu/robots.txt
+"2024-10-30 14:58:00,054",INFO,"R- Disallowed paths for domain www.morris.umn.edu: /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/"
+"2024-10-30 14:58:00,056",INFO,Sending HTTP request to https://www.morris.umn.edu/
+"2024-10-30 14:58:00,451",INFO,Successfully fetched https://www.morris.umn.edu/
+"2024-10-30 14:58:00,481",INFO,Word count completed for https://www.morris.umn.edu/
+"2024-10-30 14:58:00,488",INFO,"Details for website https://r.umn.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Rochester', 'Institution': 'University of Minnesota-Rochester'}"
+"2024-10-30 14:58:00,667",INFO,R- Successfully read robots.txt from https://r.umn.edu/robots.txt
+"2024-10-30 14:58:00,667",INFO,"R- Disallowed paths for domain r.umn.edu: /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /COVID-19-FAQ-for-Students, /COVID-19-FAQ-for-Staff-and-Faculty, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/"
+"2024-10-30 14:58:00,667",INFO,Sending HTTP request to https://r.umn.edu/
+"2024-10-30 14:58:00,809",INFO,Successfully fetched https://r.umn.edu/
+"2024-10-30 14:58:00,830",INFO,Word count completed for https://r.umn.edu/
+"2024-10-30 14:58:00,836",INFO,"Details for website https://twin-cities.umn.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Twin Cities', 'Institution': 'University of Minnesota-Twin Cities'}"
+"2024-10-30 14:58:01,043",INFO,R- Successfully read robots.txt from https://twin-cities.umn.edu/robots.txt
+"2024-10-30 14:58:01,044",INFO,"R- Disallowed paths for domain twin-cities.umn.edu: /core/, /profiles/, /README.txt, /web.config, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /404-page-not-found, /documentation/, /component/, /index.php/admin/, /index.php/comment/reply/, /index.php/filter/tips/, /index.php/node/add/, /index.php/search/, /index.php/user/password/, /index.php/user/register/, /index.php/user/login/, /index.php/user/logout/, /news-events/expert/fang-li, /news-events/media-contact/*, /node/43276"
+"2024-10-30 14:58:01,044",INFO,Sending HTTP request to https://twin-cities.umn.edu/
+"2024-10-30 14:58:01,213",INFO,Successfully fetched https://twin-cities.umn.edu/
+"2024-10-30 14:58:01,243",INFO,Word count completed for https://twin-cities.umn.edu/
+"2024-10-30 14:58:01,249",INFO,"Details for website https://www.winona.edu/: {'Category': 'College', 'State': 'MN', 'City': 'Winona', 'Institution': 'Winona State University'}"
+"2024-10-30 14:58:01,331",INFO,R- Successfully read robots.txt from https://www.winona.edu/robots.txt
+"2024-10-30 14:58:01,332",INFO,R- Disallowed paths for domain www.winona.edu: /wp-admin/
+"2024-10-30 14:58:01,332",INFO,Sending HTTP request to https://www.winona.edu/
+"2024-10-30 14:58:01,497",INFO,Successfully fetched https://www.winona.edu/
+"2024-10-30 14:58:01,540",INFO,Word count completed for https://www.winona.edu/
+"2024-10-30 14:58:01,602",INFO,U- Word-data saved to `data/output/20241030-1458-word-data.csv`
+"2024-10-30 14:58:01,604",INFO,U- Site-data saved to `data/output/20241030-1458-site-data.csv`
+"2024-10-30 14:58:01,737",INFO,U- Sorted word-data saved to `data/output/20241030-1458-word-data.csv`
+"2024-10-30 14:58:01,742",INFO,U- Sorted site-data saved to `data/output/20241030-1458-site-data.csv`
