@@ -3,7 +3,7 @@
 ### a python web scraper
 #### developed by David Blessent (almondhouse27)
 
-## Summary
+## Summary (chat gpt analysis of my source code)
 
 *The web scraper project is designed to automate the extraction of textual data from specified websites, analyzing and organizing that data for further processing. It is structured into multiple components, each responsible for specific tasks, ensuring modularity and maintainability.*
 

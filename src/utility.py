@@ -9,7 +9,7 @@ import subprocess
 
 ###--------------------------------->>>>>>>
 # verify data directories and input file exist, create data directories and copy backup input if !exists
-def setupProjectStructure(LOG_FILE, INPUT_FILE, BACKUP_FILE, DIRECTORIES):
+def setupProjectStructure(LOG_FILE):
     log_file = LOG_FILE
 
     try:
@@ -17,8 +17,10 @@ def setupProjectStructure(LOG_FILE, INPUT_FILE, BACKUP_FILE, DIRECTORIES):
             pass
 
         log.info(f'U- Refreshed contents of log file for this runtime: {log_file}')
+        print((f'U- Refreshed contents of log file for this runtime: {log_file}'))
 
     except Exception as e:
+        log.error(f'U- Failed to clear log file: {e}')
         print(f'U- Failed to clear log file: {e}')
 
     # try:
@@ -39,12 +41,12 @@ def setupProjectStructure(LOG_FILE, INPUT_FILE, BACKUP_FILE, DIRECTORIES):
         )
 
         if result.stdout:
-            log.info(f'U- Successfully installed dependencies, check scraper.log for details: \n{result.stdout}')
-            print('Successfully installed dependencies, for details check: logs/scraper.log')
+            log.info(f'U- All requirements are met, for details check: logs/scraper.log \n{result.stdout}')
+            print('All requirements are met, for details check: logs/scraper.log')
 
         if result.stderr:
-            log.error(f'U- Error during installation, check scraper.log for details: \n{result.stderr}')
-            print('Error during installation, for details check: logs/scraper.log ')
+            log.warning(f'U- Warning/Error during installation, check scraper.log for details: \n{result.stderr}')
+            print('Warning/Error during installation, for details check: logs/scraper.log ')
             
     except subprocess.CalledProcessError as e:
         log.error(f'U- Error installing requirements: {e}')
@@ -53,23 +55,6 @@ def setupProjectStructure(LOG_FILE, INPUT_FILE, BACKUP_FILE, DIRECTORIES):
     except Exception as e:
         log.error(f'U- Unexpected error during installation: {e}')
         print('Unexpected error during installation, for details check: logs/scraper.log')
-
-    if not os.path.exists(BACKUP_FILE):
-        log.error(f'U- Backup file `{BACKUP_FILE}` is missing, please clone a fresh copy of `almondhousepublishing27/website-words`.')
-        print(f'U- Backup file `{BACKUP_FILE}` is missing, please clone a fresh copy of `almondhousepublishing27/website-words`.')
-    
-    for dir in DIRECTORIES:
-
-        if not os.path.exists(dir):
-            os.makedirs(dir)
-            log.info(f'U- Created directory: {dir}')
-
-    if not os.path.exists(INPUT_FILE):
-        shutil.copy(BACKUP_FILE, INPUT_FILE)
-        log.info(f'U- Copied `{BACKUP_FILE}` to `{INPUT_FILE}`')
-
-    else:
-        log.info(f'U- Backup file `{BACKUP_FILE}` not required.')
 
 
 ###--------------------------------->>>>>>>
@@ -94,10 +79,12 @@ def readDataInput(filename='data/input/url-list.csv'):
                 }
 
         log.info(f'U- URLs loaded from `{filename}`')
+        print(f'U- URLs loaded from `{filename}`')
         
     except Exception as e:
         log.error(f'U- Error loading URLs from `{filename}`: {e}')
-    ##log.info(f"url data: {url_list}")
+        print((f'U- Error loading URLs from `{filename}`: {e}'))
+
     return url_list
 
 
@@ -127,9 +114,11 @@ def writeWordData(data, filename='data/output/word-data.csv'):
                     ])
 
         log.info(f'U- Word-data saved to `{filename}`')
+        print(f'U- Word-data saved to `{filename}`')
     
     except Exception as e:
         log.error(f'U- Error saving word-data to `{filename}`: {e}')
+        print(f'U- Error saving word-data to `{filename}`: {e}')
         
 
 ###--------------------------------->>>>>>>
@@ -179,9 +168,11 @@ def writeSiteData(data, filename='data/output/site-data.csv'):
                 ])
 
         log.info(f'U- Site-data saved to `{filename}`')
+        print(f'U- Site-data saved to `{filename}`')
 
     except Exception as e:
         log.error(f'U- Error saving site-data to `{filename}`: {e}')
+        print(f'U- Error saving site-data to `{filename}`: {e}')
 
 
 ###--------------------------------->>>>>>>
@@ -199,9 +190,11 @@ def sortDataOutput(word_data_pattern, site_data_pattern):
         sorted_word_data = word_data.sort_values(by=['Website', 'Word'])
         sorted_word_data.to_csv(latest_word_file, index=False)
         log.info(f'U- Sorted word-data saved to `{latest_word_file}`')
+        print(f'U- Sorted word-data saved to `{latest_word_file}`')
 
     if latest_site_file:
         site_data = pd.read_csv(latest_site_file)
         sorted_site_data = site_data.sort_values(by=['Website'])
         sorted_site_data.to_csv(latest_site_file, index=False)
         log.info(f'U- Sorted site-data saved to `{latest_site_file}`')
+        print(f'U- Sorted site-data saved to `{latest_site_file}`')

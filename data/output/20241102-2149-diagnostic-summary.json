@@ -1,0 +1,38 @@
+{
+    "run_time": {
+        "Date": "11-02-2024",
+        "StartTime": 1730602138.612101,
+        "EndTime": 1730602150.499118,
+        "Duration": 11.887017011642456
+    },
+    "data_output": {
+        "LogFile": "data/output/20241102-2149-log-data.csv",
+        "SiteFile": "data/output/20241102-2149-site-data.csv",
+        "WordFile": "data/output/20241102-2149-word-data.csv",
+        "LogFileSizeB": 53366,
+        "SiteFileSizeB": 1618,
+        "WordFileSizeB": 41232
+    },
+    "word_metrics": {
+        "TotalWords": 1252,
+        "UniqueWords": 971,
+        "SumCounts": 2937
+    },
+    "site_metrics": {
+        "SumImageCount": 96,
+        "SumLinkCount": 733,
+        "SumStylesheetCount": 21,
+        "SumScriptCount": 103
+    },
+    "log_metrics": {
+        "UrlsAttempted": 9,
+        "UrlTimeouts": 0,
+        "DisallowedSkipCount": 0,
+        "LevelInfoCount": 53,
+        "LevelWarningCount": 5,
+        "LevelErrorCount": 3,
+        "RobotLogCount": 20,
+        "UtilityLogCount": 8,
+        "ScraperLogCount": 34
+    }
+}

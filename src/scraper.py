@@ -8,13 +8,14 @@ def scrapeWebsite(website, HEADERS):
 
     try:
         # send an HTTP request to the provided URL with specified headers
-        log.info(f'\tSending HTTP request to {website}')
-        print(f'\tSending HTTP request to {website}')
+        log.info(f'Sending HTTP request to {website}')
+        print(f'Sending HTTP request to {website}')
         
         response = requests.get(website, headers=HEADERS)
         response.raise_for_status()
         
         log.info(f'Successfully fetched {website}')
+        #print(f'Successfully fetched {website}')
 
         # parse the HTML content response
         soup = BeautifulSoup(response.text, 'lxml')
@@ -27,6 +28,7 @@ def scrapeWebsite(website, HEADERS):
             word = word.lower().strip('.,!?')
             word_count[word] = word_count.get(word, 0) + 1
         log.info(f'Word count completed for {website}')
+        #print(f'Word count completed for {website}')
 
         # extract site details (for -> site-data.csv)
         image_count = len(soup.find_all('img'))
@@ -64,4 +66,5 @@ def scrapeWebsite(website, HEADERS):
     # handle and log request errors if any
     except requests.exceptions.RequestException as e:
         log.error(f'Error fetching {website}: {e}')
+        #print(f'Error fetching {website}: {e}')
         return None
